@@ -1,0 +1,17 @@
+Pour dim 5, 1h semble suffire pour RL (en tout cas pour la configuration la plus shallow),
+alors que 2h et 3h respectivement ne sont pas assez pour dimensions 10 et 15 (particulièrement pour les configurations plus deep)
+
+TS converge assez rapidement (en gros avant 2000, même presque complètement avant 1000) - c'est encore plus rapide sans exploration supplémentaire
+
+Rana : sur le long terme, RL > TS > RS, dès que la dimension est assez grande. Phénomène étrange avec RL en dimension 15
+
+Rosenbrock : ne paraît pas être assez difficile : TS trouve presque tout de suite, RS trouve rapidement sauf en dim 15 (où il trouve presque)
+Problème : RL fait mieux que l'optimum théorique en dim 5
+(faute de code, on maximise au lieu de minimiser, choix de domaine ?)
+
+Rastrigin : encore un problème de score meilleur que le maximum théorique pour RL.
+Paraît un peu trop simple, TS trouve très rapidement en dim 5 et 10 (mais RS ne trouve pas, et vraiment pas dès la dim 10) - il faudrait voir si RL peut trouver sans la faute
+En dim 15, TS ne trouve pas tout à fait (deux runs qui convergent vers -9, un qui converge à -1)
+
+Ackley : même problème, scores absurdes pour RL
+Ackley paraît aussi un peu facile, TS converge très vite en toutes dim (-10^-15)

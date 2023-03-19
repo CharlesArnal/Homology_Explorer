@@ -1,0 +1,91 @@
+
+-----
+Starting optimization with optimizer RS_2000 in experiment exp_1_RS_RS_2000_graph_2.1_9_seed_0
+
+New good score found : -2.705564100862174
+New good score found : -2.8200259153435048
+New good score found : -2.830509754715638
+New good score found : -2.8468412948513926
+New good score found : -2.863913050525213
+
+Iteration 0 for optimizer RS_2000
+Current scores : [-2.7055641  -2.82002592 -2.83050975 -2.84684129 -2.86391305]
+Mean score : -37504.381520803974, mean score among 20 best scores : -2.9780631294447515
+The current all time best score is -2.705564100862174
+Duration of the RS_2000 iteration = 3.21, duration of the scoring phase = 3.2
+New good score found : -2.6640000232477115
+New good score found : -2.796681849397999
+New good score found : -2.805839175959228
+New good score found : -2.6857098045890986
+New good score found : -2.697347832395616
+New good score found : -2.7400280700664363
+New good score found : -2.4719419601429866
+New good score found : -2.7022310006688333
+New good score found : -2.371694734173209
+New good score found : -2.4283703335886315
+New good score found : -2.590334018006645
+New good score found : -1.7521580038738351
+New good score found : -1.5704704969525278
+New good score found : -1.6632778355455944
+New good score found : -2.1715728752538106
+New good score found : -2.18590490715154
+Maximal running time reached for RS_2000
+End of the run for optimizer RS_2000
+CPU time passed: 30.2965, wall time passed: 178.545
+Best score found : -1.5704704969525278 
+
+
+-----
+Starting optimization with optimizer RS_2000 in experiment exp_1_RS_RS_2000_graph_2.1_9_seed_1
+
+New good score found : -1.6750773741933376
+New good score found : -1.9131136593411098
+New good score found : -2.5144959580309796
+New good score found : -2.5144959580309805
+New good score found : -2.583792684522017
+
+Iteration 0 for optimizer RS_2000
+Current scores : [-1.67507737 -1.91311366 -2.51449596 -2.51449596 -2.58379268]
+Mean score : -35004.38249393522, mean score among 20 best scores : -2.769473581009957
+The current all time best score is -1.6750773741933376
+Duration of the RS_2000 iteration = 3.77, duration of the scoring phase = 3.77
+New good score found : -2.5643291224489166
+New good score found : -1.8563036043551446
+New good score found : -2.4076408527536
+New good score found : -1.7331256880626396
+New good score found : -2.2236315990250053
+New good score found : -1.6210626180369885
+Maximal running time reached for RS_2000
+End of the run for optimizer RS_2000
+CPU time passed: 31.2389, wall time passed: 178.965
+Best score found : -1.6210626180369885 
+
+
+-----
+Starting optimization with optimizer RS_2000 in experiment exp_1_RS_RS_2000_graph_2.1_9_seed_2
+
+New good score found : -1.6210626180369871
+New good score found : -2.43992619173204
+New good score found : -2.580802424907579
+New good score found : -2.6342624631350824
+New good score found : -2.76260967219197
+
+Iteration 0 for optimizer RS_2000
+Current scores : [-1.62106262 -2.43992619 -2.58080242 -2.63426246 -2.76260967]
+Mean score : -30504.387494664275, mean score among 20 best scores : -2.805237415902589
+The current all time best score is -1.6210626180369871
+Duration of the RS_2000 iteration = 3.7, duration of the scoring phase = 3.7
+New good score found : -2.2220265729223905
+New good score found : -2.25554098508111
+New good score found : -2.4593425303953955
+New good score found : -2.4234805444097467
+New good score found : -2.086541570509096
+New good score found : -2.1437934700656402
+New good score found : -1.9621918928292095
+New good score found : -1.6959106742159493
+New good score found : -1.811175297165685
+Maximal running time reached for RS_2000
+End of the run for optimizer RS_2000
+CPU time passed: 33.0495, wall time passed: 101.111
+Best score found : -1.6210626180369871 
+

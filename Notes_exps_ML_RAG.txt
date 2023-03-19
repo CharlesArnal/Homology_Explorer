@@ -1,0 +1,244 @@
+Patchork surfaces degré 4 on peut avoir 10 composantes connexes avec le patchwork (donc 11 au moins en degré 5)
+Inégalités articles Shustin + Itenberg seul
+Bornes dans le cas primitif
+Bornes de ma thèse (en fonction du nombre de triangles) ?
+
+Monte Carlo
+
+Surfaces : degré 5 et 6 intéressants
+à partir de la dimension ambiante 4 et du degré 4, presque rien n'est connu
+Tester le revêtement double de degré 2 ramifié le long de la courbe de degré 2d - les nombres de Betti 
+
+Question : peut-on, avec le patchwork combinatoire, construire une surface (p.ex. en degré 4 ou plus)
+qui est une surface maximale mais avec une autre topologie que celle de Harnack (obtenue par la construction récursive d'Itenberg) ?
+(probablement en degré 5 ou plus)
+
+Beaucoup de simplexes ne donne pas forcément beaucoup de b_i (car les simplexes pairs sont intéressants)
+
+-----------------------------------------
+Expérience 1 :
+En dimension 3 et degré 4, 5, 6 et 7, tenter d'obtenir des surfaces maximales (et voir leur homologie).
+Deux longueurs d'optimisation pour les signes, court et très long
+Algos d'opti du signe : Tabu Search, Monte Carlo
+à partir : de triangulations simples, de triangulations "riches"
+Lancer : en maximisant b_total, b_total + alpha b_0, b_total + alpha_b1
+4*2*2 fichiers, et 2*3 expés par fichiers (fonction objectif et triangulation de départ) - 12h par expés
+first_experiment_param_file_writer("parameters_exps_1.txt",[3],[4,5,6,7],["Scoring/score_b_total.pl","Scoring/score_b_total_w_alpha_b_0.pl","Scoring/score_b_total_w_alpha_b_1.pl"],\
+    [30,300],["TS","MCTS"],["Trivial","Large"])      ( un peu faux )
+
+Résultats expérience 1 :
+Petits problèmes dans l'ordre de sortie des .out, mais les expériences ont l'air d'avoir marché comme prévu
+Le temps total n'était pas suffisant - pour beaucoup d'expériences, à peine 60 triangulations visitées, et de nouvelles configurations continuaient à sortir
+- Petite/grande triangulation de départ :
+Quand on commence avec une "grande" triangulation, on reste un peu bloqué dans la région correspondante, qui semble être toujours "grand (mais pas énorme) b1, b0 faible"
+On obtient BEAUCOUP plus de nouveaux profils en partant de la triangulation triviale (mais ça ne veut pas dire qu'il n'y aurait pas d'avantage à viser une zone particulière à partir d'une grande triangulation)
+Le b_total maximal trouvé était plus grand pour les triangulations grandes pour les degrés 6 et 7, mais c'est très possiblement parce que le programme n'avait pas eu le temps de tourner assez longtemps
+- Algorithme :
+Les deux ont l'air très comparables - essayer plus avant dans "expériences 0"
+- Fonction à optimiser :
+Les trois paraissent très comparables
+- Temps :
+Pas d'influence particulière, sauf en degré 7, où plus de temps d'opti => moins d'itérations => moins de configurations
+
+-----------------------------------------------
+Expériences 0.1 :
+Tenter les différents degrés en dim 3 + dim 4 et degrés 4, 5, 6 avec juste la recherche greedy (et donc pas d'algos différents, de temps différents)
+Utiliser b_total, b_0, b_0+ alpha b_1
+Triangulations de départ triviale, moyenne et grande (dans le même batch)
+40h par expérience (donc 120h par fichier)
+
+first_experiment_param_file_writer("parameters_exps_0.1.txt",[3,4],[4,5,6,7],[5],[60*60*40],["None"],["Trivial","Medium","Large"],\
+    ["Scoring/score_b_total.pl","Scoring/score_b_0_w_alpha_b_1.pl","Scoring/score_b_0.pl"],["True"] )
+
+for i in {1...21}
+do
+nohup python3 Exp_0.1.py $i > Exp_0.1_$i.out 2>&1 &
+done
+
+
+Résultats :
+Apparemment, on a encore de nouvelles découvertes régulièrement après 40h pour plusieurs expés, en degré petit (4) comme grand (7) (mais pas toutes, même avec triangulation triviale)
+Marche mieux en bas degré et moins bien en grand degré (peut-être pas eu assez de temps d'opti ?)
+Globalement, ça marche beaucoup mieux quand on commence avec une triangulation triviale (à confirmer avec les stats)
+En particulier, on ne découvre plus rien dès la première 'vraie' itération pour certaines triangulations de départ "large"
+Il ne semble pas y avoir de répétitions des mêmes triangulations (en tout cas pas successivement)
+En degré 4, on ne trouve plus rien dès environ l'itération 100 (sur environ 1500, donc après environ 3h sur 40h) pour bt, mais on continue à en trouver de nouveaux jusqu'à la fin (3000 itérations) pour b_0 (et des intéressants)
+Pas sûr que ce ne soit pas un hasard
+En degré 4, énorme succès de b0pa1 (qui découvre toutes les configurations sauf 1); bt réussit toutefois à avoir beaucoup des configs avec grand b1, dont la seule config maximale
+Pareil en degré 5, et les plus gros b1 sont même trouvés par b0pa1
+En degré 6, plus de configurations pour bt que pour les autres; peut-être parce que la table des configurations est plus large (b1) que haute (b0); b0pa1 et b0 trouvent tout de même plus de b0
+En degré 7, bt>b0pa1>b0, b0 n'obtient même pas beaucoup de composantes connexes (qui sont plutôt avec bt et b0pa1)
+Rmq : en degré 6 et 7, l'algo n'a clairement pas tourné assez longtemps
+
+Dim 4 : construire la triangulation de taille moyenne ou grande prend énooooormément de temps, bien plus que le run lui-même - ça explique les temps déraisonnables
+Pour s'adapter, une série d'expériences un peu modifiées a été lancées : pour la dim 4 et le degré 6, on ne fait que les départs triviaux.
+nohup python3 Exp_0.1_modified.py i > Exp_0.1_modified_i.out 2>&1 &
+Cela gère aussi la toute fin du degré 5 (mêmes expériences que le début, mais les jobs sont envoyés dans un ordre différent au serveur)
+Egalement tous les degrés pour la fonction objective "value_novelty"
+
+Le chirotope ne peut pas être calculé dès le degré 6 pour la dimension ambiante 4 (avec le code actuel)
+
+En dim 4 et degrés 4 et 5, pas de succès particulièrement frappant de value_novelty et value_novelty_persistently
+En dim 6, succès incroyable de value_novelty_persistently avec Trivial triangulation initiale (combiné avec b0pa1)
+En dim 7, value_novelty(_persistently) marchent plutôt bien, mais pas non plus transcendamment
+
+En dim 4 et degré 4, rien ne marche (à part pour avoir beaucoup de b1) si ce n'est b0pa1 avec triangulation triviale
+En dim 4 et degré 5, rien ne marche
+Dans certains cas, on continue clairement à faire des découvertes
+
+Journal d'expériences :
+Standard
+To run : 52, 53, 54, 55, 58, 61
+Done : 52, 53, 54
+
+value_novelty
+à faire : 62 à 78
+Done : 62 -> 77
+
+value_novelty_persistently
+à faire : 79 à 95
+Done : 79 -> 93
+
+Missing : 55, 58, 61, 78, 94, 95
+------------------------------------------------
+Expériences 0.2 :
+choisir plein de triangulations (y compris à partir de celles des expériences 1) (construites avec Explore_triangs), et voir quel algo (+ hyperparamètres) donne les meilleurs résultats
+Plusieurs seeds
+Faire durer au moins 1h par triangulation (et en tester quelques-unes avec 24h)
+En détails :
+dim 2 - Harnack degrés 5, 10, 15, 20, 25
+dim 3 - degrés 6, 7, 10, 15, à chaque fois 3 triangulations différentes avec peu, moyen et beaucoup de simplexes (+ faire évoluer un peu aléatoirement pendant une 50aine d'itérations)
+(sauvegarder à l'avance les triangulations ? oui, pour que ce soient les mêmes)
+dim 5 - degrés 5, 10
+
+Nouvelle version plus modeste pour choix d'hyperparamètres :
+dim 2 - Harnack degrés 10, 20
+dim 3 - degré 6, 7 78 7
+dim 4 - degré 5, 1 62 62 1
+
+En plus, en dimension 3 : pour degré 5 et 6, prendre 2 des meilleures triangulations obtenues, et voir si on peut faire mieux
+
+Regarder le dossier "Graphs" pour voir s'il y a d'autres idées intéressantes
+
+
+Pour chaque combinaison de degrés :
+TS, MCTS, Randomsolver et RL (!!!) pour 4 combinaisons d'hyperparamètres
+S'assurer que RL et Randomsolver utilisent (en calculant la meilleure solution trouvée) aussi la distribution de signes actuelle 
+2 seeds
+
+
+
+
+Secondes expériences :
+Ajouter RL, faire tourner en différentes conf (b_0, b_total, b_total + alpha b_0, et triangs, et longueurs d'optimisation) pour dimension 4 et 5 et degrés 4, 5, 6
+voir si on peut faire un taboo search sur les triangulations, voir à quel point la solution actuelle patine (combien de triangulations a-t-on vu ?)
+Commencer par chercher b0, puis partir sur btotal
+trouver une construction avec beaucoup de b0
+En faisant croître la triangulation, utiliser nb_triangs_and_nb_signs (car on visite des régions intéressantes)
+Essayer avec différentes tailles de triangulation de départ (0.25, 0.5, 0.75 et 1, par exemple)
+
+
+Ajouter encore une expé avec degré = 7, longueur d'opti longue, tabu search, triangulation assez riche, b_total, 60h
+
+
+
+Troisièmes expériences :
+changer la période d'entraînement selon l'algo d'opti
+faire s'arrêter l'algo si on stagne vraiment
+autres conclusions de la première série d'expés
+
+
+En dimension ambiante 4, aucune contrainte à part Smith-Thom, correct ?
+
+
+
+!!! J'ai désactivé la parallélisation
+
+
+
+A faire : 
+Regarder les résultats pour le degré 4
+Attention ! reprendre les résultats sur le serveur, certains dans saved_files_exp_0.1 ont pu être modifiés en débuggant
+Tenter de lancer pour le degré 5 (encore moins à la fois ? seulement 2 ?)
+
+Dans l'ordre :
+Regarder les résultats pour le degré 4
+En finir complètement avec 0.1$
+
+
+A faire :
+Comprendre ce qui a été fait pour les graphes
+Ecrire le template d'expériences associé
+Pour en finir avec 0.1, écrire la nouvelle fonction objectif et préparer un fichier de paramètres + .py pour
+Lancer les expés en basse dim ? aucun problème de mémoire
+
+Gérer la seed
+Collecter d'innombrables triangulations pour le premier article
+
+
+correctly use new "read_experiment_parameters" functions for each experiment
+
+Samedi : 
+Créer un nouveau patron d'expérience (pour 0.2 et la suite) (inspiré par Felix etc.)
+Rmk : 0.2 = problème article graphes, le faire dans cet esprit
+
+
+Comprendre ce que j'ai déjà fait pour les graphes
+Créer un patron d'expérience purement discrètes (RAG + graphes) avec multiparamètres et multitâches
+s'inspirer de Félix ?
+
+
+Mettre à jour la gestion des signs optimizers par Walking_search (et le fichier signs_optimizer)
+Faire un système plus flexible de point de départ, pour pouvoir aisément en sauvegarder un et en réutiliser un
+Idée : faire un dossier à part pour les points de départ et les points d'arrivée
+
+Cas à gérer simultanément :
+transformer current_point en le nom du folder approprié, et tout mettre dedans avec des noms standardisés ?
+partir de rien, partir d'une triangulation et d'une distribution de signes
+optimiser seulement les signes (avec divers hyperparamètres)
+optimiser seulement en changeant de triangulation
+optimiser avec les deux (dans ce cas, sauvegarder les résultats de l'opti des signes dans temp plutôt que dans save)
+optimiser de différentes manières successivement (et sauvegarder entre)
+faire une 
+
+
+
+
+
+introduire la marche sporadique (on tire une triangulation un peu au hasard, puis on évalue)
+
+add something to new code to keep track of visited homologies
+
+change scoring system in new code, compléter get_parameters une fois fait
+
+Save some large triangulations from out files (in fact, save out files)
+
+effacer la liste des déjà visités au début de chaque run (plutôt la mettre dans les saved_files, d'ailleurs)
+
+Pour l'instant, GA ne fait rien avec les initial solutions (si ce n'est les enregistrer dans all_time_best_solutions)
+Améliorer ça ?
+
+Pour tuer les programmes :
+pstree -p affiche l'arbre des programmes parents/enfants
+To kill all the children of a parent process :
+kill -SIGTERM -- -19701 (où 19701 est l'id du parent)
+
+
+
+Découpage :
+Un papier graphe + opti de signe pour RAG
+Un papier infrastructure totale pour la résolution du problème de géo alg (avec marche)
+Un papier RL pour fonctions continues (+ autres méthodes) avec application au cas de la génération de polynôme (ou de triangulation ?)
+Un papier Graph neural networks pour préévaluer une triangulation ? (+ peut-être générer des signes)
+
+inclure VAE ? 
+Inclure simulated annealing
+
+Note : GA appelle deux fois la fonction à optimiser
+Note : RL affiche dans end_of_iteration_routine les solutions nouvellement trouvées, mais pas les super solutions, qui contiennent bien les meilleurs résultats des itérations précédentes
+
+
+guideline : use full paths EVERYWHERE
+
+Essayer si la parallellization fonctionne (car le nombre de cores n'est pas du tout la contrainte principale pour les grandes dim)
+

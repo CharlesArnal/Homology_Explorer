@@ -1,0 +1,88 @@
+
+Ecrire en fichier texte -> ecrire en encodage binaire -> utiliser les pipes (sur Linux)
+
+RL qui prend tous les signes et en modifie un seul (output un vecteur et choisit le max, puis transforme ça en un onehot pour le training)
+
+Combiner RL sur les signes et sur la triangulation (modifier la triangulation et les signes simultanément) ?
+
+Deux systèmes de RL distincts (un pour chaque), qu'on fait tourner en alternance
+(en réentraînant un système de RL pour les signes à chaque modification de la triangulation,
+ou en continuant l'entraînement d'un système entraîné sur la précédente triangulation)
+
+RL sur la triangulation et une autre stratégie moins coûteuse sur les signes (p.ex evolution, taboo search, grid search, etc)
+
+Comment faire du RL sur la triangulation, sachant que la structure de la triangulation elle-même évolue ?
+avec les points donnant la fonction convexe, certes
+Utiliser un encodage de la triangulation, comme pour le machine learning sur les graphes ? mais comment en tirer une nouvelle triangulation (plutôt qu'une fonction y(T) associée à la triangulation) ? 
+Par exemple encoder le voisinage d'un flip considéré, et output la décision de flipper (ou le max sur une série de flips possibles)
+
+define one value of the convex function after the other, taking some information about the parts of the triangulation already constructed as input ?
+
+Pure Taboo search avec flip et changement de signes ?
+
+Entraîner un gros système pour n'importe quelle taille de triangulation (mais peut-être une seule fonction objectif) en utilisant des encodages comme pour les molécules ?
+Soit de RL (mais quelle forme auraient les outputs ?), soit qui approxime la fonction objectif (mais comment optimiser une fois qu'on a approximé ? Fonction d'encodage bijective ? + problèmes continus/discrets)
+
+Associer à chaque (ou à une partie des) flips un score, obtenu à l'aide d'un encodage de son voisinage (avec la méthode bien connue) (et choisir le meilleur flip)
+
+
+
+A faire :
+Tester ce qui marche le mieux parmi les systèmes déjà implémentés avec divers choix de paramètres sur des exemples connus :
+courbes de harnack+ voir si on a une généralisation (déjà codée) en plus grande dim des courbes de Harnak + triangulation quelconque en dim >=3 + graphes de l'article de Wagner
+NON, faire graphes dans une expérience séparée
+Se rappeler quel est le statut des variétés qu'on obtient avec nos triangulations non-primitives
+Créer un raffineur de triangulation aléatoire
+Reconnaître la topologie (pas juste l'homologie) des surfaces
+Créer un explorateur du graphe des triangulations
+Ajouter aussi un pseudo VAE
+Se renseigner sur ces histoires d'encodage de graphes
+
+
+Encoder les triangulations :
+Considérer le 1 squelette et utiliser des stratégies pour les graphes
+Adapter les stratégies pour les graphes ?
+Utiliser des filtrations selon différentes directions avec la charactéristique d'Euler modifiée (chaque simplexe donne k(-1)^k - ou pas ?) -> courbes d'Euler
+Laplacien ou Heat Kernel ?
+
+
+Homologie avec torsion persistence ?
+
+Bosser avec Mathieu sur les VAEs
+
+Utiliser la commande suggérée par l'erreur (entre les guillemets) et envoyer à Lars l'output
+Utiliser le vecteur GKZ comme input
+Partir de différentes triangulations aléatoires
+Adapter la fonction qui donne la triangulation convexe
+Prendre en input une triangulation et output une distribution de signes
+Remarque : si on change une triangulation, l'ancienne distribution de signes est un bon point de départ pour la nouvelle
+(on peut facilement adapter le vecteur GKZ, le 1 squelette, etc.)
+1 squelette et techniques sur graphes
+Exposé à la CGWeek pour graph neural networks généralisés
+Remarque : topcom peut garder fixe, ou non, l'ensemble des sommets de la triangulation (option à préciser)
+
+
+Utiliser un réseau de neurones pour prédire :
+a) le max sur les combinaisons de signes d'une triangulation donnée,
+ou b) à quel point la nouvelle triangulation ouvre la porte à d'autres bonnes triangulations (façon MCTS w NN) ?
+Paraît très ambitieux
+
+Aussi évaluer une position façon MC, en enrichissant la triangulation d'une centaine de façons aléatoires, puis en optimisant les signes de chacune, avant de faire une moyenne ?
+(comme dans AlphaGo)
+
+Réfléchir à la question de la singularité de ce que je construis avec des triangulations non-primitives (ok ça a l'air bon)
+
+Recoller des bouts singuliers d'un répertoire pré-existant ?
+
+
+---------
+à citer :
+Topcom
+MPtopcom
+Parallel
+Polymake
+Wagner (et celui que Wagner cite pour le RL)
+Le serveur nef frontal
+Tensorflow
+
+

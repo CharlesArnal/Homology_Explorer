@@ -1,0 +1,66 @@
+
+-----
+Starting optimization with optimizer RS_1000 in experiment exp_1_RS_RS_1000_graph_2.1_29_seed_0
+
+New good score found : -19.88136992136971
+New good score found : -19.96143775335019
+New good score found : -20.077680694605405
+New good score found : -20.122418698762573
+New good score found : -20.170010871876762
+
+Iteration 0 for optimizer RS_1000
+Current scores : [-19.88136992 -19.96143775 -20.07768069 -20.1224187  -20.17001087]
+Mean score : -22.176953451683662, mean score among 20 best scores : -20.48657764971527
+The current all time best score is -19.88136992136971
+Duration of the RS_1000 iteration = 12.4, duration of the scoring phase = 12.4
+New good score found : -20.152071883399127
+New good score found : -20.11163557935132
+Maximal running time reached for RS_1000
+End of the run for optimizer RS_1000
+CPU time passed: 39.044, wall time passed: 128.962
+Best score found : -19.88136992136971 
+
+
+-----
+Starting optimization with optimizer RS_1000 in experiment exp_1_RS_RS_1000_graph_2.1_29_seed_1
+
+New good score found : -19.860478676567134
+New good score found : -20.01073321843215
+New good score found : -20.159704371212882
+New good score found : -20.202451937048146
+New good score found : -20.32271873201941
+
+Iteration 0 for optimizer RS_1000
+Current scores : [-19.86047868 -20.01073322 -20.15970437 -20.20245194 -20.32271873]
+Mean score : -22.149952067851885, mean score among 20 best scores : -20.423956876878695
+The current all time best score is -19.860478676567134
+Duration of the RS_1000 iteration = 13.2, duration of the scoring phase = 13.2
+New good score found : -20.075298702709702
+New good score found : -20.02676108051886
+Maximal running time reached for RS_1000
+End of the run for optimizer RS_1000
+CPU time passed: 39.096, wall time passed: 138.639
+Best score found : -19.860478676567134 
+
+
+-----
+Starting optimization with optimizer RS_1000 in experiment exp_1_RS_RS_1000_graph_2.1_29_seed_2
+
+New good score found : -19.598619901397754
+New good score found : -19.91034640507346
+New good score found : -19.91086478865339
+New good score found : -20.012695102034634
+New good score found : -20.199744888451356
+
+Iteration 0 for optimizer RS_1000
+Current scores : [-19.5986199  -19.91034641 -19.91086479 -20.0126951  -20.19974489]
+Mean score : -22.152032742066897, mean score among 20 best scores : -20.34356549534253
+The current all time best score is -19.598619901397754
+Duration of the RS_1000 iteration = 13.9, duration of the scoring phase = 13.8
+New good score found : -20.06323647075694
+New good score found : -19.764070505693333
+Maximal running time reached for RS_1000
+End of the run for optimizer RS_1000
+CPU time passed: 40.481, wall time passed: 146.054
+Best score found : -19.598619901397754 
+

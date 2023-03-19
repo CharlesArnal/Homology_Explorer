@@ -1,0 +1,9 @@
+Test_initial
+[[3], [1,2], [4], [5]]
+/home/charles/Desktop/ML_RAG/Code/Discrete_optimization_exps saved_files_test
+exp_num num_seeds dim obj_function max_running_time optimizer_type specific_parameters
+1 3 10 test_fun 4 RS 30
+2 2 10 test_fun 4 MCTS 4 10
+3 2 10 test_fun 10 TS 10 40 4 40 80 False
+4 1 10 test_fun 10 RL 2 128 128 0.001 50 False
+5 2 10 test_fun 10 GA 5 20 sss
