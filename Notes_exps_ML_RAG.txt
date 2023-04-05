@@ -237,6 +237,10 @@ Inclure simulated annealing
 Note : GA appelle deux fois la fonction à optimiser
 Note : RL affiche dans end_of_iteration_routine les solutions nouvellement trouvées, mais pas les super solutions, qui contiennent bien les meilleurs résultats des itérations précédentes
 
+Vérifier un de ces jours que compute homology marche correctement (malgré le non-usage des relevant points indices)
+
+
+
 
 guideline : use full paths EVERYWHERE
 

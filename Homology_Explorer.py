@@ -10,8 +10,7 @@ import subprocess
 
 from utilities import CPU_and_wall_time, starting_CPU_and_wall_time
 
-from homology_objective_functions import create_objective_function_for_move_selector, create_objective_function_for_signs_optimization,\
-										create_triangulation_growing_and_look_while_growing_objective_function, triangulation_growing_objective_function
+from homology_objective_functions import  create_objective_function_for_signs_optimization, triangulation_growing_objective_function
 
 from signs_optimizers_for_triang_exploration import Signs_Optimizer_for_Triang_Exploration
 from move_generators import generate_moves_nb_triangs, generate_moves_nb_triangs_nb_signs
@@ -51,7 +50,8 @@ class Homology_Explorer():
 		self.current_point = None
 
 		self.save_perf_file = os.path.join(self.local_path,self.saved_results_folder,"scores_wrt_time_"+exp_name+".txt")
-		self.list_of_homologies_file = os.path.join(self.local_path,self.saved_results_folder,"homologies_"+exp_name+".txt")
+		self.observed_homologies_file = os.path.join(self.local_path,self.saved_results_folder,"homologies_"+exp_name+".txt")
+		self.visited_homologies_file = os.path.join(self.local_path,self.saved_results_folder,"visited_homologies_"+exp_name+".txt")
 
 	def reset_random_seed(self, random_seed):
 		if random_seed != None:
@@ -73,6 +73,8 @@ class Homology_Explorer():
 		# to clear the file (it generally doesn't make sense to concatenate the results of several runs)
 		with open(self.save_perf_file, "w") as f:
 			pass
+		with open(self.visited_homologies_file, "w") as f:
+			pass
 		if self.current_point == None:
 			print(f"Error : the explorer {self.explorer_name} hasn't been been provided with a starting point yet")
 		self.reset_random_seed(self.random_seed)
@@ -86,7 +88,8 @@ class Homology_Explorer():
 		return stop
 	
 	def display_feedback(self, iteration, iteration_time, current_value, move_selection_feedback_info):
-		scoring_time, selected_triang, selected_signs, selected_flip, scores = move_selection_feedback_info
+		scoring_time, selected_triang, selected_signs, selected_flip, scores, selected_homology = move_selection_feedback_info["selection time"], move_selection_feedback_info["selected triang"], \
+		move_selection_feedback_info["selected signs"], move_selection_feedback_info["selected flips"], move_selection_feedback_info["scores"], move_selection_feedback_info["selected homology"]
 		print(f"End of iteration {iteration} for explorer {self.explorer_name}")
 		print(f"Current score for the objective function : {current_value}")
 		print(f"Duration of the iteration : {'{:0.6}'.format(iteration_time)}, duration of the scoring phase for the local search : {'{:0.6}'.format(scoring_time)}")
@@ -94,6 +97,8 @@ class Homology_Explorer():
 			if scores != None :
 				scores.sort(reverse = True)
 				print(f"Best scores considered for the objective function :\n{scores[:10]}")
+			if selected_homology != None:
+				print(f"Selected homology :\n{selected_homology}")
 			print(f"Selected flip :\n{selected_flip}")
 			print(f"New triang :\n{selected_triang}")
 			print(f"New signs :\n{selected_signs}")
@@ -225,13 +230,10 @@ class Homology_Explorer():
 		self.current_point.standard_initialization(verbose = True)
 		# Grows the triangulation if final_size_or_num_iter is not "Trivial" or 0
 		if final_size_or_num_iter != 0 and final_size_or_num_iter != "Trivial":
-			if look_while_growing:
-				obj_function = create_triangulation_growing_and_look_while_growing_objective_function(self.degree, self.dim, self.local_path, self.list_of_homologies_file, self.temp_files_folder)
-			else:
-				obj_function = triangulation_growing_objective_function
-
+			obj_function = triangulation_growing_objective_function
 			move_generator = generate_moves_nb_triangs_nb_signs
-			move_selector = create_move_selector(Greedy_Randomized_Selector, obj_function)
+			move_selector = create_move_selector(Greedy_Randomized_Selector, obj_function, must_compute_homology = look_while_growing, \
+			 objective_function_takes_homology_as_input = False, observed_homologies_file = self.observed_homologies_file, visited_homologies_file = self.visited_homologies_file)
 
 			if isinstance(final_size_or_num_iter, int):
 				n_iter = final_size_or_num_iter
@@ -263,15 +265,12 @@ class Homology_Explorer():
 		# Random walk
 		if look_while_growing == False :
 			move_generator = generate_moves_nb_triangs
-			homology_computing_function = None
 		else :
-			# any scoring script will do, it's solely so that the homology gets computed and stored
-			polymake_scoring_script = "Scoring/score_b_total.pl"
-			homology_computing_function = create_objective_function_for_move_selector(self.dim, self.degree, self.local_path, self.list_of_homologies_file, self.temp_files_folder, polymake_scoring_script)
 			move_generator = generate_moves_nb_triangs_nb_signs
 
-		
-		move_selector = create_move_selector(Random_Triang_Selector, objective_function = homology_computing_function)
+		move_selector = create_move_selector(Random_Triang_Selector, None, must_compute_homology = look_while_growing, \
+			 objective_function_takes_homology_as_input = False, observed_homologies_file = self.observed_homologies_file, visited_homologies_file = self.visited_homologies_file)
+
 		self.explore(n_random_steps, move_generator, move_selector)
 		return self.current_point
 		
@@ -287,27 +286,27 @@ class Homology_Explorer():
 		# self.current_point = signs_optimizer(self.current_point)
 
 
-	def walking_search_on_triang_graph(self, n_iter, polymake_scoring_script, max_running_time, optimizer_type = None, optimizer_max_running_time = None, optimizers_parameters = None, also_look_at_neighbouring_signs = False):
-		"""A special case of explore, where the objective function (for both move_selector and the signs_optimizer) comes from the polymake_scoring_script
+	def walking_search_on_triang_graph(self, n_iter, function_of_the_homology_profiles, max_running_time, optimizer_type = None, optimizer_max_running_time = None, optimizers_parameters = None, also_look_at_neighbouring_signs = False):
+		"""A special case of explore, where the objective function (for both move_selector and the signs_optimizer) comes from the function_of_the_homology_profiles
 			and move_generator simply considers the neighbouring triangulations and signs distributions
 
 			self.current_point must have been previously initialized
 		"""
 		print(f"Starting a walking search on the graph of triangulations")
-		# most signs_optimizer should make looking at the neighbours superfluous
+		# most signs_optimizer should make looking at the neighbours superfluous, but it's important to look at neighbours when using value_novelty_persistently
 		if optimizer_type != None:
 			if also_look_at_neighbouring_signs:
 				move_generator = generate_moves_nb_triangs_nb_signs
 			else:
 				move_generator = generate_moves_nb_triangs
-			obj_function_for_signs_optimizer = create_objective_function_for_signs_optimization(self.list_of_homologies_file, self.temp_files_folder, polymake_scoring_script)
+			obj_function_for_signs_optimizer = create_objective_function_for_signs_optimization(self.observed_homologies_file, self.temp_files_folder, function_of_the_homology_profiles)
 			signs_optimizer = Signs_Optimizer_for_Triang_Exploration(optimizer_type, obj_function_for_signs_optimizer,  self.local_path, self.temp_files_folder, optimizer_max_running_time, optimizers_parameters)
 		else:
 			signs_optimizer = None
 			move_generator = generate_moves_nb_triangs_nb_signs
 
-		obj_function_for_move_selector = create_objective_function_for_move_selector(self.dim, self.degree, self.local_path, self.list_of_homologies_file, self.temp_files_folder, polymake_scoring_script)
-		move_selector = create_move_selector(Greedy_Randomized_Selector, objective_function = obj_function_for_move_selector)
+		move_selector = create_move_selector(Greedy_Randomized_Selector, function_of_the_homology_profiles, must_compute_homology = True, \
+			 objective_function_takes_homology_as_input = True, observed_homologies_file = self.observed_homologies_file, visited_homologies_file = self.visited_homologies_file)
 
 
 		self.explore(n_iter, move_generator, move_selector, signs_optimizer = signs_optimizer, stopping_condition = None, max_running_time = max_running_time)

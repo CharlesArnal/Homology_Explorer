@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 from math import comb
 from utilities import read_triang, write_triang, purify_points, purify_triang, points2monomials
 
+from homology_objective_functions import compute_homology
+
 	# TODO copy documents rather than open them and paste the content
 
 class Current_Point():
@@ -427,16 +429,13 @@ class Current_Point():
 		return new_current_point
 	
 
-	def compute_homology(self):
+	def compute_own_homology(self):
 		"""Computes the homology of the current configuration (assuming the required files exist)"""
 		temp_homology_file = os.path.join(self.local_path, self.current_point_folder, "temp_homology_file.txt")
-		list_files = subprocess.run(["polymake","--script",  os.path.join(self.local_path, "Scoring", "compute_homology.pl"), \
-			self.signs_file, self.triang_file, self.all_points_file, self.current_points_indices_file, temp_homology_file])
-		with open(temp_homology_file,"r") as f:
-			homology = f.read()
-		homology = [int(x) for x in homology.split()]
+		homology_profiles = compute_homology(self.local_path, self.current_point_folder, self.signs_file, self.triang_file, self.all_points_file, \
+	 			temp_homology_file)
 		os.remove(temp_homology_file)
-		return homology
+		return homology_profiles[0]
 
 	def visualize_hypersurface(self) :
 		""" Shows the current hypersurface (assuming the required files exist)

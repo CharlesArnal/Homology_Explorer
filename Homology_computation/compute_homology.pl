@@ -1,7 +1,7 @@
 # @ARGV should be signs_input_file_name, triangs_input_file_name, points_input_file_name,
 #                           0                  1                         2                
-#  relevant_points_input_file_name, output_file_name
-#                3                          4        
+#  output_file_name
+#          3   
 
 # Takes full paths
 
@@ -44,16 +44,7 @@ open(INPUT, "<", "$ARGV[2]");
 my $points = new Matrix<Rational>(<INPUT>);
 close(INPUT);
 
-my @relevant_indices;
-open(INPUT, "<", "$ARGV[3]");
-while(<INPUT>)
-{
-    my $input = $_;
-    # replace the remaining commas by blank spaces : {0,1,2}{0,1,3} -> {0 1 2}{0 1 3}
-    $input =~ s/,/ /ig;
-    push(@relevant_indices, new Set<Int>($input));
-}
-close(INPUT);
+
 
 
 my $dual_sub;
@@ -84,6 +75,6 @@ foreach(@a)
 }
 
 
-open(my $f, ">", "$ARGV[4]");
+open(my $f, ">", "$ARGV[3]");
 print $f join("\n",@homologies_array);
 close $f;
