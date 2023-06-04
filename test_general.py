@@ -13,32 +13,45 @@ from utilities import read_first_experiment_param_file
 
 from Current_Point import Current_Point
 from Homology_Explorer import Homology_Explorer
+from homology_objective_functions import b_0, b_0_p_a_b1, b_total, compute_homology
 
 
-exp_name = "chiro_degree_6"
-explorer_name = "my_first_explorer"
-dim = 4
-degree = 6
 
-my_seed = random.randint(0,100)
-print(f"seed = {my_seed}")
-random.seed(my_seed)
-np.random.seed(my_seed)
+def ad_hoc_mean(mylist):
+	max_length = max([len(my_array) for my_array in mylist])
+	max_x_coordinate = max([my_array[-1,0] for my_array in mylist])
+	new_length = max(100, max_length*2)
+	x_step = max_x_coordinate/float(new_length)
+	new_list = []
+	for my_array in mylist:
+		new_array = []
+		for i in range(new_length+1):
+			x_coordinate = i*x_step
+			indices_of_entries_greater = [index for index, x_coord in enumerate(my_array[:,0])  if x_coord > x_coordinate]
+			if indices_of_entries_greater == []:
+				y_coordinate = my_array[-1, 1]
+			else :
+				next_index = indices_of_entries_greater[0]
+				if next_index == 0:
+					y_coordinate = 0
+				else:
+					previous_index = next_index-1
+					y_coordinate = my_array[previous_index,1]
+			new_array.append([x_coordinate,y_coordinate])
+		new_array = np.array(new_array)
+		new_list.append(new_array)
+	new_list = np.array(new_list)
+	return np.mean(new_list,axis = 0)
 
-if '/home/charles' in os.getcwd() :
-	local_path = '/home/charles/Desktop/ML_RAG/Code'
 
-temp_files_folder = f"General_test_temp_files/{exp_name}"
+array_1 = np.array([[1, 1], [3,3], [5,5]])
+array_2 = np.array([[1.5, 2], [2.5, 3], [3.5,4], [4.5,5], [5.5, 6]])
+results = [array_1, array_2]
 
-if not os.path.exists(os.path.join(local_path, temp_files_folder)):
-	os.mkdir(os.path.join(local_path, temp_files_folder))
+results_bis = ad_hoc_mean(results)
+print(results_bis)
 
-saved_results_folder = f"General_test_saved_files/{exp_name}"
-if not os.path.exists(os.path.join(local_path, saved_results_folder)):
-	os.mkdir(os.path.join(local_path, saved_results_folder))
+plt.plot(results_bis[:,0],results_bis[:,1])
 
-current_point_folder = f"General_test_temp_files/{exp_name}/current_point"
 
-explorer = Homology_Explorer(dim, degree, local_path, temp_files_folder, saved_results_folder, exp_name, explorer_name, saving_perf_period = 20, verbose= True)
-
-explorer.initialize_with_new_triangulation("Trivial", current_point_folder = current_point_folder, look_while_growing= False)
+plt.show()

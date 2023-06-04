@@ -67,12 +67,14 @@ a) le max sur les combinaisons de signes d'une triangulation donnée,
 ou b) à quel point la nouvelle triangulation ouvre la porte à d'autres bonnes triangulations (façon MCTS w NN) ?
 Paraît très ambitieux
 
-Aussi évaluer une position façon MC, en enrichissant la triangulation d'une centaine de façons aléatoires, puis en optimisant les signes de chacune, avant de faire une moyenne ?
+Aussi évaluer une position façon monte carlo, en enrichissant la triangulation d'une centaine de façons aléatoires, puis en optimisant les signes de chacune, avant de faire une moyenne ?
 (comme dans AlphaGo)
 
 Réfléchir à la question de la singularité de ce que je construis avec des triangulations non-primitives (ok ça a l'air bon)
 
 Recoller des bouts singuliers d'un répertoire pré-existant ?
+
+
 
 
 ---------

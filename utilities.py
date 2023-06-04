@@ -111,35 +111,61 @@ def get_homology_interdictions(dim,degree):
 	return interdictions
 
 def write_homologies_in_table(homologies,table_file,dim, degree, known_interdictions):
-	# works for dim = 3, 4
-	with open(table_file,"w") as g:
-		max_b_0 = max([b[0] for b in homologies])
-		max_b_1 = max([b[1] for b in homologies])
-		for i in range( int(Smith_Thom_bound(dim,degree))+1):
-		#for i in range( max_b_0+1):
-			if i == 0:
-				g.write("b0|b1 ")
-				for j in range(int(Smith_Thom_bound(dim,degree))-1):
-					g.write(str(j)+" "*(4-len(str(j))))
-			else:
-				g.write(str(i)+" "*(4-len(str(i))+2))
-				for j in range(int(Smith_Thom_bound(dim,degree))-1):
-					if dim == 3:
-						homology_profile = [i,j,i]
-					else:
-						homology_profile = [i,j,j,i]
-					if homology_profile in homologies and homology_profile in known_interdictions:
-						g.write(f"x   ")
-					elif homology_profile in homologies:
-						if (i+j+i if dim==3 else i+j+j+i) == int(Smith_Thom_bound(dim,degree)):
-							g.write(f"M   ")
+	# dim = 3, 4
+	if dim in {3,4}:
+		with open(table_file,"w") as g:
+			max_b_0 = max([b[0] for b in homologies])
+			max_b_1 = max([b[1] for b in homologies])
+			for i in range( int(Smith_Thom_bound(dim,degree))+1):
+			#for i in range( max_b_0+1):
+				if i == 0:
+					g.write("b0|b1 ")
+					for j in range(int(Smith_Thom_bound(dim,degree))-1):
+						g.write(str(j)+" "*(4-len(str(j))))
+				else:
+					g.write(str(i)+" "*(4-len(str(i))+2))
+					for j in range(int(Smith_Thom_bound(dim,degree))-1):
+						if dim == 3:
+							homology_profile = [i,j,i]
 						else:
-							g.write(f"o   ")
-					elif homology_profile in known_interdictions:
-						g.write("    ")
-					else:
-						g.write("?   ")
-			g.write("\n")
+							homology_profile = [i,j,j,i]
+						if homology_profile in homologies and homology_profile in known_interdictions:
+							g.write(f"x   ")
+						elif homology_profile in homologies:
+							if (i+j+i if dim==3 else i+j+j+i) == int(Smith_Thom_bound(dim,degree)):
+								g.write(f"M   ")
+							else:
+								g.write(f"o   ")
+						elif homology_profile in known_interdictions:
+							g.write("    ")
+						else:
+							g.write("?   ")
+				g.write("\n")
+	elif dim == 2:
+		with open(table_file,"w") as g:
+			for i in range(2):
+				if i == 0:
+					g.write("b0 ")
+					for j in range(int(Smith_Thom_bound(dim,degree)/2)+1):
+						g.write(str(j)+" "*(4-len(str(j))))
+				elif i==1:
+					g.write(str(i)+" "*(1-len(str(i))+2))
+					for j in range(int(Smith_Thom_bound(dim,degree)/2)+1):
+						homology_profile = [j,j]
+						if homology_profile in homologies and homology_profile in known_interdictions:
+							g.write(f"x   ")
+						elif homology_profile in homologies:
+							if 2*j == int(Smith_Thom_bound(dim,degree)):
+								g.write(f"M   ")
+							else:
+								g.write(f"o   ")
+						elif homology_profile in known_interdictions:
+							g.write("    ")
+						else:
+							g.write("?   ")
+				g.write("\n")
+	else:
+		print("Invalid dimension")
 
 # legacy
 """
@@ -197,25 +223,38 @@ def turn_all_3D_homologies_files_in_folder_into_single_table(folder_name,first_c
 """
 
 	
-def turn_all_3D_or_4D_homologies_files_in_folder_into_single_table(folder_name,first_characters_name_homologies_files,table_file, degree, dim):
+def turn_all_2D_or_3D_or_4D_homologies_files_in_folder_into_single_table(folder_name,first_characters_name_homologies_files,table_file, degree, dim):
 	homologies = []
 	known_interdictions = get_homology_interdictions(dim,degree)
 	homology_files = [f for f in os.listdir(folder_name) if f[0:len(first_characters_name_homologies_files)]==first_characters_name_homologies_files]
 	for file in homology_files:
-		with open(folder_name+file,"r") as f:
+		with open(os.path.join(folder_name,file),"r") as f:
 			for line in f:
 				if line !="\n":
 					homology = line.split("|")[0]
 					b_0 = int(homology.split()[0])
 					b_1 = int(homology.split()[1])
-					if dim == 3:
+					if dim == 2:
+						homology_profile = [b_0,b_1]
+						assert b_0 == b_1
+					elif dim == 3:
 						homology_profile = [b_0,b_1,b_0]
-					else:
+					elif dim ==4:
 						homology_profile = [b_0,b_1,b_1,b_0]
+					else:
+						print("Invalid dimension")
 
 					if homology_profile not in homologies:
 						homologies.append(homology_profile)
-					if (b_0*2+b_1 if dim==3 else 2*(b_0+b_1)) > Smith_Thom_bound(dim,degree):
+					if dim==2:
+						total_homology = b_0*2
+					elif dim==3:
+						total_homology = b_0*2+b_1 
+					elif dim==4:
+						total_homology = 2*(b_0+b_1)
+					else:
+						print("Invalid dimension")
+					if total_homology > Smith_Thom_bound(dim,degree):
 						print("Smith-Thom bound not respected !!!")
 	write_homologies_in_table(homologies,table_file,dim, degree, known_interdictions)
 	# print(f"Smith Thom {Smith_Thom_bound(dim,degree)}")
@@ -372,6 +411,33 @@ def read_first_experiment_param_file(filename,line_number):
 		parameters["look_while_growing_triangulation"] = (line[8] if len(line) > 8 else "")
 		parameters["look_while_growing_triangulation"] = True if parameters["look_while_growing_triangulation"] == "True" else False
 		return parameters
+	
+
+def ad_hoc_mean(mylist):
+	max_length = max([len(my_array) for my_array in mylist])
+	max_x_coordinate = max([my_array[-1,0] for my_array in mylist])
+	new_length = max(100, max_length*2)
+	x_step = max_x_coordinate/float(new_length)
+	new_list = []
+	for my_array in mylist:
+		new_array = []
+		for i in range(new_length+1):
+			x_coordinate = i*x_step
+			indices_of_entries_greater = [index for index, x_coord in enumerate(my_array[:,0])  if x_coord > x_coordinate]
+			if indices_of_entries_greater == []:
+				y_coordinate = my_array[-1, 1]
+			else :
+				next_index = indices_of_entries_greater[0]
+				if next_index == 0:
+					y_coordinate = 0
+				else:
+					previous_index = next_index-1
+					y_coordinate = my_array[previous_index,1]
+			new_array.append([x_coordinate,y_coordinate])
+		new_array = np.array(new_array)
+		new_list.append(new_array)
+	new_list = np.array(new_list)
+	return np.mean(new_list,axis = 0)
 
 
 def import_tensorflow():

@@ -1,0 +1,822 @@
+
+New homological profile found : 4 4
+
+
+New homological profile found : 5 5
+
+
+New homological profile found : 8 8
+
+
+New homological profile found : 11 11
+
+
+New homological profile found : 13 13
+
+
+New homological profile found : 10 10
+
+
+New homological profile found : 9 9
+
+
+New homological profile found : 6 6
+
+
+New homological profile found : 7 7
+
+
+New homological profile found : 12 12
+
+
+New homological profile found : 3 3
+
+
+-----
+Starting optimization with optimizer TS_100_3000_3_25_50_False in experiment exp_1_TS_size_pop_triangs_TS_100_3000_3_25_50_False_homology_bt_Harnack.10_2_10_seed_0
+
+
+New homological profile found : 2 2
+
+
+New homological profile found : 14 14
+
+
+New homological profile found : 15 15
+
+
+New homological profile found : 17 17
+
+
+New homological profile found : 16 16
+
+
+New homological profile found : 1 1
+
+New good score found : 34
+New good score found : 32
+New good score found : 30
+New good score found : 30
+New good score found : 28
+
+Iteration 0 for optimizer TS_100_3000_3_25_50_False
+Current scores : [34 32 30 30 28]
+Mean score : 19.58, mean score among 20 best scores : 27.1
+The current all time best score is 34
+Duration of the TS_100_3000_3_25_50_False iteration = 1.3e+03, duration of the scoring phase = 1.3e+03
+
+New homological profile found : 18 18
+
+
+New homological profile found : 19 19
+
+
+New homological profile found : 20 20
+
+New good score found : 40
+New good score found : 38
+New good score found : 34
+
+New homological profile found : 21 21
+
+
+New homological profile found : 22 22
+
+New good score found : 44
+New good score found : 42
+New good score found : 38
+
+New homological profile found : 23 23
+
+New good score found : 46
+New good score found : 46
+New good score found : 42
+
+New homological profile found : 24 24
+
+
+New homological profile found : 25 25
+
+New good score found : 50
+New good score found : 48
+New good score found : 46
+
+New homological profile found : 26 26
+
+New good score found : 52
+New good score found : 50
+New good score found : 48
+
+New homological profile found : 27 27
+
+New good score found : 54
+New good score found : 52
+
+New homological profile found : 28 28
+
+New good score found : 56
+New good score found : 54
+New good score found : 54
+
+New homological profile found : 29 29
+
+New good score found : 58
+New good score found : 56
+New good score found : 56
+
+New homological profile found : 30 30
+
+New good score found : 60
+New good score found : 58
+New good score found : 58
+
+New homological profile found : 31 31
+
+New good score found : 62
+New good score found : 60
+New good score found : 60
+
+Iteration 10 for optimizer TS_100_3000_3_25_50_False
+Current scores : [62 60 60 58 56]
+Mean score : 44.02, mean score among 20 best scores : 53.4
+The current all time best score is 62
+Duration of the TS_100_3000_3_25_50_False iteration = 1.27e+03, duration of the scoring phase = 1.27e+03
+New good score found : 62
+New good score found : 62
+
+New homological profile found : 32 32
+
+New good score found : 64
+New good score found : 62
+
+New homological profile found : 33 33
+
+New good score found : 66
+
+New homological profile found : 34 34
+
+New good score found : 68
+New good score found : 68
+New good score found : 68
+New good score found : 68
+New good score found : 68
+
+New homological profile found : 35 35
+
+New good score found : 70
+
+New homological profile found : 36 36
+
+New good score found : 72
+
+Iteration 20 for optimizer TS_100_3000_3_25_50_False
+Current scores : [72 66 64 62 62]
+Mean score : 50.4, mean score among 20 best scores : 61.0
+The current all time best score is 72
+Duration of the TS_100_3000_3_25_50_False iteration = 1.25e+03, duration of the scoring phase = 1.24e+03
+
+New homological profile found : 37 37
+
+New good score found : 74
+New good score found : 74
+New good score found : 74
+New good score found : 74
+New good score found : 74
+
+Iteration 30 for optimizer TS_100_3000_3_25_50_False
+Current scores : [74 74 74 74 74]
+Mean score : 73.16, mean score among 20 best scores : 74.0
+The current all time best score is 74
+Duration of the TS_100_3000_3_25_50_False iteration = 78.2, duration of the scoring phase = 77.0
+
+Iteration 40 for optimizer TS_100_3000_3_25_50_False
+Current scores : [74 74 74 74 74]
+Mean score : 71.8, mean score among 20 best scores : 74.0
+The current all time best score is 74
+Duration of the TS_100_3000_3_25_50_False iteration = 75.1, duration of the scoring phase = 73.9
+
+Iteration 50 for optimizer TS_100_3000_3_25_50_False
+Current scores : [72 72 70 70 70]
+Mean score : 23.24, mean score among 20 best scores : 42.9
+The current all time best score is 74
+Duration of the TS_100_3000_3_25_50_False iteration = 1.25e+03, duration of the scoring phase = 1.24e+03
+Maximal running time reached for TS_100_3000_3_25_50_False
+End of the run for optimizer TS_100_3000_3_25_50_False
+CPU time passed: 36255.8, wall time passed: 36536.2
+Best score found : 74 
+
+
+New homological profile found : 8 8
+
+
+New homological profile found : 5 5
+
+
+New homological profile found : 9 9
+
+
+New homological profile found : 7 7
+
+
+New homological profile found : 10 10
+
+
+New homological profile found : 6 6
+
+
+New homological profile found : 12 12
+
+
+New homological profile found : 4 4
+
+
+New homological profile found : 3 3
+
+
+New homological profile found : 11 11
+
+
+-----
+Starting optimization with optimizer TS_100_3000_3_25_50_False in experiment exp_1_TS_size_pop_triangs_TS_100_3000_3_25_50_False_homology_bt_Harnack.10_2_10_seed_1
+
+
+New homological profile found : 14 14
+
+
+New homological profile found : 13 13
+
+
+New homological profile found : 2 2
+
+
+New homological profile found : 1 1
+
+New good score found : 28
+New good score found : 28
+New good score found : 28
+New good score found : 28
+New good score found : 26
+
+Iteration 0 for optimizer TS_100_3000_3_25_50_False
+Current scores : [28 28 28 28 26]
+Mean score : 18.92, mean score among 20 best scores : 25.3
+The current all time best score is 28
+Duration of the TS_100_3000_3_25_50_False iteration = 1.3e+03, duration of the scoring phase = 1.3e+03
+
+New homological profile found : 16 16
+
+
+New homological profile found : 15 15
+
+New good score found : 32
+New good score found : 32
+New good score found : 32
+New good score found : 32
+New good score found : 32
+
+New homological profile found : 17 17
+
+
+New homological profile found : 18 18
+
+New good score found : 36
+New good score found : 36
+New good score found : 36
+New good score found : 36
+New good score found : 34
+
+New homological profile found : 19 19
+
+
+New homological profile found : 20 20
+
+New good score found : 40
+New good score found : 40
+New good score found : 40
+New good score found : 40
+New good score found : 38
+
+New homological profile found : 21 21
+
+
+New homological profile found : 22 22
+
+New good score found : 44
+New good score found : 44
+New good score found : 44
+New good score found : 42
+New good score found : 42
+
+New homological profile found : 23 23
+
+
+New homological profile found : 24 24
+
+New good score found : 48
+New good score found : 46
+New good score found : 46
+New good score found : 46
+New good score found : 46
+
+New homological profile found : 25 25
+
+
+New homological profile found : 26 26
+
+New good score found : 52
+New good score found : 48
+New good score found : 48
+New good score found : 48
+
+New homological profile found : 27 27
+
+New good score found : 54
+New good score found : 50
+New good score found : 50
+New good score found : 50
+
+New homological profile found : 28 28
+
+New good score found : 56
+New good score found : 52
+New good score found : 52
+
+New homological profile found : 29 29
+
+New good score found : 58
+New good score found : 54
+New good score found : 54
+
+New homological profile found : 30 30
+
+New good score found : 60
+New good score found : 56
+New good score found : 56
+
+Iteration 10 for optimizer TS_100_3000_3_25_50_False
+Current scores : [60 56 56 56 56]
+Mean score : 43.28, mean score among 20 best scores : 51.8
+The current all time best score is 60
+Duration of the TS_100_3000_3_25_50_False iteration = 1.27e+03, duration of the scoring phase = 1.27e+03
+
+New homological profile found : 31 31
+
+New good score found : 62
+New good score found : 58
+New good score found : 58
+New good score found : 62
+New good score found : 60
+New good score found : 62
+New good score found : 62
+
+New homological profile found : 32 32
+
+New good score found : 64
+New good score found : 64
+
+New homological profile found : 33 33
+
+New good score found : 66
+New good score found : 64
+
+New homological profile found : 34 34
+
+
+New homological profile found : 35 35
+
+New good score found : 70
+
+New homological profile found : 36 36
+
+New good score found : 72
+
+New homological profile found : 37 37
+
+New good score found : 74
+New good score found : 66
+New good score found : 74
+
+Iteration 20 for optimizer TS_100_3000_3_25_50_False
+Current scores : [74 66 64 60 60]
+Mean score : 49.04, mean score among 20 best scores : 58.6
+The current all time best score is 74
+Duration of the TS_100_3000_3_25_50_False iteration = 1.26e+03, duration of the scoring phase = 1.26e+03
+New good score found : 74
+New good score found : 74
+New good score found : 74
+
+Iteration 30 for optimizer TS_100_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 71.82, mean score among 20 best scores : 72.0
+The current all time best score is 74
+Duration of the TS_100_3000_3_25_50_False iteration = 92.7, duration of the scoring phase = 91.5
+
+Iteration 40 for optimizer TS_100_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 70.6, mean score among 20 best scores : 72.0
+The current all time best score is 74
+Duration of the TS_100_3000_3_25_50_False iteration = 91.2, duration of the scoring phase = 89.9
+
+Iteration 50 for optimizer TS_100_3000_3_25_50_False
+Current scores : [72 70 70 70 68]
+Mean score : 23.06, mean score among 20 best scores : 42.1
+The current all time best score is 74
+Duration of the TS_100_3000_3_25_50_False iteration = 1.25e+03, duration of the scoring phase = 1.25e+03
+Maximal running time reached for TS_100_3000_3_25_50_False
+End of the run for optimizer TS_100_3000_3_25_50_False
+CPU time passed: 36475.5, wall time passed: 36704.9
+Best score found : 74 
+
+
+New homological profile found : 8 8
+
+
+New homological profile found : 3 3
+
+
+New homological profile found : 11 11
+
+
+New homological profile found : 4 4
+
+
+New homological profile found : 7 7
+
+
+New homological profile found : 6 6
+
+
+New homological profile found : 5 5
+
+
+New homological profile found : 9 9
+
+
+New homological profile found : 10 10
+
+
+New homological profile found : 15 15
+
+
+New homological profile found : 12 12
+
+
+New homological profile found : 1 1
+
+
+-----
+Starting optimization with optimizer TS_100_3000_3_25_50_False in experiment exp_1_TS_size_pop_triangs_TS_100_3000_3_25_50_False_homology_bt_Harnack.10_2_10_seed_2
+
+
+New homological profile found : 2 2
+
+
+New homological profile found : 13 13
+
+
+New homological profile found : 14 14
+
+
+New homological profile found : 16 16
+
+
+New homological profile found : 17 17
+
+New good score found : 34
+New good score found : 30
+New good score found : 30
+New good score found : 28
+
+Iteration 0 for optimizer TS_100_3000_3_25_50_False
+Current scores : [34 30 30 28 28]
+Mean score : 19.1, mean score among 20 best scores : 26.1
+The current all time best score is 34
+Duration of the TS_100_3000_3_25_50_False iteration = 1.32e+03, duration of the scoring phase = 1.32e+03
+
+New homological profile found : 18 18
+
+
+New homological profile found : 19 19
+
+New good score found : 38
+New good score found : 34
+New good score found : 34
+New good score found : 32
+
+New homological profile found : 20 20
+
+New good score found : 40
+New good score found : 38
+New good score found : 38
+New good score found : 36
+
+New homological profile found : 21 21
+
+New good score found : 42
+New good score found : 42
+New good score found : 42
+New good score found : 40
+
+New homological profile found : 22 22
+
+
+New homological profile found : 23 23
+
+New good score found : 46
+New good score found : 46
+New good score found : 44
+New good score found : 44
+
+New homological profile found : 24 24
+
+
+New homological profile found : 25 25
+
+New good score found : 50
+New good score found : 48
+New good score found : 48
+
+New homological profile found : 26 26
+
+New good score found : 52
+New good score found : 50
+New good score found : 50
+
+New homological profile found : 27 27
+
+New good score found : 54
+New good score found : 52
+New good score found : 52
+
+New homological profile found : 28 28
+
+New good score found : 56
+New good score found : 54
+New good score found : 54
+
+New homological profile found : 29 29
+
+New good score found : 58
+New good score found : 56
+New good score found : 56
+
+New homological profile found : 30 30
+
+New good score found : 60
+New good score found : 58
+New good score found : 58
+
+Iteration 10 for optimizer TS_100_3000_3_25_50_False
+Current scores : [60 58 58 56 56]
+Mean score : 43.8, mean score among 20 best scores : 53.4
+The current all time best score is 60
+Duration of the TS_100_3000_3_25_50_False iteration = 1.28e+03, duration of the scoring phase = 1.28e+03
+
+New homological profile found : 31 31
+
+New good score found : 62
+New good score found : 60
+
+New homological profile found : 32 32
+
+New good score found : 64
+New good score found : 62
+
+New homological profile found : 33 33
+
+New good score found : 66
+New good score found : 62
+
+New homological profile found : 34 34
+
+New good score found : 68
+
+New homological profile found : 35 35
+
+New good score found : 70
+
+New homological profile found : 36 36
+
+New good score found : 72
+
+New homological profile found : 37 37
+
+New good score found : 74
+New good score found : 74
+New good score found : 74
+New good score found : 74
+
+Iteration 20 for optimizer TS_100_3000_3_25_50_False
+Current scores : [74 68 64 64 64]
+Mean score : 49.9, mean score among 20 best scores : 60.4
+The current all time best score is 74
+Duration of the TS_100_3000_3_25_50_False iteration = 1.25e+03, duration of the scoring phase = 1.25e+03
+New good score found : 74
+
+Iteration 30 for optimizer TS_100_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 71.1, mean score among 20 best scores : 72.0
+The current all time best score is 74
+Duration of the TS_100_3000_3_25_50_False iteration = 78.9, duration of the scoring phase = 77.7
+
+Iteration 40 for optimizer TS_100_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 71.14, mean score among 20 best scores : 72.0
+The current all time best score is 74
+Duration of the TS_100_3000_3_25_50_False iteration = 60.1, duration of the scoring phase = 58.7
+
+Iteration 50 for optimizer TS_100_3000_3_25_50_False
+Current scores : [70 70 70 70 30]
+Mean score : 21.18, mean score among 20 best scores : 35.1
+The current all time best score is 74
+Duration of the TS_100_3000_3_25_50_False iteration = 1.31e+03, duration of the scoring phase = 1.3e+03
+Maximal running time reached for TS_100_3000_3_25_50_False
+End of the run for optimizer TS_100_3000_3_25_50_False
+CPU time passed: 36034.5, wall time passed: 36272.1
+Best score found : 74 
+
+
+New homological profile found : 4 4
+
+
+New homological profile found : 7 7
+
+
+New homological profile found : 9 9
+
+
+New homological profile found : 8 8
+
+
+New homological profile found : 10 10
+
+
+New homological profile found : 3 3
+
+
+New homological profile found : 5 5
+
+
+New homological profile found : 6 6
+
+
+New homological profile found : 11 11
+
+
+New homological profile found : 12 12
+
+
+New homological profile found : 14 14
+
+
+New homological profile found : 13 13
+
+
+New homological profile found : 2 2
+
+
+-----
+Starting optimization with optimizer TS_100_3000_3_25_50_False in experiment exp_1_TS_size_pop_triangs_TS_100_3000_3_25_50_False_homology_bt_Harnack.10_2_10_seed_3
+
+
+New homological profile found : 1 1
+
+
+New homological profile found : 15 15
+
+
+New homological profile found : 18 18
+
+
+New homological profile found : 16 16
+
+New good score found : 36
+New good score found : 30
+New good score found : 30
+New good score found : 28
+
+Iteration 0 for optimizer TS_100_3000_3_25_50_False
+Current scores : [36 30 30 28 28]
+Mean score : 19.6, mean score among 20 best scores : 26.9
+The current all time best score is 36
+Duration of the TS_100_3000_3_25_50_False iteration = 1.35e+03, duration of the scoring phase = 1.35e+03
+
+New homological profile found : 17 17
+
+
+New homological profile found : 19 19
+
+
+New homological profile found : 20 20
+
+New good score found : 40
+New good score found : 34
+New good score found : 34
+New good score found : 32
+
+New homological profile found : 21 21
+
+
+New homological profile found : 22 22
+
+New good score found : 44
+New good score found : 38
+New good score found : 38
+New good score found : 38
+
+New homological profile found : 23 23
+
+
+New homological profile found : 24 24
+
+New good score found : 48
+New good score found : 42
+New good score found : 42
+New good score found : 42
+
+New homological profile found : 25 25
+
+
+New homological profile found : 26 26
+
+New good score found : 52
+New good score found : 46
+New good score found : 46
+
+New homological profile found : 27 27
+
+
+New homological profile found : 28 28
+
+New good score found : 56
+New good score found : 54
+New good score found : 50
+
+New homological profile found : 29 29
+
+New good score found : 58
+New good score found : 58
+
+New homological profile found : 30 30
+
+New good score found : 60
+New good score found : 60
+
+New homological profile found : 31 31
+
+New good score found : 62
+New good score found : 62
+
+New homological profile found : 32 32
+
+New good score found : 64
+New good score found : 64
+
+New homological profile found : 33 33
+
+New good score found : 66
+New good score found : 66
+
+Iteration 10 for optimizer TS_100_3000_3_25_50_False
+Current scores : [66 66 60 58 54]
+Mean score : 44.56, mean score among 20 best scores : 54.0
+The current all time best score is 66
+Duration of the TS_100_3000_3_25_50_False iteration = 1.26e+03, duration of the scoring phase = 1.26e+03
+
+New homological profile found : 34 34
+
+New good score found : 68
+New good score found : 68
+
+New homological profile found : 35 35
+
+New good score found : 70
+New good score found : 70
+
+New homological profile found : 36 36
+
+New good score found : 72
+New good score found : 70
+New good score found : 72
+New good score found : 72
+New good score found : 72
+New good score found : 72
+
+New homological profile found : 37 37
+
+New good score found : 74
+New good score found : 74
+New good score found : 74
+
+Iteration 20 for optimizer TS_100_3000_3_25_50_False
+Current scores : [74 70 68 66 64]
+Mean score : 51.66, mean score among 20 best scores : 62.5
+The current all time best score is 74
+Duration of the TS_100_3000_3_25_50_False iteration = 1.27e+03, duration of the scoring phase = 1.26e+03
+New good score found : 74
+New good score found : 74
+Maximal running time reached for TS_100_3000_3_25_50_False
+End of the run for optimizer TS_100_3000_3_25_50_False
+CPU time passed: 36916.3, wall time passed: 37152.6
+Best score found : 74 
+

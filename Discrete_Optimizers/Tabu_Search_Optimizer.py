@@ -166,6 +166,8 @@ class Tabu_Search_Optimizer(Discrete_Optimizer):
 				if self.SD_counter[index_element] >=self.SD_thresh:
 					self.SD_counter[index_element] =0
 					self.SI_counter[index_element] =0
+					# clear the MTM memory si that we start anew (otherwise past successes cut current search short)
+					self.MTM_memory[index_element] = [[],[]]
 					self.population[index_element] = list(np.random.randint(2,size = self.dim))
 				elif self.SI_counter[index_element] >=self.SI_thresh:
 					self.SI_counter[index_element] =0

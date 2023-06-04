@@ -1,0 +1,16 @@
+exp_1_TS_size_pop_triangs
+[[7], [8], [9]]
+/home/charles/Desktop/ML_RAG/Code/Discrete_optimization_exps exp_1_TS_size_pop_triangs
+exp_num num_seeds dim obj_function max_running_time optimizer_type specific_parameters
+1 4 66 homology_bt_Harnack.10_2_10 36000 TS 10 3000 3 25 50 False
+2 4 66 homology_bt_Harnack.10_2_10 36000 TS 30 3000 3 25 50 False
+3 4 66 homology_bt_Harnack.10_2_10 36000 TS 100 3000 3 25 50 False
+4 4 231 homology_bt_Harnack.20_2_20 36000 TS 10 3000 3 25 50 False
+5 4 231 homology_bt_Harnack.20_2_20 36000 TS 30 3000 3 25 50 False
+6 4 231 homology_bt_Harnack.20_2_20 36000 TS 100 3000 3 25 50 False
+7 4 78 homology_b0pab1_Dim.3.deg.6_3_6 7200 TS 10 3000 3 25 50 False
+8 4 78 homology_b0pab1_Dim.3.deg.6_3_6 7200 TS 30 3000 3 25 50 False
+9 4 78 homology_b0pab1_Dim.3.deg.6_3_6 7200 TS 100 3000 3 25 50 False
+10 4 51 homology_b0pab1_Dim.4.deg.4_4_4 7200 TS 10 3000 3 25 50 False
+11 4 51 homology_b0pab1_Dim.4.deg.4_4_4 7200 TS 30 3000 3 25 50 False
+12 4 51 homology_b0pab1_Dim.4.deg.4_4_4 7200 TS 100 3000 3 25 50 False

@@ -1,6 +1,7 @@
 import numpy as np
 import time
 import os
+import sys
 
 from utilities import read_known_homology_profiles
 
@@ -118,7 +119,6 @@ def compute_homology(local_path, temp_files_folder, signs, triangs_input_file, p
 			profile = [int(x) for x in homology_profile.split()]
 			homology_profiles_int.append(profile)
 	# homology_profiles_int is always a list of lists (possibly of length 1)
-
 	return homology_profiles_int
 
 def update_stored_homologies(signs_input_file, triangs_input_file, homology_profiles, stored_homologies_file, verbose = True):
@@ -207,6 +207,7 @@ def create_objective_function_for_signs_optimization(observed_homologies_file, t
 			np.savetxt(f,solutions,fmt='%d')
 		homology_profiles = compute_homology(current_point.local_path, temp_files_folder, signs_temp_file, current_point.triang_file, current_point.all_points_file, temp_homologies_file)
 		update_stored_homologies(signs_temp_file, current_point.triang_file, homology_profiles, observed_homologies_file)
+		sys.stdout.flush()
 		return function_of_the_homology_profiles(homology_profiles).tolist()
 	return obj_function
 

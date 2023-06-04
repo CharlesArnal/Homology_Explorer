@@ -1,0 +1,8 @@
+exp_1_RS_triangs
+[[1], [2], [3], [4]]
+/home/charles/Desktop/ML_RAG/Code/Discrete_optimization_exps exp_1_RS_triangs
+exp_num num_seeds dim obj_function max_running_time optimizer_type specific_parameters
+1 4 66 homology_bt_Harnack.10_2_10 36000 RS 100
+2 4 231 homology_bt_Harnack.20_2_20 36000 RS 100
+3 4 78 homology_b0pab1_Dim.3.deg.6_3_6 36000 RS 100
+4 4 51 homology_b0pab1_Dim.4.deg.4_4_4 36000 RS 100

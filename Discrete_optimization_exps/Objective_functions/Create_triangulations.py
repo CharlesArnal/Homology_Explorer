@@ -55,7 +55,10 @@ print(f"Current homology {explorer.current_point.compute_homology()}")
 #degree = 6
 #dim = 3
 
-degree = 5
+# degree = 5
+# dim = 4
+
+degree = 4
 dim = 4
 
 exp_name = f"Dim_{dim}_deg_{degree}"
@@ -81,7 +84,8 @@ current_point = Current_Point(dim, degree,  local_path, current_point_folder)
 current_point.complete_current_point(verbose = True, force_recompute = False)
 
 print("Current point completed")
-print(f"Current homology {current_point.compute_homology()}")
+print(f"Current homology {current_point.compute_own_homology()}")
+
 
 
 

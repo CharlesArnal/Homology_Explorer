@@ -1,0 +1,1322 @@
+
+-----
+Starting optimization with optimizer GA_10_300_rank in experiment exp_1_GA_num_parents_mating_triangs_GA_10_300_rank_homology_b0pab1_Dim.3.deg.6_3_6_seed_0
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 7 70 7
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 6 76 6
+
+
+New homological profile found : 7 64 7
+
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 6 68 6
+
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 14.0
+
+New homological profile found : 6 70 6
+
+
+Iteration 0 for optimizer GA_10_300_rank
+Current scores : [14. 14. 14. 14. 14.]
+Mean score : 9.358666666666664, mean score among 20 best scores : 14.0
+The current all time best score is 14.0
+Duration of the GA_10_300_rank iteration = 1.3e+02, duration of the scoring phase = 1.3e+02
+
+New homological profile found : 6 62 6
+
+
+Iteration 10 for optimizer GA_10_300_rank
+Current scores : [14. 14. 14. 14. 14.]
+Mean score : 12.680666666666665, mean score among 20 best scores : 14.0
+The current all time best score is 14.0
+Duration of the GA_10_300_rank iteration = 73.0, duration of the scoring phase = 72.9
+
+New homological profile found : 8 66 8
+
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+
+Iteration 20 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.111333333333334, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 71.1, duration of the scoring phase = 71.1
+
+Iteration 30 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.453999999999999, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 72.7, duration of the scoring phase = 72.7
+
+Iteration 40 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.214666666666666, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 73.5, duration of the scoring phase = 73.5
+
+Iteration 50 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.225333333333333, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 73.4, duration of the scoring phase = 73.4
+
+Iteration 60 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.084000000000001, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 73.6, duration of the scoring phase = 73.5
+
+Iteration 70 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.282666666666668, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 74.4, duration of the scoring phase = 74.4
+
+Iteration 80 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.162666666666667, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 73.2, duration of the scoring phase = 73.1
+
+Iteration 90 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.191333333333333, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 74.0, duration of the scoring phase = 74.0
+Maximal running time reached for GA_10_300_rank
+End of the run for optimizer GA_10_300_rank
+CPU time passed: 7254.25, wall time passed: 7342.93
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer GA_10_300_rank in experiment exp_1_GA_num_parents_mating_triangs_GA_10_300_rank_homology_b0pab1_Dim.3.deg.6_3_6_seed_1
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 7 64 7
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 6 62 6
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 6 68 6
+
+New good score found : 13.4
+New good score found : 13.4
+New good score found : 12.8
+New good score found : 12.8
+New good score found : 12.8
+
+New homological profile found : 7 70 7
+
+
+New homological profile found : 6 70 6
+
+
+New homological profile found : 6 76 6
+
+New good score found : 14.0
+New good score found : 13.600000000000001
+New good score found : 13.0
+
+Iteration 0 for optimizer GA_10_300_rank
+Current scores : [14.  13.6 13.4 13.4 13. ]
+Mean score : 9.192666666666666, mean score among 20 best scores : 12.980000000000004
+The current all time best score is 14.0
+Duration of the GA_10_300_rank iteration = 1.32e+02, duration of the scoring phase = 1.31e+02
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 14.0
+
+New homological profile found : 7 78 7
+
+
+New homological profile found : 8 66 8
+
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+
+Iteration 10 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.060666666666666, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 72.2, duration of the scoring phase = 72.1
+
+Iteration 20 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.381333333333332, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 74.8, duration of the scoring phase = 74.7
+
+Iteration 30 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.014666666666667, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 73.4, duration of the scoring phase = 73.3
+
+Iteration 40 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.51, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 71.6, duration of the scoring phase = 71.6
+
+Iteration 50 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.260666666666667, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 72.2, duration of the scoring phase = 72.1
+
+Iteration 60 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.216666666666667, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 72.6, duration of the scoring phase = 72.6
+
+Iteration 70 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 12.978666666666667, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 71.1, duration of the scoring phase = 71.1
+
+Iteration 80 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.139333333333333, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 72.3, duration of the scoring phase = 72.3
+
+Iteration 90 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.204666666666666, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 72.3, duration of the scoring phase = 72.2
+Maximal running time reached for GA_10_300_rank
+End of the run for optimizer GA_10_300_rank
+CPU time passed: 7320.37, wall time passed: 7408.45
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer GA_10_300_rank in experiment exp_1_GA_num_parents_mating_triangs_GA_10_300_rank_homology_b0pab1_Dim.3.deg.6_3_6_seed_2
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 6 62 6
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 6 76 6
+
+
+New homological profile found : 7 70 7
+
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 8 66 8
+
+New good score found : 14.600000000000001
+New good score found : 14.0
+New good score found : 13.600000000000001
+New good score found : 13.600000000000001
+New good score found : 13.600000000000001
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 7 64 7
+
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+
+Iteration 0 for optimizer GA_10_300_rank
+Current scores : [14.8 14.6 14.6 14.6 14.6]
+Mean score : 9.022666666666666, mean score among 20 best scores : 13.939999999999998
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+New homological profile found : 6 70 6
+
+New good score found : 14.600000000000001
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+
+Iteration 10 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.051333333333334, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 73.5, duration of the scoring phase = 73.5
+
+Iteration 20 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.084, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 73.9, duration of the scoring phase = 73.9
+
+Iteration 30 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.460666666666667, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 75.0, duration of the scoring phase = 74.9
+
+Iteration 40 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.248666666666667, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 71.7, duration of the scoring phase = 71.7
+
+Iteration 50 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.193333333333333, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 74.4, duration of the scoring phase = 74.4
+
+Iteration 60 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.364666666666666, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 72.5, duration of the scoring phase = 72.5
+
+Iteration 70 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.170666666666667, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 73.5, duration of the scoring phase = 73.4
+
+Iteration 80 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.093333333333334, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 71.1, duration of the scoring phase = 71.0
+
+Iteration 90 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.224, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 73.7, duration of the scoring phase = 73.7
+
+New homological profile found : 9 68 9
+
+New good score found : 15.8
+Maximal running time reached for GA_10_300_rank
+End of the run for optimizer GA_10_300_rank
+CPU time passed: 7255.57, wall time passed: 7341.46
+Best score found : 15.8 
+
+
+-----
+Starting optimization with optimizer GA_10_300_rank in experiment exp_1_GA_num_parents_mating_triangs_GA_10_300_rank_homology_b0pab1_Dim.3.deg.6_3_6_seed_3
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 6 62 6
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 7 78 7
+
+
+New homological profile found : 6 76 6
+
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 13.600000000000001
+New good score found : 12.8
+New good score found : 12.8
+
+New homological profile found : 7 70 7
+
+
+New homological profile found : 5 74 5
+
+New good score found : 14.8
+New good score found : 14.0
+
+Iteration 0 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.  13.6]
+Mean score : 9.012666666666666, mean score among 20 best scores : 13.14
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+New good score found : 14.8
+
+New homological profile found : 7 64 7
+
+
+New homological profile found : 8 66 8
+
+New good score found : 14.8
+
+New homological profile found : 6 70 6
+
+
+Iteration 10 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 12.982666666666665, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 71.2, duration of the scoring phase = 71.2
+
+Iteration 20 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.238, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 74.3, duration of the scoring phase = 74.2
+
+Iteration 30 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.084666666666667, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 76.1, duration of the scoring phase = 76.1
+
+Iteration 40 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.056000000000001, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 74.1, duration of the scoring phase = 74.1
+
+Iteration 50 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.046000000000001, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 74.0, duration of the scoring phase = 74.0
+
+Iteration 60 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 12.928666666666667, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 74.8, duration of the scoring phase = 74.8
+
+Iteration 70 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.038666666666666, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 71.9, duration of the scoring phase = 71.8
+
+Iteration 80 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.214666666666666, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 73.0, duration of the scoring phase = 73.0
+
+Iteration 90 for optimizer GA_10_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.061333333333334, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_10_300_rank iteration = 74.4, duration of the scoring phase = 74.3
+Maximal running time reached for GA_10_300_rank
+End of the run for optimizer GA_10_300_rank
+CPU time passed: 7299.09, wall time passed: 7386.57
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer GA_30_300_rank in experiment exp_1_GA_num_parents_mating_triangs_GA_30_300_rank_homology_b0pab1_Dim.3.deg.6_3_6_seed_0
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 7 70 7
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 6 76 6
+
+
+New homological profile found : 7 64 7
+
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 6 68 6
+
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 14.0
+
+New homological profile found : 6 70 6
+
+
+Iteration 0 for optimizer GA_30_300_rank
+Current scores : [14. 14. 14. 14. 14.]
+Mean score : 9.463333333333333, mean score among 20 best scores : 13.920000000000002
+The current all time best score is 14.0
+Duration of the GA_30_300_rank iteration = 1.37e+02, duration of the scoring phase = 1.37e+02
+
+New homological profile found : 8 66 8
+
+
+New homological profile found : 6 62 6
+
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+
+Iteration 10 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.353333333333333, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 78.2, duration of the scoring phase = 78.2
+
+Iteration 20 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.278, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 78.1, duration of the scoring phase = 78.1
+
+Iteration 30 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.346, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 82.2, duration of the scoring phase = 82.2
+
+Iteration 40 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.396, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 80.4, duration of the scoring phase = 80.3
+
+Iteration 50 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.432, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 79.6, duration of the scoring phase = 79.6
+
+Iteration 60 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.277333333333333, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 81.9, duration of the scoring phase = 81.9
+
+Iteration 70 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.267333333333333, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 80.1, duration of the scoring phase = 80.1
+
+Iteration 80 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.216000000000001, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 82.5, duration of the scoring phase = 82.5
+Maximal running time reached for GA_30_300_rank
+End of the run for optimizer GA_30_300_rank
+CPU time passed: 7282.41, wall time passed: 7366.74
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer GA_30_300_rank in experiment exp_1_GA_num_parents_mating_triangs_GA_30_300_rank_homology_b0pab1_Dim.3.deg.6_3_6_seed_1
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 7 64 7
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 6 62 6
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 6 68 6
+
+New good score found : 13.4
+New good score found : 13.4
+New good score found : 12.8
+New good score found : 12.8
+New good score found : 12.8
+
+New homological profile found : 6 76 6
+
+
+New homological profile found : 6 70 6
+
+New good score found : 13.600000000000001
+New good score found : 13.4
+New good score found : 13.0
+
+Iteration 0 for optimizer GA_30_300_rank
+Current scores : [13.6 13.4 13.4 13.4 13. ]
+Mean score : 9.376666666666667, mean score among 20 best scores : 12.940000000000003
+The current all time best score is 13.600000000000001
+Duration of the GA_30_300_rank iteration = 1.36e+02, duration of the scoring phase = 1.35e+02
+New good score found : 13.4
+New good score found : 13.600000000000001
+New good score found : 13.600000000000001
+New good score found : 13.600000000000001
+
+New homological profile found : 7 70 7
+
+
+New homological profile found : 8 66 8
+
+New good score found : 14.600000000000001
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 14.0
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+
+Iteration 10 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.304666666666668, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 81.1, duration of the scoring phase = 81.0
+
+Iteration 20 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.122666666666667, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 82.0, duration of the scoring phase = 82.0
+
+Iteration 30 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.269333333333334, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 78.8, duration of the scoring phase = 78.8
+
+Iteration 40 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.390666666666666, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 76.1, duration of the scoring phase = 76.0
+
+Iteration 50 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.238, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 78.7, duration of the scoring phase = 78.6
+
+Iteration 60 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.346666666666666, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 78.3, duration of the scoring phase = 78.3
+
+Iteration 70 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.332666666666666, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 77.8, duration of the scoring phase = 77.7
+
+Iteration 80 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.225333333333335, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 80.0, duration of the scoring phase = 79.9
+Maximal running time reached for GA_30_300_rank
+End of the run for optimizer GA_30_300_rank
+CPU time passed: 7275.73, wall time passed: 7361.01
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer GA_30_300_rank in experiment exp_1_GA_num_parents_mating_triangs_GA_30_300_rank_homology_b0pab1_Dim.3.deg.6_3_6_seed_2
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 6 62 6
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 6 76 6
+
+
+New homological profile found : 7 70 7
+
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 8 66 8
+
+New good score found : 14.600000000000001
+New good score found : 14.0
+New good score found : 13.600000000000001
+New good score found : 13.600000000000001
+New good score found : 13.600000000000001
+
+New homological profile found : 7 64 7
+
+
+New homological profile found : 6 70 6
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+New good score found : 14.600000000000001
+
+Iteration 0 for optimizer GA_30_300_rank
+Current scores : [14.8 14.6 14.6 14.6 14. ]
+Mean score : 9.618666666666664, mean score among 20 best scores : 13.73
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+
+Iteration 10 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.514666666666667, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 76.6, duration of the scoring phase = 76.6
+
+Iteration 20 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.330666666666666, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 78.8, duration of the scoring phase = 78.8
+
+Iteration 30 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.378666666666666, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 79.9, duration of the scoring phase = 79.9
+
+Iteration 40 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.242666666666667, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 79.1, duration of the scoring phase = 79.1
+
+Iteration 50 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.334666666666667, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 80.2, duration of the scoring phase = 80.2
+
+Iteration 60 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.388, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 81.1, duration of the scoring phase = 81.1
+
+New homological profile found : 9 68 9
+
+
+New homological profile found : 8 72 8
+
+New good score found : 15.8
+New good score found : 15.2
+New good score found : 15.2
+
+New homological profile found : 7 72 7
+
+New good score found : 15.2
+New good score found : 15.2
+
+Iteration 70 for optimizer GA_30_300_rank
+Current scores : [15.8 15.2 15.2 15.2 15.2]
+Mean score : 11.748000000000001, mean score among 20 best scores : 15.229999999999999
+The current all time best score is 15.8
+Duration of the GA_30_300_rank iteration = 70.1, duration of the scoring phase = 70.0
+New good score found : 15.8
+New good score found : 15.8
+New good score found : 15.8
+New good score found : 15.8
+
+Iteration 80 for optimizer GA_30_300_rank
+Current scores : [15.8 15.8 15.8 15.8 15.8]
+Mean score : 13.475333333333333, mean score among 20 best scores : 15.800000000000002
+The current all time best score is 15.8
+Duration of the GA_30_300_rank iteration = 74.4, duration of the scoring phase = 74.4
+
+Iteration 90 for optimizer GA_30_300_rank
+Current scores : [15.8 15.8 15.8 15.8 15.8]
+Mean score : 13.687999999999999, mean score among 20 best scores : 15.800000000000002
+The current all time best score is 15.8
+Duration of the GA_30_300_rank iteration = 78.3, duration of the scoring phase = 78.2
+Maximal running time reached for GA_30_300_rank
+End of the run for optimizer GA_30_300_rank
+CPU time passed: 7303.58, wall time passed: 7387.12
+Best score found : 15.8 
+
+
+-----
+Starting optimization with optimizer GA_30_300_rank in experiment exp_1_GA_num_parents_mating_triangs_GA_30_300_rank_homology_b0pab1_Dim.3.deg.6_3_6_seed_3
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 6 62 6
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 6 76 6
+
+
+New homological profile found : 7 78 7
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 6 70 6
+
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 13.600000000000001
+New good score found : 13.0
+New good score found : 12.8
+
+New homological profile found : 7 70 7
+
+
+New homological profile found : 7 64 7
+
+New good score found : 14.0
+New good score found : 13.600000000000001
+
+Iteration 0 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.  13.6 13.6]
+Mean score : 9.474, mean score among 20 best scores : 13.120000000000001
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 1.33e+02, duration of the scoring phase = 1.32e+02
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+
+New homological profile found : 8 66 8
+
+
+Iteration 10 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.538666666666668, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 79.4, duration of the scoring phase = 79.4
+
+Iteration 20 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.237333333333332, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 78.9, duration of the scoring phase = 78.9
+
+Iteration 30 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.306666666666667, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 79.7, duration of the scoring phase = 79.6
+
+Iteration 40 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.341333333333333, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 78.3, duration of the scoring phase = 78.3
+
+Iteration 50 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.253333333333334, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 80.3, duration of the scoring phase = 80.2
+
+Iteration 60 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.415999999999999, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 76.9, duration of the scoring phase = 76.9
+
+Iteration 70 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.185333333333332, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 78.6, duration of the scoring phase = 78.5
+
+Iteration 80 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.488666666666667, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 79.9, duration of the scoring phase = 79.9
+
+Iteration 90 for optimizer GA_30_300_rank
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.411333333333333, mean score among 20 best scores : 14.800000000000002
+The current all time best score is 14.8
+Duration of the GA_30_300_rank iteration = 81.4, duration of the scoring phase = 81.4
+Maximal running time reached for GA_30_300_rank
+End of the run for optimizer GA_30_300_rank
+CPU time passed: 7260.96, wall time passed: 7347.53
+Best score found : 14.8 
+

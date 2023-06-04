@@ -97,9 +97,11 @@ Done : 62 -> 77
 
 value_novelty_persistently
 à faire : 79 à 95
-Done : 79 -> 93
+Done : 79 -> 94
 
-Missing : 55, 58, 61, 78, 94, 95
+Missing : 55, 58, 61, 78, 95
+Experiments in dim 4 and degree 6 ( 55, 58, 61, 78, 95) are almost impossible
+
 ------------------------------------------------
 Expériences 0.2 :
 choisir plein de triangulations (y compris à partir de celles des expériences 1) (construites avec Explore_triangs), et voir quel algo (+ hyperparamètres) donne les meilleurs résultats
@@ -112,22 +114,75 @@ dim 3 - degrés 6, 7, 10, 15, à chaque fois 3 triangulations différentes avec 
 dim 5 - degrés 5, 10
 
 Nouvelle version plus modeste pour choix d'hyperparamètres :
-dim 2 - Harnack degrés 10, 20
-dim 3 - degré 6, 7 78 7
-dim 4 - degré 5, 1 62 62 1
+dim 2 - Harnack degré 10 (37 37)
+dim 2 - Harnack degré 20 (172 172)
+dim 3 - degré 6 (7 78 7 ?)
+dim 4 - degré 4 (9 10 10 9 ?)
 
-En plus, en dimension 3 : pour degré 5 et 6, prendre 2 des meilleures triangulations obtenues, et voir si on peut faire mieux
+Le faire seulement pour b_0pa_1 -> scores max = 74, 344, 14.8, 10.0
 
-Regarder le dossier "Graphs" pour voir s'il y a d'autres idées intéressantes
+Toujours 4 seeds
+Pour Harnack 10 et 20, tourner pendant 10h, pour 3,6 et 4,4, tourner pendant 1h
+Dans tous les cas, compter aussi le nombre d'homologies vues
 
+Lancer Python3 launch_exps_batch.py exp_name
+
+Faire varier le nombre d'heures d'expérience selon l'optimiseur (quand on optimise les paramètres pour un optimiseur donné), trouver le temps tel que ça converge
+
+Refaire RS une fois le temps commun trouvé 
 
 Pour chaque combinaison de degrés :
 TS, MCTS, Randomsolver et RL (!!!) pour 4 combinaisons d'hyperparamètres
 S'assurer que RL et Randomsolver utilisent (en calculant la meilleure solution trouvée) aussi la distribution de signes actuelle 
 2 seeds
 
+Rmk : on peut faire en gros 1500 évaluations en tout pour la dim 4 degré 4 (probablement faux, étant donné ce qui suit)
+
+Guideline : pas plus de 5h par iteration (sinon complètement inutile)
+
+(with RS 100 - not very coherent otherwise)
+Harnack 10 : 1 evaluation environ 0.045s, max score entre 42 et 50 et on continue à progresser
+Harnack 20 : 1 evaluation environ 0.13s, max score environ 106 et on continue à progresser
+3.6 : 1 evaluation environ 0.19s, on converge vers
+4.4 : 1 evaluation enviorn 1.30s, ce qui permet environ 27'000 évaluations
 
 
+TS :
+# 10 30 100 # Fini, téléchargé, meilleur résultat avec 10 (plus rapide que les autres, et au moins autant d'homologie, plus pour Harnack 20)
+Temps : 20s, 2mn, 20mn (avec grosse variance)| ... | ... | 600s, 1800s, 8000s 
+# 3000
+--
+# 3, 6
+# 25, 100
+# 50, 200
+Je fais ces 8 possibilités à la fois
+--
+# False -> True
+# percent a voir
+Remarque importante : le temps de calcul n'a pas l'air de scale linéairement avec la taille de la population (sûrement à cause de limitations de polymake ?) (avec une population de 100, 100 fois plus lent plutôt que 10 fois plus lent)
+
+
+MCTS :
+# pour 5 et 10 (depth) :
+Temps : 500s, 155'000s (trop) | 1900s 800'000s | 3500s, ? | 17'000s 570'000s
+# pour 3 et 5 (depth) : 3 est mieux pour Harnack 10, 5 est mieux pour les autres, continuer avec 5
+# 10 30 100
+
+GA :
+# 10 30 100 (relative to 300) # meilleur 100 pour tous
+Temps : tous environ 11s, 38s, 80s and 400s
+#  300 200 600
+# rank (for rank selection), sss (for steady-state selection),   rws (for roulette wheel selection), sus (for stochastic universal selection),  tournament (for tournament selection).
+# rank is broken, it works as sss 
+#K_tournament=3: In case that the parent selection type is tournament, the K_tournament specifies the number of parents participating in the tournament selection. It defaults to 3.
+
+Pour la première série d'expériences de TS, MCTS et GA, les fonctions objectifs ont été mal nommées (mais cela ne semble pas avoir eu d'impact sur les résultats)
+
+Problème : GA ne sauvegarde pas correctement les résultats (ok dans les calculs d'homologie, pas ok dans les scores et meilleures solutions retenues)
+
+Pour dim 4 degré 4, environ 1.4 seconde par évaluation
+
+----------------
 
 Secondes expériences :
 Ajouter RL, faire tourner en différentes conf (b_0, b_total, b_total + alpha b_0, et triangs, et longueurs d'optimisation) pour dimension 4 et 5 et degrés 4, 5, 6
@@ -203,6 +258,7 @@ faire une
 
 
 
+Attention ! j'ai dû modifier Pygad, en particulier la fonction adaptive_mutation_by_space, pour qu'elle sauvegarde les bons résultats obtenus après crossover mais avant mutation
 
 
 introduire la marche sporadique (on tire une triangulation un peu au hasard, puis on évalue)
@@ -240,6 +296,7 @@ Note : RL affiche dans end_of_iteration_routine les solutions nouvellement trouv
 Vérifier un de ces jours que compute homology marche correctement (malgré le non-usage des relevant points indices)
 
 
+SIAM conference/journal on applied algebraic geometry (demander à Michele)
 
 
 guideline : use full paths EVERYWHERE

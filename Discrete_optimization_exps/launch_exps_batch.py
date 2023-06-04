@@ -20,8 +20,9 @@ my_local_path = current_dir
 
 #"/home/charles/Desktop/ML_RAG/Code/Discrete_optimization_exps"
 
-# the first line of params_file defines which experiments must be launched parallelly
-# the second line contains various global parameters
+# in params_file, the first line is the name of the experiment
+# then we define which experiments must be launched parallelly
+# then various global parameters
 # each other line gives the parameters for one experiment
 # see get_parameters.py for details
 
@@ -29,24 +30,37 @@ my_local_path = current_dir
 # {"exp_name" : "exp_1", "exp_batches":[["0","1","2"], ["3","4"]], ...other global parameters ...,  1 : dict_1, 2 : dict_2, ....}
 # dict_i contains the parameters for experiment i
 
-if exp_name == "exp_0":
-	exps_param_function = get_parameters_exp_0
-	params_file = os.path.join(my_local_path, "Parameters_files","param_exp_0.txt")
-	parameters = exps_param_function(params_file, exp_name)
 
-if exp_name == "exp_1_RS":
-	exps_param_function = get_parameters_exp_0
-	params_file = os.path.join(my_local_path, "Parameters_files","param_exp_1_RS.txt")
-	parameters = exps_param_function(params_file, exp_name)
+exps_param_function = get_parameters_exp_0
+params_file = os.path.join(my_local_path, "Parameters_files",f"param_{exp_name}.txt")
+parameters = exps_param_function(params_file)
 
+# if exp_name == "exp_0":
+# 	exps_param_function = get_parameters_exp_0
+# 	params_file = os.path.join(my_local_path, "Parameters_files","param_exp_0.txt")
+# 	parameters = exps_param_function(params_file)
+
+# elif exp_name == "exp_1_RS":
+# 	exps_param_function = get_parameters_exp_0
+# 	params_file = os.path.join(my_local_path, "Parameters_files","param_exp_1_RS.txt")
+# 	parameters = exps_param_function(params_file)
+
+# elif exp_name == "exp_test_triangulations_RS":
+# 	exps_param_function = get_parameters_exp_0
+# 	params_file = os.path.join(my_local_path, "Parameters_files","param_exp_test_triangulations_RS.txt")
+# 	parameters = exps_param_function(params_file)
+
+
+# else :
+# 	print("Invalid experiment name")
 
 
 
 for exp_batch in parameters["exp_batches"]:
 	print(f"Starting batch {exp_batch}")
 	#list_files = subprocess.run(["nohup","python3", "Exp_template_graphs.py", exp_name, *[str(index) for index in exp_batch], f"> {exp_name}_{exp_batch[0]}_to_{exp_batch[-1]}.out 2>&1 &"])
-	print(" ".join(["nohup","python3", "Exp_template_graphs.py", exp_name, *[str(index) for index in exp_batch], f"> {exp_name}_{exp_batch[0]}_to_{exp_batch[-1]}.out 2>&1 &"]))
-	os.system(" ".join(["nohup","python3", "Exp_template_graphs.py", exp_name, *[str(index) for index in exp_batch], f"> {exp_name}_{exp_batch[0]}_to_{exp_batch[-1]}.out 2>&1 &"]))
+	print(" ".join(["nohup","python3", "Exp_launcher.py", exp_name, *[str(index) for index in exp_batch], f"> Out_files/{exp_name}_{exp_batch[0]}_to_{exp_batch[-1]}.out 2>&1 &"]))
+	os.system(" ".join(["nohup","python3", "Exp_launcher.py", exp_name, *[str(index) for index in exp_batch], f"> Out_files/{exp_name}_{exp_batch[0]}_to_{exp_batch[-1]}.out 2>&1 &"]))
 		
 	
 

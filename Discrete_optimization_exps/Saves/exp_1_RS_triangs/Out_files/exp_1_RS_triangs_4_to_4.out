@@ -1,0 +1,1610 @@
+
+-----
+Starting optimization with optimizer RS_100 in experiment exp_1_RS_triangs_RS_100_homology_b0pab1_Dim.4.deg.4_4_4_seed_0
+
+
+New homological profile found : 1 8 8 1
+
+
+New homological profile found : 1 12 12 1
+
+
+New homological profile found : 1 9 9 1
+
+
+New homological profile found : 3 10 10 3
+
+
+New homological profile found : 6 9 9 6
+
+
+New homological profile found : 1 11 11 1
+
+
+New homological profile found : 3 8 8 3
+
+
+New homological profile found : 2 11 11 2
+
+
+New homological profile found : 1 13 13 1
+
+
+New homological profile found : 1 7 7 1
+
+
+New homological profile found : 3 12 12 3
+
+
+New homological profile found : 1 10 10 1
+
+
+New homological profile found : 8 9 9 8
+
+
+New homological profile found : 2 9 9 2
+
+
+New homological profile found : 5 8 8 5
+
+
+New homological profile found : 1 5 5 1
+
+
+New homological profile found : 4 12 12 4
+
+
+New homological profile found : 1 6 6 1
+
+
+New homological profile found : 4 10 10 4
+
+
+New homological profile found : 4 8 8 4
+
+
+New homological profile found : 1 14 14 1
+
+
+New homological profile found : 1 15 15 1
+
+
+New homological profile found : 1 16 16 1
+
+
+New homological profile found : 3 9 9 3
+
+
+New homological profile found : 4 11 11 4
+
+
+New homological profile found : 4 9 9 4
+
+
+New homological profile found : 8 6 6 8
+
+
+New homological profile found : 2 12 12 2
+
+
+New homological profile found : 1 4 4 1
+
+New good score found : 8.9
+New good score found : 8.6
+New good score found : 6.9
+New good score found : 5.8
+New good score found : 5.2
+
+Iteration 0 for optimizer RS_100
+Current scores : [8.9 8.6 6.9 5.8 5.2]
+Mean score : 2.85, mean score among 20 best scores : 5.255000000000001
+The current all time best score is 8.9
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+New homological profile found : 3 11 11 3
+
+
+New homological profile found : 1 17 17 1
+
+
+New homological profile found : 7 7 7 7
+
+
+New homological profile found : 1 3 3 1
+
+
+New homological profile found : 2 10 10 2
+
+
+New homological profile found : 7 10 10 7
+
+
+New homological profile found : 7 8 8 7
+
+New good score found : 8.0
+New good score found : 7.8
+New good score found : 7.7
+
+New homological profile found : 3 6 6 3
+
+
+New homological profile found : 8 8 8 8
+
+
+New homological profile found : 2 6 6 2
+
+
+New homological profile found : 2 7 7 2
+
+
+New homological profile found : 5 9 9 5
+
+
+New homological profile found : 4 7 7 4
+
+
+New homological profile found : 7 6 6 7
+
+
+New homological profile found : 3 13 13 3
+
+
+New homological profile found : 6 10 10 6
+
+
+New homological profile found : 2 8 8 2
+
+
+New homological profile found : 5 7 7 5
+
+New good score found : 8.9
+New good score found : 8.8
+
+New homological profile found : 9 8 8 9
+
+
+New homological profile found : 3 7 7 3
+
+New good score found : 9.8
+
+New homological profile found : 5 11 11 5
+
+
+New homological profile found : 6 7 7 6
+
+
+New homological profile found : 7 9 9 7
+
+
+New homological profile found : 9 9 9 9
+
+
+New homological profile found : 5 10 10 5
+
+New good score found : 9.9
+New good score found : 9.9
+
+New homological profile found : 5 6 6 5
+
+
+New homological profile found : 2 5 5 2
+
+
+New homological profile found : 2 4 4 2
+
+
+New homological profile found : 9 10 10 9
+
+New good score found : 10.0
+
+New homological profile found : 4 13 13 4
+
+
+New homological profile found : 2 13 13 2
+
+
+New homological profile found : 6 6 6 6
+
+
+New homological profile found : 9 7 7 9
+
+
+New homological profile found : 8 7 7 8
+
+New good score found : 9.8
+
+Iteration 10 for optimizer RS_100
+Current scores : [9.8 9.7 8.7 7.9 7.8]
+Mean score : 3.0529999999999995, mean score among 20 best scores : 5.94
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+New homological profile found : 9 6 6 9
+
+
+New homological profile found : 8 10 10 8
+
+
+New homological profile found : 6 8 8 6
+
+
+New homological profile found : 3 14 14 3
+
+
+New homological profile found : 4 6 6 4
+
+New good score found : 9.9
+New good score found : 9.9
+
+Iteration 20 for optimizer RS_100
+Current scores : [7.8 7.8 6.8 6.8 6. ]
+Mean score : 2.9659999999999997, mean score among 20 best scores : 5.445
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+New good score found : 10.0
+New good score found : 10.0
+
+Iteration 30 for optimizer RS_100
+Current scores : [9.6 7.  6.9 5.7 5.7]
+Mean score : 2.6210000000000004, mean score among 20 best scores : 4.825000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.36e+02, duration of the scoring phase = 1.36e+02
+
+Iteration 40 for optimizer RS_100
+Current scores : [8.6 7.9 7.6 6.  5.9]
+Mean score : 2.687, mean score among 20 best scores : 4.995000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.33e+02, duration of the scoring phase = 1.33e+02
+New good score found : 10.0
+
+Iteration 50 for optimizer RS_100
+Current scores : [9.  8.9 8.9 8.8 7.9]
+Mean score : 2.822, mean score among 20 best scores : 5.869999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+
+Iteration 60 for optimizer RS_100
+Current scores : [9.9 8.8 8.6 7.9 7.8]
+Mean score : 2.931, mean score among 20 best scores : 5.870000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+New good score found : 10.0
+
+Iteration 70 for optimizer RS_100
+Current scores : [9.7 8.8 7.9 7.9 7.6]
+Mean score : 2.7780000000000005, mean score among 20 best scores : 5.675
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.36e+02, duration of the scoring phase = 1.36e+02
+
+Iteration 80 for optimizer RS_100
+Current scores : [9.9 7.7 6.7 6.  6. ]
+Mean score : 2.76, mean score among 20 best scores : 5.205000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.3e+02, duration of the scoring phase = 1.3e+02
+
+Iteration 90 for optimizer RS_100
+Current scores : [10.   8.9  7.9  6.8  6.7]
+Mean score : 2.6689999999999996, mean score among 20 best scores : 5.084999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.28e+02, duration of the scoring phase = 1.28e+02
+
+Iteration 100 for optimizer RS_100
+Current scores : [9.6 8.7 6.8 6.7 6.7]
+Mean score : 2.735, mean score among 20 best scores : 5.195
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.29e+02, duration of the scoring phase = 1.29e+02
+
+Iteration 110 for optimizer RS_100
+Current scores : [8.8 7.9 7.8 7.6 6.9]
+Mean score : 2.8420000000000005, mean score among 20 best scores : 5.609999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.33e+02, duration of the scoring phase = 1.33e+02
+
+Iteration 120 for optimizer RS_100
+Current scores : [9.9 8.7 7.6 6.1 5.1]
+Mean score : 2.7090000000000005, mean score among 20 best scores : 5.025
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.3e+02, duration of the scoring phase = 1.3e+02
+
+Iteration 130 for optimizer RS_100
+Current scores : [9.9 8.8 5.8 5.8 5.1]
+Mean score : 2.735, mean score among 20 best scores : 4.9750000000000005
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+
+Iteration 140 for optimizer RS_100
+Current scores : [8.9 5.  5.  5.  4.3]
+Mean score : 2.3980000000000006, mean score among 20 best scores : 4.154999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.33e+02, duration of the scoring phase = 1.33e+02
+
+Iteration 150 for optimizer RS_100
+Current scores : [9.  6.9 6.7 6.6 5.2]
+Mean score : 2.713, mean score among 20 best scores : 5.075000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+Iteration 160 for optimizer RS_100
+Current scores : [9.7 6.8 6.7 6.7 6. ]
+Mean score : 2.6929999999999996, mean score among 20 best scores : 5.17
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+Iteration 170 for optimizer RS_100
+Current scores : [9.8 6.7 6.7 5.1 4.9]
+Mean score : 2.509, mean score among 20 best scores : 4.505000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.36e+02, duration of the scoring phase = 1.36e+02
+
+Iteration 180 for optimizer RS_100
+Current scores : [8.  7.6 5.8 5.2 5.2]
+Mean score : 2.6490000000000005, mean score among 20 best scores : 4.755000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.3e+02, duration of the scoring phase = 1.3e+02
+
+Iteration 190 for optimizer RS_100
+Current scores : [6.9 6.1 6.1 5.9 5.9]
+Mean score : 2.7170000000000005, mean score among 20 best scores : 4.78
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.33e+02, duration of the scoring phase = 1.33e+02
+
+Iteration 200 for optimizer RS_100
+Current scores : [9.7 5.8 5.  4.8 4.7]
+Mean score : 2.563, mean score among 20 best scores : 4.430000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+Iteration 210 for optimizer RS_100
+Current scores : [9.6 9.6 8.9 8.  7.9]
+Mean score : 2.9019999999999997, mean score among 20 best scores : 5.994999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+
+Iteration 220 for optimizer RS_100
+Current scores : [7.9 7.7 5.9 5.9 5.1]
+Mean score : 2.501, mean score among 20 best scores : 4.4350000000000005
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.33e+02, duration of the scoring phase = 1.33e+02
+
+Iteration 230 for optimizer RS_100
+Current scores : [9.6 8.7 8.  7.9 6.7]
+Mean score : 2.6860000000000004, mean score among 20 best scores : 5.195
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+Iteration 240 for optimizer RS_100
+Current scores : [9.7 8.  6.9 6.9 6.8]
+Mean score : 2.7680000000000007, mean score among 20 best scores : 5.255000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.33e+02, duration of the scoring phase = 1.33e+02
+
+Iteration 250 for optimizer RS_100
+Current scores : [9.8 8.6 8.  7.8 6.9]
+Mean score : 2.9320000000000004, mean score among 20 best scores : 5.875
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.29e+02, duration of the scoring phase = 1.29e+02
+
+Iteration 260 for optimizer RS_100
+Current scores : [9.9 9.  7.9 6.7 5.6]
+Mean score : 2.6040000000000005, mean score among 20 best scores : 4.995
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.37e+02, duration of the scoring phase = 1.37e+02
+
+Iteration 270 for optimizer RS_100
+Current scores : [9.9 6.8 6.7 5.8 5.7]
+Mean score : 2.7289999999999996, mean score among 20 best scores : 4.995
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.36e+02, duration of the scoring phase = 1.36e+02
+Maximal running time reached for RS_100
+End of the run for optimizer RS_100
+CPU time passed: 36078.4, wall time passed: 36318.9
+Best score found : 10.0 
+
+
+-----
+Starting optimization with optimizer RS_100 in experiment exp_1_RS_triangs_RS_100_homology_b0pab1_Dim.4.deg.4_4_4_seed_1
+
+
+New homological profile found : 1 7 7 1
+
+
+New homological profile found : 3 12 12 3
+
+
+New homological profile found : 4 8 8 4
+
+
+New homological profile found : 1 9 9 1
+
+
+New homological profile found : 1 6 6 1
+
+
+New homological profile found : 1 8 8 1
+
+
+New homological profile found : 7 7 7 7
+
+
+New homological profile found : 1 13 13 1
+
+
+New homological profile found : 2 6 6 2
+
+
+New homological profile found : 3 9 9 3
+
+
+New homological profile found : 2 11 11 2
+
+
+New homological profile found : 1 5 5 1
+
+
+New homological profile found : 1 12 12 1
+
+
+New homological profile found : 2 13 13 2
+
+
+New homological profile found : 1 11 11 1
+
+
+New homological profile found : 1 17 17 1
+
+
+New homological profile found : 2 12 12 2
+
+
+New homological profile found : 1 14 14 1
+
+
+New homological profile found : 1 16 16 1
+
+
+New homological profile found : 4 9 9 4
+
+
+New homological profile found : 1 15 15 1
+
+
+New homological profile found : 1 10 10 1
+
+
+New homological profile found : 3 11 11 3
+
+
+New homological profile found : 3 10 10 3
+
+
+New homological profile found : 7 8 8 7
+
+
+New homological profile found : 3 8 8 3
+
+
+New homological profile found : 2 10 10 2
+
+
+New homological profile found : 1 3 3 1
+
+
+New homological profile found : 2 7 7 2
+
+
+New homological profile found : 3 13 13 3
+
+New good score found : 7.8
+New good score found : 7.7
+New good score found : 4.9
+New good score found : 4.8
+New good score found : 4.3
+
+Iteration 0 for optimizer RS_100
+Current scores : [7.8 7.7 4.9 4.8 4.3]
+Mean score : 2.494, mean score among 20 best scores : 4.33
+The current all time best score is 7.8
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+New homological profile found : 8 9 9 8
+
+
+New homological profile found : 2 9 9 2
+
+
+New homological profile found : 4 10 10 4
+
+
+New homological profile found : 6 8 8 6
+
+
+New homological profile found : 6 10 10 6
+
+
+New homological profile found : 8 7 7 8
+
+
+New homological profile found : 3 7 7 3
+
+
+New homological profile found : 2 4 4 2
+
+
+New homological profile found : 1 4 4 1
+
+New good score found : 8.9
+New good score found : 8.9
+New good score found : 8.7
+
+New homological profile found : 4 11 11 4
+
+
+New homological profile found : 6 7 7 6
+
+
+New homological profile found : 5 7 7 5
+
+
+New homological profile found : 9 10 10 9
+
+
+New homological profile found : 6 9 9 6
+
+
+New homological profile found : 6 6 6 6
+
+
+New homological profile found : 4 12 12 4
+
+
+New homological profile found : 2 8 8 2
+
+New good score found : 10.0
+
+New homological profile found : 5 6 6 5
+
+
+New homological profile found : 7 10 10 7
+
+
+New homological profile found : 4 6 6 4
+
+
+New homological profile found : 5 8 8 5
+
+
+New homological profile found : 5 9 9 5
+
+New good score found : 8.0
+
+New homological profile found : 4 7 7 4
+
+
+New homological profile found : 8 10 10 8
+
+
+New homological profile found : 7 6 6 7
+
+
+New homological profile found : 9 9 9 9
+
+
+New homological profile found : 5 11 11 5
+
+New good score found : 9.9
+New good score found : 9.0
+
+New homological profile found : 9 8 8 9
+
+
+New homological profile found : 5 10 10 5
+
+
+New homological profile found : 9 7 7 9
+
+New good score found : 9.8
+New good score found : 9.8
+New good score found : 9.7
+
+New homological profile found : 4 13 13 4
+
+
+New homological profile found : 7 9 9 7
+
+
+New homological profile found : 2 5 5 2
+
+
+New homological profile found : 3 6 6 3
+
+
+New homological profile found : 8 6 6 8
+
+
+Iteration 10 for optimizer RS_100
+Current scores : [9.  8.6 6.9 6.8 5.2]
+Mean score : 2.9659999999999997, mean score among 20 best scores : 5.470000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.29e+02, duration of the scoring phase = 1.29e+02
+
+New homological profile found : 3 14 14 3
+
+New good score found : 9.8
+New good score found : 9.9
+New good score found : 9.9
+New good score found : 9.9
+
+New homological profile found : 8 8 8 8
+
+New good score found : 10.0
+
+Iteration 20 for optimizer RS_100
+Current scores : [9.8 7.8 7.7 6.7 6.1]
+Mean score : 2.686000000000001, mean score among 20 best scores : 5.18
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.4e+02, duration of the scoring phase = 1.4e+02
+New good score found : 10.0
+
+New homological profile found : 9 6 6 9
+
+
+Iteration 30 for optimizer RS_100
+Current scores : [8.  7.6 6.8 5.6 5.2]
+Mean score : 2.6990000000000003, mean score among 20 best scores : 4.859999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.33e+02, duration of the scoring phase = 1.33e+02
+New good score found : 10.0
+
+Iteration 40 for optimizer RS_100
+Current scores : [7.9 6.9 6.9 6.8 5.9]
+Mean score : 2.5660000000000003, mean score among 20 best scores : 4.639999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.35e+02, duration of the scoring phase = 1.35e+02
+
+Iteration 50 for optimizer RS_100
+Current scores : [8.9 8.  7.9 7.7 6.1]
+Mean score : 2.7069999999999994, mean score among 20 best scores : 5.19
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+New good score found : 10.0
+
+Iteration 60 for optimizer RS_100
+Current scores : [8.8 7.  6.9 6.8 6.6]
+Mean score : 2.8970000000000002, mean score among 20 best scores : 5.459999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+Iteration 70 for optimizer RS_100
+Current scores : [9.8 9.7 7.9 7.6 5.8]
+Mean score : 2.830000000000001, mean score among 20 best scores : 5.44
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.28e+02, duration of the scoring phase = 1.28e+02
+
+Iteration 80 for optimizer RS_100
+Current scores : [7.7 7.  6.8 6.7 5.9]
+Mean score : 2.661, mean score among 20 best scores : 4.835000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+
+Iteration 90 for optimizer RS_100
+Current scores : [9.9 7.9 7.7 6.8 5.9]
+Mean score : 2.64, mean score among 20 best scores : 4.845
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.29e+02, duration of the scoring phase = 1.29e+02
+
+Iteration 100 for optimizer RS_100
+Current scores : [9.8 8.9 7.7 7.7 7.7]
+Mean score : 2.897, mean score among 20 best scores : 5.819999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+Iteration 110 for optimizer RS_100
+Current scores : [8.8 8.  7.8 7.  6.9]
+Mean score : 2.713, mean score among 20 best scores : 5.200000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.29e+02, duration of the scoring phase = 1.29e+02
+
+Iteration 120 for optimizer RS_100
+Current scores : [8.  7.8 6.9 6.9 6. ]
+Mean score : 2.6370000000000005, mean score among 20 best scores : 4.950000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+
+Iteration 130 for optimizer RS_100
+Current scores : [9.8 9.8 8.9 8.9 8.7]
+Mean score : 2.9529999999999994, mean score among 20 best scores : 6.17
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.29e+02, duration of the scoring phase = 1.29e+02
+
+Iteration 140 for optimizer RS_100
+Current scores : [9.  8.7 7.  5.8 5.8]
+Mean score : 2.594, mean score among 20 best scores : 4.9
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.36e+02, duration of the scoring phase = 1.36e+02
+
+Iteration 150 for optimizer RS_100
+Current scores : [9.7 9.7 6.1 6.  5.8]
+Mean score : 2.481, mean score among 20 best scores : 4.51
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.37e+02, duration of the scoring phase = 1.37e+02
+
+Iteration 160 for optimizer RS_100
+Current scores : [10.   9.   8.9  7.8  7.8]
+Mean score : 2.7920000000000003, mean score among 20 best scores : 5.675
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+
+Iteration 170 for optimizer RS_100
+Current scores : [9.8 9.7 9.7 8.  7. ]
+Mean score : 2.7000000000000006, mean score among 20 best scores : 5.39
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.35e+02, duration of the scoring phase = 1.35e+02
+
+Iteration 180 for optimizer RS_100
+Current scores : [9.9 8.7 7.8 6.7 5.1]
+Mean score : 2.7680000000000002, mean score among 20 best scores : 5.159999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+
+Iteration 190 for optimizer RS_100
+Current scores : [8.8 7.6 5.8 5.8 5.6]
+Mean score : 2.89, mean score among 20 best scores : 5.185
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.28e+02, duration of the scoring phase = 1.28e+02
+
+Iteration 200 for optimizer RS_100
+Current scores : [9.8 9.7 7.9 7.8 7. ]
+Mean score : 2.7869999999999995, mean score among 20 best scores : 5.5550000000000015
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+Iteration 210 for optimizer RS_100
+Current scores : [9.8 6.8 5.2 5.2 5. ]
+Mean score : 2.5789999999999997, mean score among 20 best scores : 4.529999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+
+Iteration 220 for optimizer RS_100
+Current scores : [9.9 8.6 7.8 7.  6.9]
+Mean score : 2.796, mean score among 20 best scores : 5.5200000000000005
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+Iteration 230 for optimizer RS_100
+Current scores : [9.9 9.9 9.7 8.  6.9]
+Mean score : 2.9979999999999993, mean score among 20 best scores : 5.979999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.29e+02, duration of the scoring phase = 1.29e+02
+
+Iteration 240 for optimizer RS_100
+Current scores : [9.  9.  7.7 6.8 5.1]
+Mean score : 2.577, mean score among 20 best scores : 4.78
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.35e+02, duration of the scoring phase = 1.35e+02
+
+Iteration 250 for optimizer RS_100
+Current scores : [9.8 7.8 6.  6.  5.9]
+Mean score : 2.734, mean score among 20 best scores : 5.295
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+Iteration 260 for optimizer RS_100
+Current scores : [9.9 9.7 9.7 8.9 8.9]
+Mean score : 3.2270000000000003, mean score among 20 best scores : 6.75
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.29e+02, duration of the scoring phase = 1.29e+02
+
+Iteration 270 for optimizer RS_100
+Current scores : [10.   9.7  7.9  7.9  7.7]
+Mean score : 2.6009999999999995, mean score among 20 best scores : 5.109999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+Maximal running time reached for RS_100
+End of the run for optimizer RS_100
+CPU time passed: 36084.6, wall time passed: 36329.2
+Best score found : 10.0 
+
+
+-----
+Starting optimization with optimizer RS_100 in experiment exp_1_RS_triangs_RS_100_homology_b0pab1_Dim.4.deg.4_4_4_seed_2
+
+
+New homological profile found : 1 8 8 1
+
+
+New homological profile found : 1 13 13 1
+
+
+New homological profile found : 1 10 10 1
+
+
+New homological profile found : 1 11 11 1
+
+
+New homological profile found : 4 9 9 4
+
+
+New homological profile found : 1 4 4 1
+
+
+New homological profile found : 1 12 12 1
+
+
+New homological profile found : 1 7 7 1
+
+
+New homological profile found : 1 9 9 1
+
+
+New homological profile found : 2 9 9 2
+
+
+New homological profile found : 3 11 11 3
+
+
+New homological profile found : 1 16 16 1
+
+
+New homological profile found : 3 9 9 3
+
+
+New homological profile found : 7 8 8 7
+
+
+New homological profile found : 1 14 14 1
+
+
+New homological profile found : 1 6 6 1
+
+
+New homological profile found : 2 7 7 2
+
+
+New homological profile found : 1 15 15 1
+
+
+New homological profile found : 5 8 8 5
+
+
+New homological profile found : 3 12 12 3
+
+
+New homological profile found : 2 6 6 2
+
+
+New homological profile found : 2 10 10 2
+
+
+New homological profile found : 1 5 5 1
+
+
+New homological profile found : 6 10 10 6
+
+
+New homological profile found : 2 12 12 2
+
+
+New homological profile found : 5 7 7 5
+
+
+New homological profile found : 4 8 8 4
+
+
+New homological profile found : 2 8 8 2
+
+
+New homological profile found : 3 10 10 3
+
+
+New homological profile found : 4 12 12 4
+
+
+New homological profile found : 9 6 6 9
+
+New good score found : 9.6
+New good score found : 7.8
+New good score found : 7.0
+New good score found : 5.8
+New good score found : 5.7
+
+Iteration 0 for optimizer RS_100
+Current scores : [9.6 7.8 7.  5.8 5.7]
+Mean score : 2.7069999999999994, mean score among 20 best scores : 5.015000000000001
+The current all time best score is 9.6
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+
+New homological profile found : 9 10 10 9
+
+
+New homological profile found : 4 11 11 4
+
+
+New homological profile found : 6 8 8 6
+
+
+New homological profile found : 3 13 13 3
+
+
+New homological profile found : 2 11 11 2
+
+
+New homological profile found : 8 9 9 8
+
+
+New homological profile found : 9 8 8 9
+
+
+New homological profile found : 1 17 17 1
+
+
+New homological profile found : 4 10 10 4
+
+
+New homological profile found : 4 7 7 4
+
+
+New homological profile found : 7 7 7 7
+
+
+New homological profile found : 3 6 6 3
+
+New good score found : 10.0
+New good score found : 9.8
+New good score found : 8.9
+
+New homological profile found : 2 13 13 2
+
+
+New homological profile found : 8 8 8 8
+
+
+New homological profile found : 5 9 9 5
+
+
+New homological profile found : 7 9 9 7
+
+New good score found : 8.8
+
+New homological profile found : 6 9 9 6
+
+
+New homological profile found : 7 10 10 7
+
+
+New homological profile found : 3 8 8 3
+
+
+New homological profile found : 2 4 4 2
+
+
+New homological profile found : 6 7 7 6
+
+New good score found : 10.0
+New good score found : 9.8
+
+New homological profile found : 3 7 7 3
+
+
+New homological profile found : 9 7 7 9
+
+
+New homological profile found : 9 9 9 9
+
+
+New homological profile found : 4 6 6 4
+
+New good score found : 9.9
+
+New homological profile found : 2 5 5 2
+
+
+New homological profile found : 5 10 10 5
+
+
+New homological profile found : 1 3 3 1
+
+
+New homological profile found : 6 6 6 6
+
+
+New homological profile found : 8 7 7 8
+
+
+New homological profile found : 8 6 6 8
+
+
+New homological profile found : 5 6 6 5
+
+
+New homological profile found : 7 6 6 7
+
+New good score found : 10.0
+New good score found : 10.0
+
+Iteration 10 for optimizer RS_100
+Current scores : [7.9 6.7 5.2 5.1 5. ]
+Mean score : 2.582, mean score among 20 best scores : 4.48
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.36e+02, duration of the scoring phase = 1.36e+02
+
+New homological profile found : 3 14 14 3
+
+
+New homological profile found : 4 13 13 4
+
+
+New homological profile found : 8 10 10 8
+
+
+Iteration 20 for optimizer RS_100
+Current scores : [8.6 6.7 6.  5.1 5. ]
+Mean score : 2.467, mean score among 20 best scores : 4.265000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.35e+02, duration of the scoring phase = 1.35e+02
+New good score found : 10.0
+
+New homological profile found : 5 11 11 5
+
+
+Iteration 30 for optimizer RS_100
+Current scores : [9.9 8.8 8.  7.7 6.7]
+Mean score : 2.923, mean score among 20 best scores : 5.679999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.3e+02, duration of the scoring phase = 1.3e+02
+
+Iteration 40 for optimizer RS_100
+Current scores : [9.7 9.  8.7 7.7 7.7]
+Mean score : 3.0399999999999996, mean score among 20 best scores : 5.9399999999999995
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+
+Iteration 50 for optimizer RS_100
+Current scores : [10.   9.8  9.8  8.9  8.7]
+Mean score : 2.908, mean score among 20 best scores : 5.815
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.3e+02, duration of the scoring phase = 1.3e+02
+
+Iteration 60 for optimizer RS_100
+Current scores : [9.9 6.9 5.1 5.1 5.1]
+Mean score : 2.6690000000000005, mean score among 20 best scores : 4.685
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+
+Iteration 70 for optimizer RS_100
+Current scores : [9.9 7.9 7.7 7.7 7. ]
+Mean score : 2.6819999999999995, mean score among 20 best scores : 5.25
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.3e+02, duration of the scoring phase = 1.3e+02
+
+Iteration 80 for optimizer RS_100
+Current scores : [8.9 6.9 6.9 6.6 6. ]
+Mean score : 2.6310000000000002, mean score among 20 best scores : 5.040000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+Iteration 90 for optimizer RS_100
+Current scores : [9.9 9.  7.9 6.7 5.8]
+Mean score : 2.592, mean score among 20 best scores : 4.924999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+Iteration 100 for optimizer RS_100
+Current scores : [7.7 7.  6.6 5.9 5. ]
+Mean score : 2.569, mean score among 20 best scores : 4.659999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+
+Iteration 110 for optimizer RS_100
+Current scores : [10.   8.7  8.   8.   5.9]
+Mean score : 2.6719999999999993, mean score among 20 best scores : 5.140000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+
+Iteration 120 for optimizer RS_100
+Current scores : [9.  7.8 6.  5.3 5.1]
+Mean score : 2.7870000000000004, mean score among 20 best scores : 5.004999999999998
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.3e+02, duration of the scoring phase = 1.3e+02
+
+Iteration 130 for optimizer RS_100
+Current scores : [9.7 9.  7.8 6.9 6.8]
+Mean score : 2.806, mean score among 20 best scores : 5.465000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+
+Iteration 140 for optimizer RS_100
+Current scores : [10.   8.7  8.   7.9  6. ]
+Mean score : 2.7190000000000007, mean score among 20 best scores : 5.295
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.33e+02, duration of the scoring phase = 1.33e+02
+
+Iteration 150 for optimizer RS_100
+Current scores : [9.6 9.6 8.6 6.9 6. ]
+Mean score : 2.667, mean score among 20 best scores : 5.1
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.33e+02, duration of the scoring phase = 1.33e+02
+
+Iteration 160 for optimizer RS_100
+Current scores : [8.9 7.8 7.8 6.  6. ]
+Mean score : 2.6310000000000002, mean score among 20 best scores : 5.1450000000000005
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+Iteration 170 for optimizer RS_100
+Current scores : [9.8 9.6 7.6 6.  5.7]
+Mean score : 2.7940000000000005, mean score among 20 best scores : 5.175
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+Iteration 180 for optimizer RS_100
+Current scores : [8.7 7.9 7.9 7.8 7.8]
+Mean score : 2.944, mean score among 20 best scores : 5.559999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.3e+02, duration of the scoring phase = 1.3e+02
+
+Iteration 190 for optimizer RS_100
+Current scores : [9.8 7.9 5.8 5.7 5.7]
+Mean score : 2.785, mean score among 20 best scores : 5.115
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.3e+02, duration of the scoring phase = 1.3e+02
+
+Iteration 200 for optimizer RS_100
+Current scores : [9.7 7.8 7.7 6.9 6. ]
+Mean score : 2.6400000000000006, mean score among 20 best scores : 4.89
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+Iteration 210 for optimizer RS_100
+Current scores : [9.6 9.6 7.8 7.6 7. ]
+Mean score : 2.755, mean score among 20 best scores : 5.42
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+
+Iteration 220 for optimizer RS_100
+Current scores : [9.6 9.  8.6 7.9 7.8]
+Mean score : 2.934, mean score among 20 best scores : 6.159999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+Iteration 230 for optimizer RS_100
+Current scores : [7.8 7.8 7.7 7.6 6.1]
+Mean score : 2.633, mean score among 20 best scores : 5.234999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.33e+02, duration of the scoring phase = 1.33e+02
+
+Iteration 240 for optimizer RS_100
+Current scores : [9.9 8.9 7.9 7.9 7.9]
+Mean score : 2.888, mean score among 20 best scores : 5.6899999999999995
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.3e+02, duration of the scoring phase = 1.3e+02
+
+Iteration 250 for optimizer RS_100
+Current scores : [9.8 8.7 7.9 6.8 5.7]
+Mean score : 2.8009999999999997, mean score among 20 best scores : 5.345
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.33e+02, duration of the scoring phase = 1.33e+02
+
+Iteration 260 for optimizer RS_100
+Current scores : [7.7 6.9 6.  5.9 5.8]
+Mean score : 2.7300000000000004, mean score among 20 best scores : 4.8900000000000015
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.3e+02, duration of the scoring phase = 1.3e+02
+
+Iteration 270 for optimizer RS_100
+Current scores : [9.7 6.8 6.8 6.8 5. ]
+Mean score : 2.6899999999999995, mean score among 20 best scores : 4.865000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.3e+02, duration of the scoring phase = 1.3e+02
+Maximal running time reached for RS_100
+End of the run for optimizer RS_100
+CPU time passed: 36131.8, wall time passed: 36372.9
+Best score found : 10.0 
+
+
+-----
+Starting optimization with optimizer RS_100 in experiment exp_1_RS_triangs_RS_100_homology_b0pab1_Dim.4.deg.4_4_4_seed_3
+
+
+New homological profile found : 1 10 10 1
+
+
+New homological profile found : 6 7 7 6
+
+
+New homological profile found : 1 13 13 1
+
+
+New homological profile found : 1 8 8 1
+
+
+New homological profile found : 1 15 15 1
+
+
+New homological profile found : 1 6 6 1
+
+
+New homological profile found : 1 9 9 1
+
+
+New homological profile found : 3 7 7 3
+
+
+New homological profile found : 1 4 4 1
+
+
+New homological profile found : 4 7 7 4
+
+
+New homological profile found : 1 11 11 1
+
+
+New homological profile found : 3 9 9 3
+
+
+New homological profile found : 4 11 11 4
+
+
+New homological profile found : 1 12 12 1
+
+
+New homological profile found : 4 9 9 4
+
+
+New homological profile found : 1 7 7 1
+
+
+New homological profile found : 4 10 10 4
+
+
+New homological profile found : 2 12 12 2
+
+
+New homological profile found : 5 6 6 5
+
+
+New homological profile found : 2 13 13 2
+
+
+New homological profile found : 1 5 5 1
+
+
+New homological profile found : 2 6 6 2
+
+
+New homological profile found : 3 8 8 3
+
+
+New homological profile found : 1 17 17 1
+
+
+New homological profile found : 2 11 11 2
+
+
+New homological profile found : 1 14 14 1
+
+
+New homological profile found : 3 12 12 3
+
+
+New homological profile found : 3 11 11 3
+
+
+New homological profile found : 2 10 10 2
+
+
+New homological profile found : 3 6 6 3
+
+New good score found : 6.7
+New good score found : 6.7
+New good score found : 5.6
+New good score found : 5.1
+New good score found : 5.0
+
+Iteration 0 for optimizer RS_100
+Current scores : [6.7 6.7 5.6 5.1 5. ]
+Mean score : 2.491, mean score among 20 best scores : 4.505
+The current all time best score is 6.7
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+New homological profile found : 3 13 13 3
+
+
+New homological profile found : 5 8 8 5
+
+
+New homological profile found : 2 4 4 2
+
+
+New homological profile found : 3 10 10 3
+
+
+New homological profile found : 6 6 6 6
+
+
+New homological profile found : 1 16 16 1
+
+
+New homological profile found : 2 9 9 2
+
+
+New homological profile found : 4 12 12 4
+
+
+New homological profile found : 7 7 7 7
+
+
+New homological profile found : 4 8 8 4
+
+New good score found : 7.7
+New good score found : 6.7
+New good score found : 6.7
+
+New homological profile found : 7 8 8 7
+
+
+New homological profile found : 6 8 8 6
+
+
+New homological profile found : 8 10 10 8
+
+
+New homological profile found : 2 5 5 2
+
+
+New homological profile found : 5 9 9 5
+
+
+New homological profile found : 2 7 7 2
+
+New good score found : 9.0
+New good score found : 7.8
+New good score found : 6.8
+
+New homological profile found : 2 8 8 2
+
+
+New homological profile found : 9 7 7 9
+
+
+New homological profile found : 6 9 9 6
+
+
+New homological profile found : 7 9 9 7
+
+
+New homological profile found : 7 10 10 7
+
+New good score found : 9.7
+New good score found : 8.0
+New good score found : 7.9
+
+New homological profile found : 8 7 7 8
+
+
+New homological profile found : 5 7 7 5
+
+New good score found : 8.7
+
+New homological profile found : 1 3 3 1
+
+
+New homological profile found : 6 10 10 6
+
+
+New homological profile found : 9 9 9 9
+
+New good score found : 9.9
+
+New homological profile found : 5 11 11 5
+
+
+New homological profile found : 8 9 9 8
+
+New good score found : 8.9
+
+New homological profile found : 5 10 10 5
+
+
+New homological profile found : 9 8 8 9
+
+New good score found : 9.9
+New good score found : 9.9
+New good score found : 9.8
+
+New homological profile found : 7 6 6 7
+
+
+New homological profile found : 3 14 14 3
+
+
+New homological profile found : 4 6 6 4
+
+New good score found : 9.8
+
+Iteration 10 for optimizer RS_100
+Current scores : [9.8 9.  7.8 7.8 7. ]
+Mean score : 2.9370000000000003, mean score among 20 best scores : 5.584999999999999
+The current all time best score is 9.9
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+New homological profile found : 9 6 6 9
+
+
+New homological profile found : 9 10 10 9
+
+New good score found : 10.0
+
+New homological profile found : 8 6 6 8
+
+
+New homological profile found : 4 13 13 4
+
+
+New homological profile found : 8 8 8 8
+
+
+Iteration 20 for optimizer RS_100
+Current scores : [8.  7.9 7.6 6.6 6. ]
+Mean score : 2.6689999999999996, mean score among 20 best scores : 5.025
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.33e+02, duration of the scoring phase = 1.33e+02
+New good score found : 9.9
+New good score found : 10.0
+New good score found : 10.0
+
+Iteration 30 for optimizer RS_100
+Current scores : [9.9 9.8 8.7 6.1 5. ]
+Mean score : 2.712000000000001, mean score among 20 best scores : 5.025
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+New good score found : 10.0
+New good score found : 10.0
+
+Iteration 40 for optimizer RS_100
+Current scores : [7.9 7.8 7.7 6.7 5.2]
+Mean score : 2.639, mean score among 20 best scores : 4.880000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.35e+02, duration of the scoring phase = 1.35e+02
+
+Iteration 50 for optimizer RS_100
+Current scores : [9.6 7.7 6.  5.2 5.2]
+Mean score : 2.7550000000000012, mean score among 20 best scores : 4.975
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.3e+02, duration of the scoring phase = 1.3e+02
+
+Iteration 60 for optimizer RS_100
+Current scores : [9.7 9.7 8.9 7.8 7.7]
+Mean score : 2.9379999999999997, mean score among 20 best scores : 5.945
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.29e+02, duration of the scoring phase = 1.29e+02
+
+Iteration 70 for optimizer RS_100
+Current scores : [7.8 6.9 6.8 5.8 5.8]
+Mean score : 2.508, mean score among 20 best scores : 4.545
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+Iteration 80 for optimizer RS_100
+Current scores : [7.9 7.9 7.  6.7 6. ]
+Mean score : 2.767, mean score among 20 best scores : 5.159999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.32e+02, duration of the scoring phase = 1.32e+02
+
+Iteration 90 for optimizer RS_100
+Current scores : [9.7 9.  7.9 7.8 7.8]
+Mean score : 2.8280000000000007, mean score among 20 best scores : 5.765
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+Iteration 100 for optimizer RS_100
+Current scores : [9.7 7.9 7.6 6.9 6.9]
+Mean score : 2.799, mean score among 20 best scores : 5.654999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+Iteration 110 for optimizer RS_100
+Current scores : [10.   6.8  6.8  6.   5.7]
+Mean score : 2.552, mean score among 20 best scores : 4.54
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+Iteration 120 for optimizer RS_100
+Current scores : [6.8 6.7 6.6 5.9 5.1]
+Mean score : 2.513, mean score among 20 best scores : 4.43
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+Iteration 130 for optimizer RS_100
+Current scores : [9.6 8.9 7.8 7.  6.6]
+Mean score : 2.846, mean score among 20 best scores : 5.42
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.3e+02, duration of the scoring phase = 1.3e+02
+
+Iteration 140 for optimizer RS_100
+Current scores : [8.9 8.7 7.8 7.7 6.9]
+Mean score : 2.7880000000000007, mean score among 20 best scores : 5.545
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+Iteration 150 for optimizer RS_100
+Current scores : [8.9 8.  7.  6.9 6.9]
+Mean score : 2.763, mean score among 20 best scores : 5.495
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.33e+02, duration of the scoring phase = 1.33e+02
+
+Iteration 160 for optimizer RS_100
+Current scores : [5.1 5.  4.8 4.8 4.8]
+Mean score : 2.398, mean score among 20 best scores : 3.8200000000000003
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+Iteration 170 for optimizer RS_100
+Current scores : [8.9 8.  7.6 7.  6.9]
+Mean score : 2.7859999999999996, mean score among 20 best scores : 5.365
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+Iteration 180 for optimizer RS_100
+Current scores : [6.8 6.7 6.7 6.1 5. ]
+Mean score : 2.4410000000000003, mean score among 20 best scores : 4.114999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.33e+02, duration of the scoring phase = 1.33e+02
+
+Iteration 190 for optimizer RS_100
+Current scores : [6.7 6.  5.  4.9 4.9]
+Mean score : 2.595, mean score among 20 best scores : 4.484999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.35e+02, duration of the scoring phase = 1.35e+02
+
+Iteration 200 for optimizer RS_100
+Current scores : [9.7 8.9 8.9 8.7 7.9]
+Mean score : 2.7579999999999996, mean score among 20 best scores : 5.665
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+Iteration 210 for optimizer RS_100
+Current scores : [9.9 8.7 7.9 7.9 5.8]
+Mean score : 2.8950000000000005, mean score among 20 best scores : 5.499999999999999
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.31e+02, duration of the scoring phase = 1.31e+02
+
+Iteration 220 for optimizer RS_100
+Current scores : [8.8 8.8 8.8 7.  5.9]
+Mean score : 2.745, mean score among 20 best scores : 5.255000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.29e+02, duration of the scoring phase = 1.29e+02
+
+Iteration 230 for optimizer RS_100
+Current scores : [8.9 8.  6.7 6.6 5.2]
+Mean score : 2.6689999999999996, mean score among 20 best scores : 4.985000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+Iteration 240 for optimizer RS_100
+Current scores : [8.8 7.8 6.9 6.9 6.6]
+Mean score : 2.7909999999999995, mean score among 20 best scores : 5.375
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+Iteration 250 for optimizer RS_100
+Current scores : [9.8 7.9 7.7 7.  6.1]
+Mean score : 2.865, mean score among 20 best scores : 5.51
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.29e+02, duration of the scoring phase = 1.29e+02
+
+Iteration 260 for optimizer RS_100
+Current scores : [7.9 6.9 6.  6.  5.1]
+Mean score : 2.6020000000000003, mean score among 20 best scores : 4.845000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.34e+02, duration of the scoring phase = 1.34e+02
+
+Iteration 270 for optimizer RS_100
+Current scores : [10.   9.7  8.9  8.   6.7]
+Mean score : 2.7539999999999996, mean score among 20 best scores : 5.595000000000001
+The current all time best score is 10.0
+Duration of the RS_100 iteration = 1.33e+02, duration of the scoring phase = 1.33e+02
+Maximal running time reached for RS_100
+End of the run for optimizer RS_100
+CPU time passed: 36052.3, wall time passed: 36291.3
+Best score found : 10.0 
+

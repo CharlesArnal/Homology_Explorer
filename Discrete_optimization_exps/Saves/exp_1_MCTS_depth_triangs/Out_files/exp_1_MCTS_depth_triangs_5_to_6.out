@@ -1,0 +1,1408 @@
+
+-----
+Starting optimization with optimizer MCTS_3_10 in experiment exp_1_MCTS_depth_triangs_MCTS_3_10_homology_b0pab1_Dim.3.deg.6_3_6_seed_0
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 5 66 5
+
+New good score found : 12.4
+New good score found : 11.600000000000001
+New good score found : 11.600000000000001
+New good score found : 11.2
+New good score found : 10.4
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 6 68 6
+
+New good score found : 12.8
+
+New homological profile found : 7 64 7
+
+
+New homological profile found : 6 62 6
+
+New good score found : 13.4
+New good score found : 12.2
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 3 70 3
+
+New good score found : 11.8
+
+New homological profile found : 2 68 2
+
+New good score found : 12.8
+New good score found : 12.4
+New good score found : 12.8
+New good score found : 12.8
+
+MCTS sub-iteration : 26, best score of sub-iteration : 12.8, number of solutions evaluated : 80
+Current sequence : [1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1]
+
+New homological profile found : 6 70 6
+
+New good score found : 13.0
+
+New homological profile found : 6 76 6
+
+New good score found : 13.600000000000001
+New good score found : 13.0
+New good score found : 13.4
+
+New homological profile found : 8 66 8
+
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+New good score found : 14.600000000000001
+New good score found : 13.600000000000001
+New good score found : 13.600000000000001
+New good score found : 14.8
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.600000000000001, number of solutions evaluated : 80
+Current sequence : [1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.8, number of solutions evaluated : 8
+Current sequence : [1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+
+Iteration 0 for optimizer MCTS_3_10
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 14.8, mean score among 20 best scores : 14.8
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.22e+03, duration of the scoring phase = 1.22e+03
+
+New homological profile found : 7 70 7
+
+
+MCTS sub-iteration : 26, best score of sub-iteration : 12.2, number of solutions evaluated : 80
+Current sequence : [1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.0, number of solutions evaluated : 80
+Current sequence : [1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.0, number of solutions evaluated : 8
+Current sequence : [1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0]
+
+Iteration 1 for optimizer MCTS_3_10
+Current scores : [14. 14. 14. 14. 14.]
+Mean score : 14.0, mean score among 20 best scores : 14.0
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.23e+03, duration of the scoring phase = 1.23e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 12.8, number of solutions evaluated : 80
+Current sequence : [0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 13.600000000000001, number of solutions evaluated : 80
+Current sequence : [0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 13.600000000000001, number of solutions evaluated : 8
+Current sequence : [0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+
+Iteration 2 for optimizer MCTS_3_10
+Current scores : [13.6 13.6 13.6 13.6 13.6]
+Mean score : 13.600000000000001, mean score among 20 best scores : 13.600000000000001
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.23e+03, duration of the scoring phase = 1.23e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 13.600000000000001, number of solutions evaluated : 80
+Current sequence : [0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.600000000000001, number of solutions evaluated : 80
+Current sequence : [0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.600000000000001, number of solutions evaluated : 8
+Current sequence : [0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0]
+
+Iteration 3 for optimizer MCTS_3_10
+Current scores : [14.6 14.6 14.6 14.6 14.6]
+Mean score : 14.600000000000001, mean score among 20 best scores : 14.600000000000001
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.22e+03, duration of the scoring phase = 1.22e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 12.4, number of solutions evaluated : 80
+Current sequence : [1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.0, number of solutions evaluated : 80
+Current sequence : [1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 12.8, number of solutions evaluated : 8
+Current sequence : [1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+
+Iteration 4 for optimizer MCTS_3_10
+Current scores : [12.8 12.8 12.8 12.8 12.8]
+Mean score : 12.8, mean score among 20 best scores : 12.8
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.22e+03, duration of the scoring phase = 1.22e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 13.4, number of solutions evaluated : 80
+Current sequence : [1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 13.0, number of solutions evaluated : 80
+Current sequence : [1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.0, number of solutions evaluated : 8
+Current sequence : [1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+
+Iteration 5 for optimizer MCTS_3_10
+Current scores : [14. 14. 14. 14. 14.]
+Mean score : 14.0, mean score among 20 best scores : 14.0
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.21e+03, duration of the scoring phase = 1.21e+03
+Maximal running time reached for MCTS_3_10
+End of the run for optimizer MCTS_3_10
+CPU time passed: 7334.21, wall time passed: 7434.6
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer MCTS_3_10 in experiment exp_1_MCTS_depth_triangs_MCTS_3_10_homology_b0pab1_Dim.3.deg.6_3_6_seed_1
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 4 58 4
+
+New good score found : 11.600000000000001
+New good score found : 11.600000000000001
+New good score found : 11.0
+New good score found : 11.0
+New good score found : 10.600000000000001
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 6 76 6
+
+
+New homological profile found : 3 56 3
+
+New good score found : 13.600000000000001
+New good score found : 11.600000000000001
+New good score found : 11.600000000000001
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 5 74 5
+
+New good score found : 12.4
+New good score found : 11.8
+New good score found : 11.8
+
+New homological profile found : 6 62 6
+
+
+New homological profile found : 7 64 7
+
+New good score found : 13.4
+New good score found : 12.2
+
+New homological profile found : 6 68 6
+
+New good score found : 12.8
+New good score found : 12.8
+
+New homological profile found : 7 70 7
+
+New good score found : 14.0
+
+New homological profile found : 6 70 6
+
+New good score found : 13.600000000000001
+New good score found : 13.0
+New good score found : 13.4
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+New good score found : 13.600000000000001
+
+MCTS sub-iteration : 26, best score of sub-iteration : 12.8, number of solutions evaluated : 80
+Current sequence : [1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1]
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 14.0
+
+MCTS sub-iteration : 52, best score of sub-iteration : 12.8, number of solutions evaluated : 80
+Current sequence : [1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.0, number of solutions evaluated : 8
+Current sequence : [1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+
+Iteration 0 for optimizer MCTS_3_10
+Current scores : [14. 14. 14. 14. 14.]
+Mean score : 14.0, mean score among 20 best scores : 14.0
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.19e+03, duration of the scoring phase = 1.19e+03
+
+New homological profile found : 8 66 8
+
+New good score found : 14.600000000000001
+New good score found : 14.8
+New good score found : 14.600000000000001
+
+MCTS sub-iteration : 26, best score of sub-iteration : 14.600000000000001, number of solutions evaluated : 80
+Current sequence : [1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1]
+New good score found : 14.600000000000001
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+
+MCTS sub-iteration : 52, best score of sub-iteration : 13.600000000000001, number of solutions evaluated : 80
+Current sequence : [1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.600000000000001, number of solutions evaluated : 8
+Current sequence : [1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0]
+
+Iteration 1 for optimizer MCTS_3_10
+Current scores : [14.6 14.6 14.6 14.6 14.6]
+Mean score : 14.600000000000001, mean score among 20 best scores : 14.600000000000001
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.21e+03, duration of the scoring phase = 1.21e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 12.8, number of solutions evaluated : 80
+Current sequence : [1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.8, number of solutions evaluated : 80
+Current sequence : [1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.8, number of solutions evaluated : 8
+Current sequence : [1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0]
+
+Iteration 2 for optimizer MCTS_3_10
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 14.8, mean score among 20 best scores : 14.8
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.21e+03, duration of the scoring phase = 1.21e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 11.600000000000001, number of solutions evaluated : 80
+Current sequence : [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 13.600000000000001, number of solutions evaluated : 80
+Current sequence : [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.8, number of solutions evaluated : 8
+Current sequence : [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0]
+
+Iteration 3 for optimizer MCTS_3_10
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 14.8, mean score among 20 best scores : 14.8
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.2e+03, duration of the scoring phase = 1.2e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 13.4, number of solutions evaluated : 80
+Current sequence : [0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 12.2, number of solutions evaluated : 80
+Current sequence : [0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 12.4, number of solutions evaluated : 8
+Current sequence : [0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0]
+
+Iteration 4 for optimizer MCTS_3_10
+Current scores : [12.4 12.4 12.4 12.4 12.4]
+Mean score : 12.4, mean score among 20 best scores : 12.4
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.21e+03, duration of the scoring phase = 1.21e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 11.8, number of solutions evaluated : 80
+Current sequence : [0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 13.0, number of solutions evaluated : 80
+Current sequence : [0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.0, number of solutions evaluated : 8
+Current sequence : [0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+
+Iteration 5 for optimizer MCTS_3_10
+Current scores : [14. 14. 14. 14. 14.]
+Mean score : 14.0, mean score among 20 best scores : 14.0
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.22e+03, duration of the scoring phase = 1.22e+03
+Maximal running time reached for MCTS_3_10
+End of the run for optimizer MCTS_3_10
+CPU time passed: 7246.35, wall time passed: 7348.66
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer MCTS_3_10 in experiment exp_1_MCTS_depth_triangs_MCTS_3_10_homology_b0pab1_Dim.3.deg.6_3_6_seed_2
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 4 72 4
+
+New good score found : 12.8
+New good score found : 11.8
+New good score found : 11.600000000000001
+New good score found : 11.2
+New good score found : 11.0
+
+New homological profile found : 3 70 3
+
+New good score found : 12.8
+New good score found : 11.600000000000001
+New good score found : 11.8
+New good score found : 11.8
+
+New homological profile found : 3 56 3
+
+New good score found : 12.8
+
+New homological profile found : 5 74 5
+
+New good score found : 12.4
+
+New homological profile found : 7 64 7
+
+New good score found : 13.4
+
+New homological profile found : 6 62 6
+
+New good score found : 12.8
+
+New homological profile found : 6 76 6
+
+
+New homological profile found : 6 70 6
+
+New good score found : 13.600000000000001
+New good score found : 13.0
+New good score found : 13.600000000000001
+
+MCTS sub-iteration : 26, best score of sub-iteration : 11.8, number of solutions evaluated : 80
+Current sequence : [0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+New good score found : 13.4
+
+New homological profile found : 7 70 7
+
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 14.0
+
+MCTS sub-iteration : 52, best score of sub-iteration : 12.8, number of solutions evaluated : 80
+Current sequence : [0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.0, number of solutions evaluated : 8
+Current sequence : [0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0]
+
+Iteration 0 for optimizer MCTS_3_10
+Current scores : [14. 14. 14. 14. 14.]
+Mean score : 14.0, mean score among 20 best scores : 14.0
+The current all time best score is 14.0
+Duration of the MCTS_3_10 iteration = 1.2e+03, duration of the scoring phase = 1.2e+03
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+
+MCTS sub-iteration : 26, best score of sub-iteration : 10.600000000000001, number of solutions evaluated : 80
+Current sequence : [0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0]
+
+New homological profile found : 8 66 8
+
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+New good score found : 14.8
+New good score found : 14.600000000000001
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+
+MCTS sub-iteration : 52, best score of sub-iteration : 13.600000000000001, number of solutions evaluated : 80
+Current sequence : [0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.8, number of solutions evaluated : 8
+Current sequence : [0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+
+Iteration 1 for optimizer MCTS_3_10
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 14.8, mean score among 20 best scores : 14.8
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.19e+03, duration of the scoring phase = 1.19e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 12.8, number of solutions evaluated : 80
+Current sequence : [0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 12.8, number of solutions evaluated : 80
+Current sequence : [0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 12.8, number of solutions evaluated : 8
+Current sequence : [0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0]
+
+Iteration 2 for optimizer MCTS_3_10
+Current scores : [12.8 12.8 12.8 12.8 12.8]
+Mean score : 12.8, mean score among 20 best scores : 12.8
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.21e+03, duration of the scoring phase = 1.21e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 12.4, number of solutions evaluated : 80
+Current sequence : [0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.8, number of solutions evaluated : 80
+Current sequence : [0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 13.600000000000001, number of solutions evaluated : 8
+Current sequence : [0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Iteration 3 for optimizer MCTS_3_10
+Current scores : [13.6 13.6 13.6 13.6 13.6]
+Mean score : 13.600000000000001, mean score among 20 best scores : 13.600000000000001
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.22e+03, duration of the scoring phase = 1.22e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 12.8, number of solutions evaluated : 80
+Current sequence : [0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 13.600000000000001, number of solutions evaluated : 80
+Current sequence : [0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 13.600000000000001, number of solutions evaluated : 8
+Current sequence : [0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+
+Iteration 4 for optimizer MCTS_3_10
+Current scores : [13.6 13.6 13.6 13.6 13.6]
+Mean score : 13.600000000000001, mean score among 20 best scores : 13.600000000000001
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.22e+03, duration of the scoring phase = 1.22e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 13.4, number of solutions evaluated : 80
+Current sequence : [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 13.600000000000001, number of solutions evaluated : 80
+Current sequence : [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.8, number of solutions evaluated : 8
+Current sequence : [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0]
+
+Iteration 5 for optimizer MCTS_3_10
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 14.8, mean score among 20 best scores : 14.8
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.21e+03, duration of the scoring phase = 1.21e+03
+Maximal running time reached for MCTS_3_10
+End of the run for optimizer MCTS_3_10
+CPU time passed: 7258.32, wall time passed: 7356.1
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer MCTS_3_10 in experiment exp_1_MCTS_depth_triangs_MCTS_3_10_homology_b0pab1_Dim.3.deg.6_3_6_seed_3
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 5 66 5
+
+New good score found : 12.8
+New good score found : 11.8
+New good score found : 11.600000000000001
+New good score found : 10.600000000000001
+New good score found : 10.4
+
+New homological profile found : 5 74 5
+
+New good score found : 12.8
+New good score found : 12.8
+New good score found : 12.4
+
+New homological profile found : 7 78 7
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 3 70 3
+
+New good score found : 14.8
+New good score found : 12.8
+
+New homological profile found : 6 76 6
+
+
+New homological profile found : 4 72 4
+
+New good score found : 13.600000000000001
+
+New homological profile found : 6 62 6
+
+
+New homological profile found : 8 66 8
+
+New good score found : 14.600000000000001
+
+MCTS sub-iteration : 26, best score of sub-iteration : 12.4, number of solutions evaluated : 80
+Current sequence : [1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1]
+
+New homological profile found : 7 70 7
+
+New good score found : 14.0
+New good score found : 14.0
+
+New homological profile found : 7 64 7
+
+New good score found : 14.8
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.8, number of solutions evaluated : 80
+Current sequence : [1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.600000000000001, number of solutions evaluated : 8
+Current sequence : [1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Iteration 0 for optimizer MCTS_3_10
+Current scores : [14.6 14.6 14.6 14.6 14.6]
+Mean score : 14.600000000000001, mean score among 20 best scores : 14.600000000000001
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.2e+03, duration of the scoring phase = 1.2e+03
+
+New homological profile found : 6 70 6
+
+
+MCTS sub-iteration : 26, best score of sub-iteration : 11.2, number of solutions evaluated : 80
+Current sequence : [0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 12.2, number of solutions evaluated : 80
+Current sequence : [0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 12.2, number of solutions evaluated : 8
+Current sequence : [0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+
+Iteration 1 for optimizer MCTS_3_10
+Current scores : [12.2 12.2 12.2 12.2 12.2]
+Mean score : 12.2, mean score among 20 best scores : 12.2
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.19e+03, duration of the scoring phase = 1.19e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 11.2, number of solutions evaluated : 80
+Current sequence : [0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.0, number of solutions evaluated : 80
+Current sequence : [0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 12.8, number of solutions evaluated : 8
+Current sequence : [0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0]
+
+Iteration 2 for optimizer MCTS_3_10
+Current scores : [12.8 12.8 12.8 12.8 12.8]
+Mean score : 12.8, mean score among 20 best scores : 12.8
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.21e+03, duration of the scoring phase = 1.21e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 12.8, number of solutions evaluated : 80
+Current sequence : [1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.0, number of solutions evaluated : 80
+Current sequence : [1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 13.0, number of solutions evaluated : 8
+Current sequence : [1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0]
+
+Iteration 3 for optimizer MCTS_3_10
+Current scores : [13. 13. 13. 13. 13.]
+Mean score : 13.0, mean score among 20 best scores : 13.0
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.21e+03, duration of the scoring phase = 1.21e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 10.600000000000001, number of solutions evaluated : 80
+Current sequence : [1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 13.600000000000001, number of solutions evaluated : 80
+Current sequence : [1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.8, number of solutions evaluated : 8
+Current sequence : [1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+
+Iteration 4 for optimizer MCTS_3_10
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 14.8, mean score among 20 best scores : 14.8
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.2e+03, duration of the scoring phase = 1.2e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 13.4, number of solutions evaluated : 80
+Current sequence : [1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.8, number of solutions evaluated : 80
+Current sequence : [1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.8, number of solutions evaluated : 8
+Current sequence : [1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0]
+
+Iteration 5 for optimizer MCTS_3_10
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 14.8, mean score among 20 best scores : 14.8
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.19e+03, duration of the scoring phase = 1.19e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 12.4, number of solutions evaluated : 80
+Current sequence : [0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.8, number of solutions evaluated : 80
+Current sequence : [0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.8, number of solutions evaluated : 8
+Current sequence : [0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+
+Iteration 6 for optimizer MCTS_3_10
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 14.8, mean score among 20 best scores : 14.8
+The current all time best score is 14.8
+Duration of the MCTS_3_10 iteration = 1.19e+03, duration of the scoring phase = 1.19e+03
+Maximal running time reached for MCTS_3_10
+End of the run for optimizer MCTS_3_10
+CPU time passed: 8384.34, wall time passed: 8499.87
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer MCTS_5_10 in experiment exp_1_MCTS_depth_triangs_MCTS_5_10_homology_b0pab1_Dim.3.deg.6_3_6_seed_0
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 6 62 6
+
+
+New homological profile found : 6 76 6
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 6 70 6
+
+
+New homological profile found : 5 68 5
+
+New good score found : 13.600000000000001
+New good score found : 13.0
+New good score found : 12.4
+New good score found : 12.4
+New good score found : 12.2
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 7 70 7
+
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+New good score found : 14.0
+New good score found : 14.0
+
+New homological profile found : 7 64 7
+
+New good score found : 13.600000000000001
+New good score found : 14.8
+New good score found : 14.0
+
+MCTS sub-iteration : 26, best score of sub-iteration : 12.8, number of solutions evaluated : 320
+Current sequence : [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
+
+New homological profile found : 8 66 8
+
+New good score found : 14.600000000000001
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.8, number of solutions evaluated : 320
+Current sequence : [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.8, number of solutions evaluated : 32
+Current sequence : [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+
+Iteration 0 for optimizer MCTS_5_10
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.200000000000001, mean score among 20 best scores : 14.160000000000002
+The current all time best score is 14.8
+Duration of the MCTS_5_10 iteration = 3.56e+03, duration of the scoring phase = 3.56e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 12.8, number of solutions evaluated : 320
+Current sequence : [1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.8, number of solutions evaluated : 320
+Current sequence : [1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.8, number of solutions evaluated : 32
+Current sequence : [1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+
+Iteration 1 for optimizer MCTS_5_10
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.200000000000001, mean score among 20 best scores : 14.160000000000002
+The current all time best score is 14.8
+Duration of the MCTS_5_10 iteration = 3.47e+03, duration of the scoring phase = 3.47e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 13.600000000000001, number of solutions evaluated : 320
+Current sequence : [0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.0, number of solutions evaluated : 320
+Current sequence : [0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.0, number of solutions evaluated : 32
+Current sequence : [0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+
+Iteration 2 for optimizer MCTS_5_10
+Current scores : [14. 14. 14. 14. 14.]
+Mean score : 12.8, mean score among 20 best scores : 13.520000000000001
+The current all time best score is 14.8
+Duration of the MCTS_5_10 iteration = 3.62e+03, duration of the scoring phase = 3.62e+03
+Maximal running time reached for MCTS_5_10
+End of the run for optimizer MCTS_5_10
+CPU time passed: 10649.7, wall time passed: 10762.9
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer MCTS_5_10 in experiment exp_1_MCTS_depth_triangs_MCTS_5_10_homology_b0pab1_Dim.3.deg.6_3_6_seed_1
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 7 70 7
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 6 70 6
+
+New good score found : 14.0
+New good score found : 13.0
+New good score found : 12.8
+New good score found : 12.8
+New good score found : 11.600000000000001
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 8 66 8
+
+
+New homological profile found : 7 78 7
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 6 62 6
+
+New good score found : 14.8
+New good score found : 14.600000000000001
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 7 64 7
+
+New good score found : 13.4
+New good score found : 13.4
+New good score found : 14.0
+New good score found : 14.600000000000001
+New good score found : 14.8
+
+New homological profile found : 6 76 6
+
+New good score found : 14.8
+New good score found : 14.8
+
+MCTS sub-iteration : 26, best score of sub-iteration : 14.600000000000001, number of solutions evaluated : 320
+Current sequence : [0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.0, number of solutions evaluated : 320
+Current sequence : [0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.0, number of solutions evaluated : 32
+Current sequence : [0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+
+Iteration 0 for optimizer MCTS_5_10
+Current scores : [14. 14. 14. 14. 14.]
+Mean score : 12.8, mean score among 20 best scores : 13.520000000000001
+The current all time best score is 14.8
+Duration of the MCTS_5_10 iteration = 3.76e+03, duration of the scoring phase = 3.76e+03
+New good score found : 14.8
+
+MCTS sub-iteration : 26, best score of sub-iteration : 13.4, number of solutions evaluated : 320
+Current sequence : [0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.0, number of solutions evaluated : 320
+Current sequence : [0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.0, number of solutions evaluated : 32
+Current sequence : [0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Iteration 1 for optimizer MCTS_5_10
+Current scores : [14. 14. 14. 14. 14.]
+Mean score : 12.8, mean score among 20 best scores : 13.520000000000001
+The current all time best score is 14.8
+Duration of the MCTS_5_10 iteration = 3.79e+03, duration of the scoring phase = 3.79e+03
+Maximal running time reached for MCTS_5_10
+End of the run for optimizer MCTS_5_10
+CPU time passed: 7557.55, wall time passed: 7640.02
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer MCTS_5_10 in experiment exp_1_MCTS_depth_triangs_MCTS_5_10_homology_b0pab1_Dim.3.deg.6_3_6_seed_2
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 7 64 7
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 5 60 5
+
+New good score found : 13.4
+New good score found : 12.8
+New good score found : 11.8
+New good score found : 11.8
+New good score found : 11.8
+
+New homological profile found : 6 62 6
+
+
+New homological profile found : 7 70 7
+
+New good score found : 14.0
+New good score found : 12.8
+New good score found : 12.2
+
+New homological profile found : 5 74 5
+
+New good score found : 12.8
+
+New homological profile found : 6 76 6
+
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 13.600000000000001
+
+New homological profile found : 8 66 8
+
+
+New homological profile found : 6 70 6
+
+New good score found : 14.600000000000001
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+New good score found : 14.600000000000001
+
+MCTS sub-iteration : 26, best score of sub-iteration : 14.600000000000001, number of solutions evaluated : 320
+Current sequence : [1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0]
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.8, number of solutions evaluated : 320
+Current sequence : [1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.8, number of solutions evaluated : 32
+Current sequence : [1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0]
+
+Iteration 0 for optimizer MCTS_5_10
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.200000000000001, mean score among 20 best scores : 14.160000000000002
+The current all time best score is 14.8
+Duration of the MCTS_5_10 iteration = 3.72e+03, duration of the scoring phase = 3.72e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 13.600000000000001, number of solutions evaluated : 320
+Current sequence : [0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.8, number of solutions evaluated : 320
+Current sequence : [0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.8, number of solutions evaluated : 32
+Current sequence : [0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Iteration 1 for optimizer MCTS_5_10
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.200000000000001, mean score among 20 best scores : 14.160000000000002
+The current all time best score is 14.8
+Duration of the MCTS_5_10 iteration = 3.73e+03, duration of the scoring phase = 3.73e+03
+Maximal running time reached for MCTS_5_10
+End of the run for optimizer MCTS_5_10
+CPU time passed: 7450.87, wall time passed: 7534.68
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer MCTS_5_10 in experiment exp_1_MCTS_depth_triangs_MCTS_5_10_homology_b0pab1_Dim.3.deg.6_3_6_seed_3
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 6 76 6
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 7 64 7
+
+New good score found : 13.600000000000001
+New good score found : 13.4
+New good score found : 12.8
+New good score found : 11.8
+New good score found : 11.600000000000001
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 6 62 6
+
+New good score found : 12.8
+New good score found : 12.4
+
+New homological profile found : 7 70 7
+
+
+New homological profile found : 8 66 8
+
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+New good score found : 14.0
+New good score found : 13.600000000000001
+
+New homological profile found : 6 70 6
+
+New good score found : 14.0
+New good score found : 14.0
+
+MCTS sub-iteration : 26, best score of sub-iteration : 12.8, number of solutions evaluated : 320
+Current sequence : [1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1]
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.600000000000001
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.8, number of solutions evaluated : 320
+Current sequence : [1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.8, number of solutions evaluated : 32
+Current sequence : [1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+
+Iteration 0 for optimizer MCTS_5_10
+Current scores : [14.8 14.8 14.8 14.8 14.8]
+Mean score : 13.200000000000001, mean score among 20 best scores : 14.160000000000002
+The current all time best score is 14.8
+Duration of the MCTS_5_10 iteration = 3.75e+03, duration of the scoring phase = 3.75e+03
+
+MCTS sub-iteration : 26, best score of sub-iteration : 13.4, number of solutions evaluated : 320
+Current sequence : [0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0]
+
+MCTS sub-iteration : 52, best score of sub-iteration : 14.0, number of solutions evaluated : 320
+Current sequence : [0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0]
+
+MCTS sub-iteration : 78, best score of sub-iteration : 14.0, number of solutions evaluated : 32
+Current sequence : [0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0]
+
+Iteration 1 for optimizer MCTS_5_10
+Current scores : [14. 14. 14. 14. 14.]
+Mean score : 12.8, mean score among 20 best scores : 13.520000000000001
+The current all time best score is 14.8
+Duration of the MCTS_5_10 iteration = 3.72e+03, duration of the scoring phase = 3.72e+03
+Maximal running time reached for MCTS_5_10
+End of the run for optimizer MCTS_5_10
+CPU time passed: 7462.93, wall time passed: 7544.98
+Best score found : 14.8 
+

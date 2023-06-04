@@ -26,8 +26,11 @@ print(f"seed = {my_seed}")
 random.seed(my_seed)
 np.random.seed(my_seed)
 
+
 if '/home/charles' in os.getcwd() :
 	local_path = '/home/charles/Desktop/ML_RAG/Code'
+elif '/home/carnal/' in os.getcwd():
+	local_path = '/user/carnal/home/ML_RAG/Code'
 
 temp_files_folder = f"General_test_temp_files/{exp_name}"
 
@@ -43,8 +46,8 @@ current_point_folder = f"General_test_temp_files/{exp_name}/current_point"
 explorer = Homology_Explorer(dim, degree, local_path, temp_files_folder, saved_results_folder, exp_name, explorer_name, saving_perf_period = 0.001, verbose= True)
 
 
-n_random_steps = 5
-explorer.generate_random_triangulation_with_random_walk(4, n_random_steps, current_point_folder, look_while_growing = True) 
+# n_random_steps = 5
+# explorer.generate_random_triangulation_with_random_walk(4, n_random_steps, current_point_folder, look_while_growing = True) 
 
 
 #explorer.initialize_with_random_triangulation_with_random_convex_hull(current_point_folder)
@@ -59,9 +62,10 @@ explorer.generate_random_triangulation_with_random_walk(4, n_random_steps, curre
 # explorer.current_point.copy_into_other_current_point(f"General_test_temp_files/{exp_name}/current_point_copy")
 
 
+explorer.initialize_with_new_triangulation("Trivial",current_point_folder, look_while_growing = False) 
 
-n_iter = 5
-max_running_time = 600
+n_iter = 4
+max_running_time = 60
 optimizer_type = "Tabu_Search_Optimizer"
 obj_fun = b_total
 explorer.walking_search_on_triang_graph(n_iter = n_iter, function_of_the_homology_profiles = obj_fun, max_running_time = max_running_time, \

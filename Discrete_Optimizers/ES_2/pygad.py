@@ -4,6 +4,11 @@ import matplotlib.pyplot
 import pickle
 import time
 import warnings
+import sys
+
+# --------------
+# NOTE modified by CA NOTE
+# --------------
 
 class GA:
 
@@ -40,6 +45,7 @@ class GA:
                  on_parents=None,
                  on_crossover=None,
                  on_mutation=None,
+                 custom_function_inside_adaptive_mutation=None, # NOTE Parameter added by CA due to specific constraints
                  callback_generation=None,
                  on_generation=None,
                  on_stop=None,
@@ -901,6 +907,11 @@ class GA:
         self.last_generation_offspring_mutation = None # A list holding the offspring after applying mutation in the last generation.
         self.previous_generation_fitness = None # Holds the fitness values of one generation before the fitness values saved in the last_generation_fitness attribute. Added in PyGAD 2.26.2
 
+
+        # NOTE : a parameter I (CA) have added due to my specific constraints
+        self.custom_function_inside_adaptive_mutation = custom_function_inside_adaptive_mutation
+
+
     def round_genes(self, solutions):
         for gene_idx in range(self.num_genes):
             if self.gene_type_single:
@@ -1227,6 +1238,7 @@ class GA:
         Runs the genetic algorithm. This is the main method in which the genetic algorithm is evolved through a number of generations.
         """
 
+
         if self.valid_parameters == False:
             raise ValueError("Error calling the run() method: \nThe run() method cannot be executed with invalid parameters. Please check the parameters passed while creating an instance of the GA class.\n")
 
@@ -1264,7 +1276,6 @@ class GA:
             
             if self.save_solutions:
                 self.solutions_fitness.extend(self.last_generation_fitness)
-
             # Selecting the best parents in the population for mating.
             if callable(self.parent_selection_type):
                 self.last_generation_parents, self.last_generation_parents_indices = self.select_parents(self.last_generation_fitness, self.num_parents_mating, self)
@@ -1272,7 +1283,6 @@ class GA:
                 self.last_generation_parents, self.last_generation_parents_indices = self.select_parents(self.last_generation_fitness, num_parents=self.num_parents_mating)
             if not (self.on_parents is None):
                 self.on_parents(self, self.last_generation_parents)
-
             # If self.crossover_type=None, then no crossover is applied and thus no offspring will be created in the next generations. The next generation will use the solutions in the current population.
             if self.crossover_type is None:
                 if self.num_offspring <= self.keep_parents:
@@ -1290,7 +1300,6 @@ class GA:
                                                                               offspring_size=(self.num_offspring, self.num_genes))
                 if not (self.on_crossover is None):
                     self.on_crossover(self, self.last_generation_offspring_crossover)
-
             # If self.mutation_type=None, then no mutation is applied and thus no changes are applied to the offspring created using the crossover operation. The offspring will be used unchanged in the next generation.
             if self.mutation_type is None:
                 self.last_generation_offspring_mutation = self.last_generation_offspring_crossover
@@ -1302,7 +1311,6 @@ class GA:
                     self.last_generation_offspring_mutation = self.mutation(self.last_generation_offspring_crossover)
                 if not (self.on_mutation is None):
                     self.on_mutation(self, self.last_generation_offspring_mutation)
-
             # Update the population attribute according to the offspring generated.
             if (self.keep_parents == 0):
                 self.population = self.last_generation_offspring_mutation
@@ -2171,8 +2179,25 @@ class GA:
         for idx in range(len(parents_to_keep), fitness.shape[0]):
             fitness[idx] = self.fitness_func(temp_population[idx], None)
         """
-        # TODO END OF MODIFICATIONS
+        # TODO END OF MODIFICATIONS (not CA )
         average_fitness = numpy.mean(fitness)
+
+        #-------------  #NOTE modified by CA
+        # We replace the parents to keep by the best solutions encountered post crossover but pre mutation
+
+        fitness_copy = fitness.copy()
+        population_post_crossover_pre_mutation_copy = temp_population.copy()
+        solutions = list(zip(population_post_crossover_pre_mutation_copy, fitness_copy))
+        solutions.sort(key = lambda x : x[1], reverse = True)
+
+        for i in range(len(parents_to_keep)):
+            self.last_generation_parents[i] = solutions[i][0]
+            self.last_generation_fitness[self.last_generation_parents_indices[i]] = solutions[i][1]
+
+        # Should we also update self.last_generation_parents_indices ? probably not
+
+        self.custom_function_inside_adaptive_mutation(temp_population, fitness)    
+        #-----------------
 
         return average_fitness, fitness[len(parents_to_keep):]
 
@@ -2218,10 +2243,8 @@ class GA:
             -offspring: The offspring to mutate.
         It returns an array of the mutated offspring.
         """
-        
         # For each offspring, a value from the gene space is selected randomly and assigned to the selected gene for mutation.
-
-        average_fitness, offspring_fitness = self.adaptive_mutation_population_fitness(offspring)
+        average_fitness, offspring_fitness = self.adaptive_mutation_population_fitness(offspring) # NOTE this function has been modified by CA
 
         # Adaptive mutation changes one or more genes in each offspring randomly.
         # The number of genes to mutate depends on the solution's fitness value.

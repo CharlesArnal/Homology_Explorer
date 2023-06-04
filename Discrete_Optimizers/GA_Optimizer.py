@@ -30,6 +30,8 @@ class GA_Optimizer(Discrete_Optimizer):
 
 	pygad expects numpy arrays, but my own functions expect lists of lists
 
+	Warning ! I had to modify the adaptive_mutation_by_space function in the pygad code so that it saves good results obtained after crossover but before mutation
+
 	Code is quite different from the other Discrete_Optimizer(s) due to using an already implemented Genetic Algorithm
 	"""
 
@@ -56,6 +58,7 @@ class GA_Optimizer(Discrete_Optimizer):
 		optimizer_name = optimizer_name, n_solutions_to_display = n_solutions_to_display, feedback_period= feedback_period, \
 		saving_perf_period = saving_perf_period, n_current_solutions_saved = n_current_solutions_saved, \
 		saving_solutions_period = saving_solutions_period, n_all_time_best_solutions_saved = n_all_time_best_solutions_saved, random_seed=random_seed)
+
 
 
 	def optimize(self, n_iter, dim, obj_function, initial_solutions = None, stopping_condition = None, max_running_time = None, clear_log = True):
@@ -103,6 +106,19 @@ class GA_Optimizer(Discrete_Optimizer):
 			if stop == True:
 				return "stop"
 
+		def custom_function_inside_adaptive_mutation(population, scores):
+			""""
+				Adaptive mutation takes the products of the crossovers, evaluates them then mutates them
+				The products of the crossovers are not kept - the mutations are
+				To be sure not to miss any good solutions, we store the best of them before the mutations (but after the crossover)
+			"""
+			population = population.tolist()
+			scores = scores.tolist()
+			solutions = [(population[i],scores[i]) for i in range(len(population))]
+			solutions.sort(key = lambda x : x[1], reverse = True)
+			super(GA_Optimizer, self).update_all_time_best_solutions(solutions, already_sorted= True)
+			super(GA_Optimizer, self).save_performance(solutions, current_running_time = CPU_and_wall_time(starting_time)[0])
+
 		
 		def on_stop_routine(ga, list_of_fitness_values):
 			""" Automatically called by pygad at the end of the whole process"""
@@ -123,11 +139,12 @@ class GA_Optimizer(Discrete_Optimizer):
 					   parent_selection_type= self.parent_selection_type, #"sss", "tournament"
 					   crossover_type="two_points",
 					   mutation_type="adaptive",
-					   mutation_percent_genes=[15,5],#mutation_by_replacement=True,
+					   mutation_percent_genes=[15,5], # percentage of entries of the low and high fitness solutions to be mutated
 					   stop_criteria=None, # taken care of by on_generation_routine
                        save_best_solutions=False,
 					   save_solutions=False,
                        on_generation=on_generation_routine,
+		       		   custom_function_inside_adaptive_mutation = custom_function_inside_adaptive_mutation,
 					   on_stop = on_stop_routine)
 
 		ga_instance.run()

@@ -1,0 +1,1762 @@
+
+New homological profile found : 5 5
+
+
+New homological profile found : 8 8
+
+
+New homological profile found : 6 6
+
+
+New homological profile found : 4 4
+
+
+New homological profile found : 9 9
+
+
+New homological profile found : 13 13
+
+
+New homological profile found : 12 12
+
+
+New homological profile found : 11 11
+
+
+New homological profile found : 3 3
+
+
+New homological profile found : 10 10
+
+
+New homological profile found : 7 7
+
+
+-----
+Starting optimization with optimizer TS_30_3000_3_25_50_False in experiment exp_1_TS_size_pop_triangs_TS_30_3000_3_25_50_False_homology_bt_Harnack.10_2_10_seed_0
+
+
+New homological profile found : 2 2
+
+
+New homological profile found : 14 14
+
+
+New homological profile found : 15 15
+
+New good score found : 30
+New good score found : 28
+New good score found : 28
+New good score found : 28
+
+Iteration 0 for optimizer TS_30_3000_3_25_50_False
+Current scores : [30 28 28 28 26]
+Mean score : 19.933333333333334, mean score among 20 best scores : 22.5
+The current all time best score is 30
+Duration of the TS_30_3000_3_25_50_False iteration = 1.26e+02, duration of the scoring phase = 1.26e+02
+
+New homological profile found : 16 16
+
+
+New homological profile found : 17 17
+
+New good score found : 34
+New good score found : 32
+New good score found : 32
+New good score found : 30
+
+New homological profile found : 18 18
+
+
+New homological profile found : 19 19
+
+New good score found : 38
+New good score found : 34
+New good score found : 34
+New good score found : 34
+
+New homological profile found : 20 20
+
+
+New homological profile found : 21 21
+
+New good score found : 42
+New good score found : 38
+New good score found : 36
+New good score found : 36
+
+New homological profile found : 22 22
+
+New good score found : 44
+New good score found : 40
+
+New homological profile found : 23 23
+
+New good score found : 46
+New good score found : 42
+New good score found : 42
+
+New homological profile found : 24 24
+
+New good score found : 48
+New good score found : 46
+New good score found : 44
+
+New homological profile found : 25 25
+
+New good score found : 50
+New good score found : 48
+New good score found : 48
+New good score found : 50
+New good score found : 50
+New good score found : 50
+
+New homological profile found : 26 26
+
+New good score found : 52
+New good score found : 52
+
+New homological profile found : 27 27
+
+New good score found : 54
+New good score found : 54
+New good score found : 52
+
+Iteration 10 for optimizer TS_30_3000_3_25_50_False
+Current scores : [54 54 52 50 50]
+Mean score : 42.666666666666664, mean score among 20 best scores : 46.1
+The current all time best score is 54
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.22e+02
+
+New homological profile found : 28 28
+
+New good score found : 56
+New good score found : 56
+New good score found : 54
+
+New homological profile found : 29 29
+
+New good score found : 58
+New good score found : 58
+
+New homological profile found : 30 30
+
+New good score found : 60
+New good score found : 60
+New good score found : 60
+New good score found : 60
+New good score found : 60
+
+New homological profile found : 31 31
+
+New good score found : 62
+New good score found : 62
+New good score found : 62
+New good score found : 62
+New good score found : 62
+
+Iteration 20 for optimizer TS_30_3000_3_25_50_False
+Current scores : [62 62 60 58 58]
+Mean score : 49.333333333333336, mean score among 20 best scores : 53.2
+The current all time best score is 62
+Duration of the TS_30_3000_3_25_50_False iteration = 1.19e+02, duration of the scoring phase = 1.19e+02
+
+New homological profile found : 32 32
+
+New good score found : 64
+New good score found : 64
+New good score found : 64
+New good score found : 64
+New good score found : 64
+
+New homological profile found : 33 33
+
+New good score found : 66
+New good score found : 66
+New good score found : 66
+New good score found : 66
+New good score found : 66
+
+Iteration 30 for optimizer TS_30_3000_3_25_50_False
+Current scores : [66 66 64 64 64]
+Mean score : 57.13333333333333, mean score among 20 best scores : 61.9
+The current all time best score is 66
+Duration of the TS_30_3000_3_25_50_False iteration = 1.13e+02, duration of the scoring phase = 1.13e+02
+
+Iteration 40 for optimizer TS_30_3000_3_25_50_False
+Current scores : [66 64 64 64 64]
+Mean score : 58.666666666666664, mean score among 20 best scores : 62.8
+The current all time best score is 66
+Duration of the TS_30_3000_3_25_50_False iteration = 94.4, duration of the scoring phase = 94.2
+
+New homological profile found : 1 1
+
+
+Iteration 50 for optimizer TS_30_3000_3_25_50_False
+Current scores : [64 64 64 64 60]
+Mean score : 26.933333333333334, mean score among 20 best scores : 33.1
+The current all time best score is 66
+Duration of the TS_30_3000_3_25_50_False iteration = 1.25e+02, duration of the scoring phase = 1.24e+02
+
+Iteration 60 for optimizer TS_30_3000_3_25_50_False
+Current scores : [64 62 58 56 52]
+Mean score : 45.4, mean score among 20 best scores : 49.6
+The current all time best score is 66
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.21e+02
+
+Iteration 70 for optimizer TS_30_3000_3_25_50_False
+Current scores : [64 62 62 60 60]
+Mean score : 50.06666666666667, mean score among 20 best scores : 53.8
+The current all time best score is 66
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.21e+02
+
+New homological profile found : 34 34
+
+New good score found : 68
+
+New homological profile found : 35 35
+
+New good score found : 70
+New good score found : 70
+New good score found : 70
+New good score found : 68
+New good score found : 70
+New good score found : 70
+
+New homological profile found : 36 36
+
+New good score found : 72
+New good score found : 72
+New good score found : 72
+New good score found : 72
+
+Iteration 80 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 68 68]
+Mean score : 57.2, mean score among 20 best scores : 63.1
+The current all time best score is 72
+Duration of the TS_30_3000_3_25_50_False iteration = 1.07e+02, duration of the scoring phase = 1.05e+02
+
+New homological profile found : 37 37
+
+New good score found : 74
+New good score found : 74
+New good score found : 74
+New good score found : 74
+New good score found : 74
+
+Iteration 90 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 74 74 72 72]
+Mean score : 64.13333333333334, mean score among 20 best scores : 69.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.02e+02, duration of the scoring phase = 1.01e+02
+
+Iteration 100 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 70 70]
+Mean score : 32.06666666666667, mean score among 20 best scores : 39.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.25e+02, duration of the scoring phase = 1.23e+02
+
+Iteration 110 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 70 70 68]
+Mean score : 47.86666666666667, mean score among 20 best scores : 53.0
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.2e+02
+
+Iteration 120 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 70 70 64]
+Mean score : 51.46666666666667, mean score among 20 best scores : 55.8
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.2e+02
+
+Iteration 130 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 65.0, mean score among 20 best scores : 71.0
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 59.5, duration of the scoring phase = 57.8
+
+Iteration 140 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 67.26666666666667, mean score among 20 best scores : 71.5
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 59.7, duration of the scoring phase = 58.0
+
+Iteration 150 for optimizer TS_30_3000_3_25_50_False
+Current scores : [70 70 70 70 68]
+Mean score : 31.8, mean score among 20 best scores : 39.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.25e+02, duration of the scoring phase = 1.24e+02
+
+Iteration 160 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 70 70 68]
+Mean score : 48.2, mean score among 20 best scores : 52.7
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.23e+02, duration of the scoring phase = 1.22e+02
+
+Iteration 170 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 70 62]
+Mean score : 52.733333333333334, mean score among 20 best scores : 57.3
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.2e+02
+
+Iteration 180 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 64.86666666666666, mean score among 20 best scores : 70.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 64.6, duration of the scoring phase = 63.2
+
+Iteration 190 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 70 70]
+Mean score : 67.06666666666666, mean score among 20 best scores : 70.3
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 63.8, duration of the scoring phase = 62.5
+
+Iteration 200 for optimizer TS_30_3000_3_25_50_False
+Current scores : [70 70 68 68 68]
+Mean score : 30.466666666666665, mean score among 20 best scores : 37.5
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.25e+02, duration of the scoring phase = 1.23e+02
+
+Iteration 210 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 72 70 70 68]
+Mean score : 47.2, mean score among 20 best scores : 52.3
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.2e+02, duration of the scoring phase = 1.19e+02
+
+Iteration 220 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 74 72 70 68]
+Mean score : 52.2, mean score among 20 best scores : 56.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.21e+02, duration of the scoring phase = 1.19e+02
+
+Iteration 230 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 65.46666666666667, mean score among 20 best scores : 71.4
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 66.6, duration of the scoring phase = 65.4
+
+Iteration 240 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 67.53333333333333, mean score among 20 best scores : 71.4
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 67.4, duration of the scoring phase = 66.1
+
+Iteration 250 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 70 70]
+Mean score : 31.6, mean score among 20 best scores : 39.1
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.27e+02, duration of the scoring phase = 1.25e+02
+
+Iteration 260 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 68]
+Mean score : 48.266666666666666, mean score among 20 best scores : 53.8
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.21e+02, duration of the scoring phase = 1.2e+02
+
+Iteration 270 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 70]
+Mean score : 53.4, mean score among 20 best scores : 58.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.21e+02
+
+Iteration 280 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 64.66666666666667, mean score among 20 best scores : 70.7
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 59.5, duration of the scoring phase = 58.3
+
+Iteration 290 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 67.53333333333333, mean score among 20 best scores : 70.7
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 59.8, duration of the scoring phase = 58.6
+
+Iteration 300 for optimizer TS_30_3000_3_25_50_False
+Current scores : [70 70 68 68 68]
+Mean score : 31.0, mean score among 20 best scores : 38.7
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.24e+02, duration of the scoring phase = 1.22e+02
+
+Iteration 310 for optimizer TS_30_3000_3_25_50_False
+Current scores : [70 70 70 70 70]
+Mean score : 48.53333333333333, mean score among 20 best scores : 53.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.18e+02, duration of the scoring phase = 1.17e+02
+
+Iteration 320 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 70 70]
+Mean score : 53.6, mean score among 20 best scores : 58.4
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.17e+02, duration of the scoring phase = 1.16e+02
+
+Iteration 330 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 70 70]
+Mean score : 64.4, mean score among 20 best scores : 70.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 66.6, duration of the scoring phase = 65.3
+
+Iteration 340 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 70 70 70]
+Mean score : 66.46666666666667, mean score among 20 best scores : 70.1
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 63.9, duration of the scoring phase = 62.7
+
+Iteration 350 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 70 68]
+Mean score : 30.866666666666667, mean score among 20 best scores : 38.0
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.21e+02
+
+Iteration 360 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 74 72 70 70]
+Mean score : 47.733333333333334, mean score among 20 best scores : 52.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.18e+02, duration of the scoring phase = 1.17e+02
+Maximal running time reached for TS_30_3000_3_25_50_False
+End of the run for optimizer TS_30_3000_3_25_50_False
+CPU time passed: 36120.4, wall time passed: 36717.4
+Best score found : 74 
+
+
+New homological profile found : 8 8
+
+
+New homological profile found : 9 9
+
+
+New homological profile found : 7 7
+
+
+New homological profile found : 4 4
+
+
+New homological profile found : 5 5
+
+
+New homological profile found : 12 12
+
+
+New homological profile found : 6 6
+
+
+New homological profile found : 11 11
+
+
+-----
+Starting optimization with optimizer TS_30_3000_3_25_50_False in experiment exp_1_TS_size_pop_triangs_TS_30_3000_3_25_50_False_homology_bt_Harnack.10_2_10_seed_1
+
+
+New homological profile found : 10 10
+
+
+New homological profile found : 3 3
+
+
+New homological profile found : 2 2
+
+
+New homological profile found : 13 13
+
+
+New homological profile found : 14 14
+
+
+New homological profile found : 15 15
+
+New good score found : 30
+New good score found : 30
+New good score found : 28
+New good score found : 26
+New good score found : 26
+
+Iteration 0 for optimizer TS_30_3000_3_25_50_False
+Current scores : [30 30 28 26 26]
+Mean score : 20.733333333333334, mean score among 20 best scores : 22.7
+The current all time best score is 30
+Duration of the TS_30_3000_3_25_50_False iteration = 1.25e+02, duration of the scoring phase = 1.25e+02
+
+New homological profile found : 16 16
+
+
+New homological profile found : 17 17
+
+New good score found : 34
+New good score found : 34
+New good score found : 32
+
+New homological profile found : 18 18
+
+
+New homological profile found : 19 19
+
+New good score found : 38
+New good score found : 38
+New good score found : 34
+
+New homological profile found : 20 20
+
+
+New homological profile found : 21 21
+
+New good score found : 42
+New good score found : 42
+New good score found : 38
+
+New homological profile found : 22 22
+
+
+New homological profile found : 23 23
+
+New good score found : 46
+New good score found : 44
+New good score found : 42
+
+New homological profile found : 24 24
+
+
+New homological profile found : 25 25
+
+New good score found : 50
+New good score found : 46
+New good score found : 46
+
+New homological profile found : 26 26
+
+New good score found : 52
+New good score found : 50
+New good score found : 48
+
+New homological profile found : 27 27
+
+New good score found : 54
+New good score found : 54
+
+New homological profile found : 28 28
+
+New good score found : 56
+New good score found : 56
+
+New homological profile found : 29 29
+
+New good score found : 58
+New good score found : 58
+
+New homological profile found : 30 30
+
+New good score found : 60
+New good score found : 60
+
+Iteration 10 for optimizer TS_30_3000_3_25_50_False
+Current scores : [60 60 56 56 54]
+Mean score : 45.4, mean score among 20 best scores : 49.2
+The current all time best score is 60
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.21e+02
+
+New homological profile found : 31 31
+
+New good score found : 62
+New good score found : 62
+
+New homological profile found : 32 32
+
+New good score found : 64
+New good score found : 62
+
+New homological profile found : 33 33
+
+New good score found : 66
+New good score found : 66
+New good score found : 66
+New good score found : 66
+New good score found : 66
+
+New homological profile found : 34 34
+
+New good score found : 68
+New good score found : 68
+New good score found : 68
+
+Iteration 20 for optimizer TS_30_3000_3_25_50_False
+Current scores : [68 66 64 64 62]
+Mean score : 51.6, mean score among 20 best scores : 55.7
+The current all time best score is 68
+Duration of the TS_30_3000_3_25_50_False iteration = 1.2e+02, duration of the scoring phase = 1.2e+02
+New good score found : 68
+New good score found : 68
+
+New homological profile found : 35 35
+
+New good score found : 70
+
+New homological profile found : 36 36
+
+New good score found : 72
+New good score found : 70
+New good score found : 72
+New good score found : 70
+New good score found : 72
+New good score found : 72
+New good score found : 72
+
+New homological profile found : 37 37
+
+New good score found : 74
+New good score found : 74
+New good score found : 74
+New good score found : 74
+
+Iteration 30 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 74 74 74 74]
+Mean score : 65.06666666666666, mean score among 20 best scores : 69.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.03e+02, duration of the scoring phase = 1.02e+02
+New good score found : 74
+
+Iteration 40 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 74 74 74 74]
+Mean score : 67.53333333333333, mean score among 20 best scores : 71.4
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 95.5, duration of the scoring phase = 95.3
+
+Iteration 50 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 64]
+Mean score : 29.066666666666666, mean score among 20 best scores : 36.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.2e+02, duration of the scoring phase = 1.19e+02
+
+Iteration 60 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 54 52]
+Mean score : 46.6, mean score among 20 best scores : 51.1
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.23e+02, duration of the scoring phase = 1.22e+02
+
+Iteration 70 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 62 62 62]
+Mean score : 51.13333333333333, mean score among 20 best scores : 56.7
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.2e+02
+
+Iteration 80 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 67.33333333333333, mean score among 20 best scores : 71.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 39.6, duration of the scoring phase = 38.8
+
+Iteration 90 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 67.8, mean score among 20 best scores : 70.7
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 39.7, duration of the scoring phase = 38.8
+
+Iteration 100 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 70 70 70]
+Mean score : 28.733333333333334, mean score among 20 best scores : 35.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.25e+02, duration of the scoring phase = 1.23e+02
+
+Iteration 110 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 54 52]
+Mean score : 45.46666666666667, mean score among 20 best scores : 50.5
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.25e+02, duration of the scoring phase = 1.23e+02
+
+Iteration 120 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 64 62 60]
+Mean score : 49.8, mean score among 20 best scores : 55.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.23e+02, duration of the scoring phase = 1.21e+02
+
+Iteration 130 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 67.46666666666667, mean score among 20 best scores : 71.7
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 41.5, duration of the scoring phase = 40.1
+
+Iteration 140 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 68.13333333333334, mean score among 20 best scores : 70.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 43.0, duration of the scoring phase = 41.5
+
+New homological profile found : 1 1
+
+
+Iteration 150 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 70 70 68]
+Mean score : 27.933333333333334, mean score among 20 best scores : 34.7
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.26e+02, duration of the scoring phase = 1.24e+02
+
+Iteration 160 for optimizer TS_30_3000_3_25_50_False
+Current scores : [70 68 68 52 52]
+Mean score : 44.6, mean score among 20 best scores : 49.0
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.21e+02
+
+Iteration 170 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 70 60 58 56]
+Mean score : 48.4, mean score among 20 best scores : 53.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.21e+02
+
+Iteration 180 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 74 72 72 72]
+Mean score : 66.93333333333334, mean score among 20 best scores : 71.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 42.7, duration of the scoring phase = 40.9
+
+Iteration 190 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 68.93333333333334, mean score among 20 best scores : 72.0
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 43.2, duration of the scoring phase = 41.3
+
+Iteration 200 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 72 70 70 70]
+Mean score : 29.4, mean score among 20 best scores : 36.8
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.25e+02, duration of the scoring phase = 1.24e+02
+
+Iteration 210 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 70 70 54 54]
+Mean score : 46.46666666666667, mean score among 20 best scores : 50.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.24e+02, duration of the scoring phase = 1.22e+02
+
+Iteration 220 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 64 60 58]
+Mean score : 50.266666666666666, mean score among 20 best scores : 55.0
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.2e+02
+
+Iteration 230 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 68.0, mean score among 20 best scores : 72.0
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 38.3, duration of the scoring phase = 36.4
+
+Iteration 240 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 69.6, mean score among 20 best scores : 71.7
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 38.9, duration of the scoring phase = 37.0
+
+Iteration 250 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 72 72 72 70]
+Mean score : 30.466666666666665, mean score among 20 best scores : 37.3
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.25e+02, duration of the scoring phase = 1.23e+02
+
+Iteration 260 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 72 72 56 52]
+Mean score : 46.2, mean score among 20 best scores : 50.7
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.25e+02, duration of the scoring phase = 1.24e+02
+
+Iteration 270 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 60 60 56]
+Mean score : 49.46666666666667, mean score among 20 best scores : 54.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.21e+02, duration of the scoring phase = 1.19e+02
+
+Iteration 280 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 66.86666666666666, mean score among 20 best scores : 70.7
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 45.5, duration of the scoring phase = 43.7
+
+Iteration 290 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 68.0, mean score among 20 best scores : 70.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 46.2, duration of the scoring phase = 44.2
+
+Iteration 300 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 70 70 68]
+Mean score : 27.333333333333332, mean score among 20 best scores : 34.5
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.24e+02, duration of the scoring phase = 1.22e+02
+
+Iteration 310 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 68 50 50]
+Mean score : 45.266666666666666, mean score among 20 best scores : 49.3
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.23e+02, duration of the scoring phase = 1.21e+02
+
+Iteration 320 for optimizer TS_30_3000_3_25_50_False
+Current scores : [70 70 60 58 54]
+Mean score : 48.0, mean score among 20 best scores : 52.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.21e+02
+
+Iteration 330 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 74 74 74 74]
+Mean score : 68.6, mean score among 20 best scores : 73.1
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 30.2, duration of the scoring phase = 28.4
+
+Iteration 340 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 74 74 74 74]
+Mean score : 70.66666666666667, mean score among 20 best scores : 73.8
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 29.2, duration of the scoring phase = 27.3
+
+Iteration 350 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 70 70 70]
+Mean score : 28.0, mean score among 20 best scores : 34.4
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.17e+02, duration of the scoring phase = 1.15e+02
+
+Iteration 360 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 68 54 52]
+Mean score : 45.666666666666664, mean score among 20 best scores : 49.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.21e+02, duration of the scoring phase = 1.2e+02
+
+Iteration 370 for optimizer TS_30_3000_3_25_50_False
+Current scores : [70 70 60 60 60]
+Mean score : 49.8, mean score among 20 best scores : 54.4
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.2e+02
+
+Iteration 380 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 67.13333333333334, mean score among 20 best scores : 71.3
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 40.9, duration of the scoring phase = 38.9
+
+Iteration 390 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 67.73333333333333, mean score among 20 best scores : 70.7
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 34.1, duration of the scoring phase = 32.2
+
+Iteration 400 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 70 70]
+Mean score : 29.4, mean score among 20 best scores : 35.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.25e+02, duration of the scoring phase = 1.24e+02
+
+Iteration 410 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 60 56]
+Mean score : 47.13333333333333, mean score among 20 best scores : 51.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.23e+02, duration of the scoring phase = 1.22e+02
+Maximal running time reached for TS_30_3000_3_25_50_False
+End of the run for optimizer TS_30_3000_3_25_50_False
+CPU time passed: 36075.6, wall time passed: 36418.9
+Best score found : 74 
+
+
+New homological profile found : 8 8
+
+
+New homological profile found : 10 10
+
+
+New homological profile found : 4 4
+
+
+New homological profile found : 7 7
+
+
+New homological profile found : 11 11
+
+
+New homological profile found : 5 5
+
+
+New homological profile found : 6 6
+
+
+New homological profile found : 9 9
+
+
+New homological profile found : 2 2
+
+
+New homological profile found : 15 15
+
+
+-----
+Starting optimization with optimizer TS_30_3000_3_25_50_False in experiment exp_1_TS_size_pop_triangs_TS_30_3000_3_25_50_False_homology_bt_Harnack.10_2_10_seed_2
+
+
+New homological profile found : 12 12
+
+
+New homological profile found : 14 14
+
+
+New homological profile found : 3 3
+
+
+New homological profile found : 13 13
+
+
+New homological profile found : 1 1
+
+
+New homological profile found : 16 16
+
+
+New homological profile found : 17 17
+
+New good score found : 34
+New good score found : 30
+New good score found : 28
+New good score found : 28
+
+Iteration 0 for optimizer TS_30_3000_3_25_50_False
+Current scores : [34 30 28 28 26]
+Mean score : 19.333333333333332, mean score among 20 best scores : 22.4
+The current all time best score is 34
+Duration of the TS_30_3000_3_25_50_False iteration = 1.26e+02, duration of the scoring phase = 1.26e+02
+
+New homological profile found : 18 18
+
+
+New homological profile found : 19 19
+
+New good score found : 38
+New good score found : 36
+New good score found : 34
+New good score found : 32
+
+New homological profile found : 20 20
+
+
+New homological profile found : 21 21
+
+New good score found : 42
+New good score found : 40
+New good score found : 38
+
+New homological profile found : 22 22
+
+New good score found : 44
+New good score found : 44
+New good score found : 42
+
+New homological profile found : 23 23
+
+New good score found : 46
+New good score found : 46
+New good score found : 44
+
+New homological profile found : 24 24
+
+New good score found : 48
+New good score found : 46
+New good score found : 46
+
+New homological profile found : 25 25
+
+New good score found : 50
+New good score found : 48
+
+New homological profile found : 26 26
+
+New good score found : 52
+New good score found : 48
+New good score found : 52
+New good score found : 52
+New good score found : 50
+New good score found : 52
+New good score found : 52
+
+Iteration 10 for optimizer TS_30_3000_3_25_50_False
+Current scores : [52 52 50 50 50]
+Mean score : 44.2, mean score among 20 best scores : 46.6
+The current all time best score is 52
+Duration of the TS_30_3000_3_25_50_False iteration = 1.21e+02, duration of the scoring phase = 1.21e+02
+
+New homological profile found : 27 27
+
+New good score found : 54
+New good score found : 54
+New good score found : 54
+New good score found : 54
+New good score found : 54
+
+New homological profile found : 28 28
+
+
+New homological profile found : 29 29
+
+New good score found : 58
+New good score found : 58
+New good score found : 58
+New good score found : 56
+New good score found : 58
+New good score found : 58
+
+Iteration 20 for optimizer TS_30_3000_3_25_50_False
+Current scores : [58 58 56 54 54]
+Mean score : 49.8, mean score among 20 best scores : 52.7
+The current all time best score is 58
+Duration of the TS_30_3000_3_25_50_False iteration = 1.2e+02, duration of the scoring phase = 1.2e+02
+
+New homological profile found : 30 30
+
+
+New homological profile found : 31 31
+
+New good score found : 62
+
+New homological profile found : 32 32
+
+New good score found : 64
+
+New homological profile found : 33 33
+
+New good score found : 66
+New good score found : 60
+New good score found : 66
+New good score found : 66
+New good score found : 64
+New good score found : 66
+New good score found : 66
+
+Iteration 30 for optimizer TS_30_3000_3_25_50_False
+Current scores : [66 66 66 66 66]
+Mean score : 64.2, mean score among 20 best scores : 65.4
+The current all time best score is 66
+Duration of the TS_30_3000_3_25_50_False iteration = 25.8, duration of the scoring phase = 25.7
+
+Iteration 40 for optimizer TS_30_3000_3_25_50_False
+Current scores : [64 64 64 64 64]
+Mean score : 62.6, mean score among 20 best scores : 63.3
+The current all time best score is 66
+Duration of the TS_30_3000_3_25_50_False iteration = 25.0, duration of the scoring phase = 24.8
+
+Iteration 50 for optimizer TS_30_3000_3_25_50_False
+Current scores : [64 64 64 64 62]
+Mean score : 26.933333333333334, mean score among 20 best scores : 32.7
+The current all time best score is 66
+Duration of the TS_30_3000_3_25_50_False iteration = 1.17e+02, duration of the scoring phase = 1.16e+02
+
+Iteration 60 for optimizer TS_30_3000_3_25_50_False
+Current scores : [64 52 52 50 50]
+Mean score : 42.93333333333333, mean score among 20 best scores : 46.7
+The current all time best score is 66
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.21e+02
+
+Iteration 70 for optimizer TS_30_3000_3_25_50_False
+Current scores : [64 58 56 56 56]
+Mean score : 48.93333333333333, mean score among 20 best scores : 52.5
+The current all time best score is 66
+Duration of the TS_30_3000_3_25_50_False iteration = 1.21e+02, duration of the scoring phase = 1.2e+02
+
+Iteration 80 for optimizer TS_30_3000_3_25_50_False
+Current scores : [64 64 64 64 64]
+Mean score : 61.6, mean score among 20 best scores : 62.6
+The current all time best score is 66
+Duration of the TS_30_3000_3_25_50_False iteration = 28.8, duration of the scoring phase = 28.0
+
+Iteration 90 for optimizer TS_30_3000_3_25_50_False
+Current scores : [64 64 64 64 64]
+Mean score : 61.666666666666664, mean score among 20 best scores : 62.6
+The current all time best score is 66
+Duration of the TS_30_3000_3_25_50_False iteration = 28.7, duration of the scoring phase = 27.9
+
+New homological profile found : 34 34
+
+New good score found : 68
+
+New homological profile found : 35 35
+
+New good score found : 70
+New good score found : 70
+New good score found : 70
+New good score found : 70
+New good score found : 70
+
+Iteration 100 for optimizer TS_30_3000_3_25_50_False
+Current scores : [68 62 62 60 60]
+Mean score : 26.133333333333333, mean score among 20 best scores : 31.7
+The current all time best score is 70
+Duration of the TS_30_3000_3_25_50_False iteration = 1.19e+02, duration of the scoring phase = 1.17e+02
+
+Iteration 110 for optimizer TS_30_3000_3_25_50_False
+Current scores : [68 66 58 54 48]
+Mean score : 43.53333333333333, mean score among 20 best scores : 46.8
+The current all time best score is 70
+Duration of the TS_30_3000_3_25_50_False iteration = 1.23e+02, duration of the scoring phase = 1.21e+02
+
+Iteration 120 for optimizer TS_30_3000_3_25_50_False
+Current scores : [68 66 66 64 58]
+Mean score : 48.266666666666666, mean score among 20 best scores : 51.4
+The current all time best score is 70
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.21e+02
+
+Iteration 130 for optimizer TS_30_3000_3_25_50_False
+Current scores : [68 68 68 68 68]
+Mean score : 65.13333333333334, mean score among 20 best scores : 67.1
+The current all time best score is 70
+Duration of the TS_30_3000_3_25_50_False iteration = 72.0, duration of the scoring phase = 70.6
+
+New homological profile found : 36 36
+
+New good score found : 72
+New good score found : 72
+
+New homological profile found : 37 37
+
+New good score found : 74
+New good score found : 74
+New good score found : 74
+New good score found : 74
+New good score found : 74
+
+Iteration 140 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 74 74 72 72]
+Mean score : 68.0, mean score among 20 best scores : 70.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 72.7, duration of the scoring phase = 71.3
+
+Iteration 150 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 62 46]
+Mean score : 27.133333333333333, mean score among 20 best scores : 32.5
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.25e+02, duration of the scoring phase = 1.23e+02
+
+Iteration 160 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 60 56 52]
+Mean score : 44.46666666666667, mean score among 20 best scores : 48.3
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.26e+02, duration of the scoring phase = 1.24e+02
+
+Iteration 170 for optimizer TS_30_3000_3_25_50_False
+Current scores : [70 70 68 62 60]
+Mean score : 50.46666666666667, mean score among 20 best scores : 54.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.21e+02, duration of the scoring phase = 1.19e+02
+
+Iteration 180 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 68.86666666666666, mean score among 20 best scores : 70.5
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 36.7, duration of the scoring phase = 34.7
+
+Iteration 190 for optimizer TS_30_3000_3_25_50_False
+Current scores : [70 70 70 70 70]
+Mean score : 66.66666666666667, mean score among 20 best scores : 69.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 35.1, duration of the scoring phase = 33.2
+
+Iteration 200 for optimizer TS_30_3000_3_25_50_False
+Current scores : [68 68 68 42 40]
+Mean score : 24.666666666666668, mean score among 20 best scores : 30.4
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.19e+02, duration of the scoring phase = 1.17e+02
+
+Iteration 210 for optimizer TS_30_3000_3_25_50_False
+Current scores : [68 64 60 56 52]
+Mean score : 44.666666666666664, mean score among 20 best scores : 48.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.21e+02
+
+Iteration 220 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 72 68 68 68]
+Mean score : 51.86666666666667, mean score among 20 best scores : 57.0
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.2e+02
+
+Iteration 230 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 68.53333333333333, mean score among 20 best scores : 70.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 42.0, duration of the scoring phase = 40.1
+
+Iteration 240 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 67.06666666666666, mean score among 20 best scores : 70.5
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 44.0, duration of the scoring phase = 42.2
+
+Iteration 250 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 66 56 40]
+Mean score : 25.866666666666667, mean score among 20 best scores : 31.5
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.25e+02, duration of the scoring phase = 1.23e+02
+
+Iteration 260 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 62 58 56 54]
+Mean score : 45.4, mean score among 20 best scores : 49.5
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.24e+02, duration of the scoring phase = 1.22e+02
+
+Iteration 270 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 70 70 68 66]
+Mean score : 51.6, mean score among 20 best scores : 56.4
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.2e+02, duration of the scoring phase = 1.19e+02
+
+Iteration 280 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 72 72 72 72]
+Mean score : 69.4, mean score among 20 best scores : 71.3
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 33.8, duration of the scoring phase = 31.9
+
+Iteration 290 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 74 74 74 74]
+Mean score : 68.8, mean score among 20 best scores : 72.7
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 32.4, duration of the scoring phase = 30.5
+
+Iteration 300 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 68 58 44]
+Mean score : 25.866666666666667, mean score among 20 best scores : 31.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.25e+02, duration of the scoring phase = 1.23e+02
+
+Iteration 310 for optimizer TS_30_3000_3_25_50_False
+Current scores : [70 62 60 58 52]
+Mean score : 46.86666666666667, mean score among 20 best scores : 50.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.23e+02, duration of the scoring phase = 1.21e+02
+
+Iteration 320 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 66 60]
+Mean score : 53.53333333333333, mean score among 20 best scores : 58.3
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.2e+02, duration of the scoring phase = 1.18e+02
+
+Iteration 330 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 68.8, mean score among 20 best scores : 70.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 45.6, duration of the scoring phase = 43.7
+
+Iteration 340 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 70 70 70]
+Mean score : 67.0, mean score among 20 best scores : 69.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 48.5, duration of the scoring phase = 46.6
+
+Iteration 350 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 68 68 40 34]
+Mean score : 25.266666666666666, mean score among 20 best scores : 30.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.26e+02, duration of the scoring phase = 1.25e+02
+
+Iteration 360 for optimizer TS_30_3000_3_25_50_False
+Current scores : [68 56 54 52 52]
+Mean score : 46.0, mean score among 20 best scores : 49.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.23e+02, duration of the scoring phase = 1.21e+02
+
+Iteration 370 for optimizer TS_30_3000_3_25_50_False
+Current scores : [70 68 66 64 60]
+Mean score : 53.4, mean score among 20 best scores : 57.5
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.2e+02, duration of the scoring phase = 1.19e+02
+
+Iteration 380 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 68.73333333333333, mean score among 20 best scores : 70.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 42.6, duration of the scoring phase = 40.7
+
+Iteration 390 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 67.86666666666666, mean score among 20 best scores : 70.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 41.6, duration of the scoring phase = 39.7
+
+Iteration 400 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 68 42 40]
+Mean score : 26.533333333333335, mean score among 20 best scores : 32.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.2e+02
+
+Iteration 410 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 60 50 50 50]
+Mean score : 44.4, mean score among 20 best scores : 48.0
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.23e+02, duration of the scoring phase = 1.22e+02
+
+Iteration 420 for optimizer TS_30_3000_3_25_50_False
+Current scores : [70 70 68 66 60]
+Mean score : 51.733333333333334, mean score among 20 best scores : 56.5
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.21e+02
+
+Iteration 430 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 68.53333333333333, mean score among 20 best scores : 71.0
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 27.7, duration of the scoring phase = 25.9
+Maximal running time reached for TS_30_3000_3_25_50_False
+End of the run for optimizer TS_30_3000_3_25_50_False
+CPU time passed: 36006.6, wall time passed: 36338.7
+Best score found : 74 
+
+
+New homological profile found : 6 6
+
+
+New homological profile found : 8 8
+
+
+New homological profile found : 11 11
+
+
+New homological profile found : 9 9
+
+
+New homological profile found : 5 5
+
+
+New homological profile found : 12 12
+
+
+New homological profile found : 7 7
+
+
+New homological profile found : 4 4
+
+
+New homological profile found : 3 3
+
+
+New homological profile found : 10 10
+
+
+-----
+Starting optimization with optimizer TS_30_3000_3_25_50_False in experiment exp_1_TS_size_pop_triangs_TS_30_3000_3_25_50_False_homology_bt_Harnack.10_2_10_seed_3
+
+
+New homological profile found : 13 13
+
+
+New homological profile found : 14 14
+
+
+New homological profile found : 2 2
+
+
+New homological profile found : 1 1
+
+New good score found : 28
+New good score found : 28
+New good score found : 26
+New good score found : 26
+New good score found : 26
+
+Iteration 0 for optimizer TS_30_3000_3_25_50_False
+Current scores : [28 28 26 26 26]
+Mean score : 19.666666666666668, mean score among 20 best scores : 22.0
+The current all time best score is 28
+Duration of the TS_30_3000_3_25_50_False iteration = 1.26e+02, duration of the scoring phase = 1.26e+02
+
+New homological profile found : 15 15
+
+
+New homological profile found : 16 16
+
+New good score found : 32
+New good score found : 30
+New good score found : 30
+New good score found : 30
+New good score found : 30
+
+New homological profile found : 17 17
+
+New good score found : 34
+New good score found : 34
+New good score found : 34
+New good score found : 34
+
+New homological profile found : 18 18
+
+
+New homological profile found : 19 19
+
+New good score found : 38
+New good score found : 36
+New good score found : 36
+New good score found : 36
+New good score found : 36
+
+New homological profile found : 20 20
+
+
+New homological profile found : 21 21
+
+New good score found : 42
+New good score found : 38
+New good score found : 38
+New good score found : 38
+
+New homological profile found : 22 22
+
+New good score found : 44
+New good score found : 42
+New good score found : 40
+New good score found : 40
+
+New homological profile found : 23 23
+
+New good score found : 46
+New good score found : 44
+
+New homological profile found : 24 24
+
+New good score found : 48
+New good score found : 46
+New good score found : 46
+
+New homological profile found : 25 25
+
+New good score found : 50
+New good score found : 48
+New good score found : 48
+
+New homological profile found : 26 26
+
+New good score found : 52
+New good score found : 50
+New good score found : 50
+New good score found : 52
+New good score found : 52
+New good score found : 52
+
+Iteration 10 for optimizer TS_30_3000_3_25_50_False
+Current scores : [52 52 52 50 50]
+Mean score : 43.4, mean score among 20 best scores : 46.4
+The current all time best score is 52
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.22e+02
+
+New homological profile found : 27 27
+
+New good score found : 54
+
+New homological profile found : 28 28
+
+New good score found : 56
+New good score found : 54
+New good score found : 54
+
+New homological profile found : 29 29
+
+New good score found : 58
+New good score found : 56
+New good score found : 56
+
+New homological profile found : 30 30
+
+New good score found : 60
+New good score found : 58
+
+New homological profile found : 31 31
+
+New good score found : 62
+New good score found : 60
+New good score found : 62
+New good score found : 60
+New good score found : 62
+New good score found : 62
+New good score found : 62
+
+New homological profile found : 33 33
+
+
+New homological profile found : 32 32
+
+New good score found : 66
+New good score found : 64
+
+Iteration 20 for optimizer TS_30_3000_3_25_50_False
+Current scores : [66 64 58 58 56]
+Mean score : 49.93333333333333, mean score among 20 best scores : 53.4
+The current all time best score is 66
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.21e+02
+New good score found : 66
+New good score found : 64
+New good score found : 66
+New good score found : 66
+New good score found : 66
+
+New homological profile found : 34 34
+
+New good score found : 68
+New good score found : 68
+New good score found : 68
+New good score found : 68
+New good score found : 68
+
+New homological profile found : 35 35
+
+New good score found : 70
+
+New homological profile found : 36 36
+
+New good score found : 72
+New good score found : 70
+
+New homological profile found : 37 37
+
+New good score found : 74
+New good score found : 70
+
+Iteration 30 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 70 70 68 68]
+Mean score : 64.46666666666667, mean score among 20 best scores : 66.4
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 64.6, duration of the scoring phase = 64.5
+New good score found : 74
+New good score found : 74
+New good score found : 74
+New good score found : 74
+
+Iteration 40 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 74 74 74 74]
+Mean score : 66.26666666666667, mean score among 20 best scores : 68.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 56.1, duration of the scoring phase = 55.9
+
+Iteration 50 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 72 72 72 72]
+Mean score : 34.06666666666667, mean score among 20 best scores : 42.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.18e+02, duration of the scoring phase = 1.17e+02
+
+Iteration 60 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 56 54]
+Mean score : 46.0, mean score among 20 best scores : 50.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.23e+02, duration of the scoring phase = 1.22e+02
+
+Iteration 70 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 66 66]
+Mean score : 52.53333333333333, mean score among 20 best scores : 57.7
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.21e+02, duration of the scoring phase = 1.19e+02
+
+Iteration 80 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 67.53333333333333, mean score among 20 best scores : 71.3
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 50.8, duration of the scoring phase = 49.9
+
+Iteration 90 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 70 70]
+Mean score : 67.46666666666667, mean score among 20 best scores : 70.3
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 43.3, duration of the scoring phase = 42.4
+
+Iteration 100 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 70 70]
+Mean score : 34.333333333333336, mean score among 20 best scores : 44.0
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.15e+02, duration of the scoring phase = 1.14e+02
+
+Iteration 110 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 58 52]
+Mean score : 46.93333333333333, mean score among 20 best scores : 51.3
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.23e+02, duration of the scoring phase = 1.22e+02
+
+Iteration 120 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 70 62 62]
+Mean score : 52.333333333333336, mean score among 20 best scores : 56.3
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.21e+02, duration of the scoring phase = 1.19e+02
+
+Iteration 130 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 67.6, mean score among 20 best scores : 70.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 40.7, duration of the scoring phase = 39.3
+
+Iteration 140 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 68.06666666666666, mean score among 20 best scores : 70.8
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 41.2, duration of the scoring phase = 39.7
+
+Iteration 150 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 70 70]
+Mean score : 35.0, mean score among 20 best scores : 43.3
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.17e+02, duration of the scoring phase = 1.15e+02
+
+Iteration 160 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 54 52]
+Mean score : 44.333333333333336, mean score among 20 best scores : 49.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.2e+02
+
+Iteration 170 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 68 56 56]
+Mean score : 49.8, mean score among 20 best scores : 53.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.2e+02, duration of the scoring phase = 1.18e+02
+
+Iteration 180 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 72 72 72 72]
+Mean score : 68.73333333333333, mean score among 20 best scores : 71.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 24.0, duration of the scoring phase = 22.1
+
+Iteration 190 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 72 72 72 72]
+Mean score : 68.6, mean score among 20 best scores : 71.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 23.6, duration of the scoring phase = 21.7
+
+Iteration 200 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 72 72 72 70]
+Mean score : 33.2, mean score among 20 best scores : 42.4
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.14e+02, duration of the scoring phase = 1.12e+02
+
+Iteration 210 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 52 52]
+Mean score : 46.666666666666664, mean score among 20 best scores : 51.4
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.21e+02, duration of the scoring phase = 1.19e+02
+
+Iteration 220 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 70 60 60]
+Mean score : 54.06666666666667, mean score among 20 best scores : 58.3
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.2e+02
+
+Iteration 230 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 69.0, mean score among 20 best scores : 71.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 39.2, duration of the scoring phase = 37.3
+
+Iteration 240 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 68.33333333333333, mean score among 20 best scores : 71.2
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 39.6, duration of the scoring phase = 37.6
+
+Iteration 250 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 70 70]
+Mean score : 34.06666666666667, mean score among 20 best scores : 42.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.16e+02, duration of the scoring phase = 1.14e+02
+
+Iteration 260 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 70 52 50]
+Mean score : 44.93333333333333, mean score among 20 best scores : 49.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.23e+02, duration of the scoring phase = 1.21e+02
+
+Iteration 270 for optimizer TS_30_3000_3_25_50_False
+Current scores : [70 70 68 66 62]
+Mean score : 52.0, mean score among 20 best scores : 56.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.2e+02
+
+Iteration 280 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 67.4, mean score among 20 best scores : 70.8
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 41.8, duration of the scoring phase = 39.9
+
+Iteration 290 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 68.13333333333334, mean score among 20 best scores : 70.8
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 41.4, duration of the scoring phase = 39.5
+
+Iteration 300 for optimizer TS_30_3000_3_25_50_False
+Current scores : [70 70 70 70 70]
+Mean score : 33.666666666666664, mean score among 20 best scores : 42.4
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.16e+02, duration of the scoring phase = 1.15e+02
+
+Iteration 310 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 70 56 54]
+Mean score : 45.93333333333333, mean score among 20 best scores : 50.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.25e+02, duration of the scoring phase = 1.23e+02
+
+Iteration 320 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 68 62 62]
+Mean score : 51.06666666666667, mean score among 20 best scores : 55.9
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.22e+02, duration of the scoring phase = 1.2e+02
+
+Iteration 330 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 72 72 72 72]
+Mean score : 69.13333333333334, mean score among 20 best scores : 72.1
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 27.0, duration of the scoring phase = 25.1
+
+Iteration 340 for optimizer TS_30_3000_3_25_50_False
+Current scores : [74 72 72 72 72]
+Mean score : 69.33333333333333, mean score among 20 best scores : 72.1
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 20.6, duration of the scoring phase = 18.8
+
+Iteration 350 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 70 70 70]
+Mean score : 33.13333333333333, mean score among 20 best scores : 42.1
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.15e+02, duration of the scoring phase = 1.13e+02
+
+Iteration 360 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 50 50]
+Mean score : 44.0, mean score among 20 best scores : 48.5
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.18e+02, duration of the scoring phase = 1.16e+02
+
+Iteration 370 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 70 60 56]
+Mean score : 50.06666666666667, mean score among 20 best scores : 54.1
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.17e+02, duration of the scoring phase = 1.15e+02
+
+Iteration 380 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 68.6, mean score among 20 best scores : 71.8
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 31.7, duration of the scoring phase = 29.9
+
+Iteration 390 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 68.13333333333334, mean score among 20 best scores : 71.4
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 32.0, duration of the scoring phase = 30.1
+
+Iteration 400 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 70 70]
+Mean score : 33.93333333333333, mean score among 20 best scores : 43.3
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.1e+02, duration of the scoring phase = 1.08e+02
+
+Iteration 410 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 70 52 52]
+Mean score : 44.266666666666666, mean score among 20 best scores : 49.1
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.23e+02, duration of the scoring phase = 1.22e+02
+
+Iteration 420 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 70 70 62 62]
+Mean score : 50.266666666666666, mean score among 20 best scores : 54.4
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 1.2e+02, duration of the scoring phase = 1.19e+02
+
+Iteration 430 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 67.6, mean score among 20 best scores : 71.5
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 42.2, duration of the scoring phase = 40.3
+
+Iteration 440 for optimizer TS_30_3000_3_25_50_False
+Current scores : [72 72 72 72 72]
+Mean score : 68.66666666666667, mean score among 20 best scores : 71.6
+The current all time best score is 74
+Duration of the TS_30_3000_3_25_50_False iteration = 41.3, duration of the scoring phase = 39.3
+Maximal running time reached for TS_30_3000_3_25_50_False
+End of the run for optimizer TS_30_3000_3_25_50_False
+CPU time passed: 36016.5, wall time passed: 36356.7
+Best score found : 74 
+

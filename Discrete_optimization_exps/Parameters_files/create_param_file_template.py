@@ -11,9 +11,9 @@ from sklearn.model_selection import ParameterGrid
 my_local_path =  parent_dir
 
 
-param_file = os.path.join(my_local_path, "Parameters_files","param_exp_1_RS.txt")
+param_file = os.path.join(my_local_path, "Parameters_files","param_exp_1_RS_triangs.txt")
 
-exp_name = "exp_1_RS"
+exp_name = "exp_1_RS_triangs"
 
 saved_results_folder = exp_name
 
@@ -23,12 +23,21 @@ if not os.path.isdir(os.path.join(my_local_path, saved_results_folder)):
 
 
 #param_grid = [{'kernel': ['linear']}, {'kernel': ['rbf'], 'gamma': [1, 10]}]
-param_grid = {"optimizer_type" : ["RS"], 
-              "num_seeds" : ["3"],
-              "obj_function": [(f"graph_2.1_{N}", f"{int(N*(N-1)/2)}") for N in [9, 19, 29]] + [(f"graph_2.3_{N}", f"{int(N*(N-1)/2)}") for N in [20, 30, 40]] ,   # the second entry of each pair is the dimension (it is determined by the objective function)
-              "max_running_time": [f"{3*10}"],
-              "optimizer_parameters": [["1000"], ["2000"]]
+param_grid = [{"optimizer_type" : ["RS"], 
+              "num_seeds" : ["4"],
+              #"obj_function": [(f"graph_2.1_{N}", f"{int(N*(N-1)/2)}") for N in [9, 19, 29]] + [(f"graph_2.3_{N}", f"{int(N*(N-1)/2)}") for N in [20, 30, 40]] ,   # the second entry of each pair is the dimension (it is determined by the objective function)
+              "obj_function": [(f"homology_bt_Harnack.10_2_10", f"{66}"),(f"homology_bt_Harnack.20_2_20", f"{231}") ],
+              "max_running_time": [f"{3600*10}"],
+              "optimizer_parameters": [["100"]]
+            },
+            {"optimizer_type" : ["RS"], 
+              "num_seeds" : ["4"],
+              #"obj_function": [(f"graph_2.1_{N}", f"{int(N*(N-1)/2)}") for N in [9, 19, 29]] + [(f"graph_2.3_{N}", f"{int(N*(N-1)/2)}") for N in [20, 30, 40]] ,   # the second entry of each pair is the dimension (it is determined by the objective function)
+              "obj_function": [(f"homology_b0pab1_Dim.3.deg.6_3_6", f"{78}"),(f"homology_b0pab1_Dim.4.deg.4_4_4", f"{51}") ],
+              "max_running_time": [f"{3600*2}"],
+              "optimizer_parameters": [["100"]]
             }
+            ]
 
 # TODO make it so that the parameters written adapt to the optimizer's parameters
 
