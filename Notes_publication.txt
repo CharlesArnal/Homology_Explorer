@@ -1,0 +1,33 @@
+Relire mes notes manuscrites pour le blabla
+
+-----------
+Où publier :
+SIAM conference/journal on applied algebraic geometry (demander à Michele Ancona si pas clair)
+Où Tom Coates publie : http://coates.ma.ic.ac.uk/ (conseil de Mark Gross)
+Où Yang Hui He publie : https://arxiv.org/abs/2101.06317, https://en.wikipedia.org/wiki/Yang-Hui_He (conseil de Mark Gross)
+
+
+Découpage :
+Un papier graphe + opti de signe pour RAG
+Un papier infrastructure totale pour la résolution du problème de géo alg (avec marche)
+Un papier RL pour fonctions continues (+ autres méthodes) avec application au cas de la génération de polynôme (ou de triangulation ?)
+Un papier Graph neural networks pour préévaluer une triangulation ? (+ peut-être générer des signes)
+
+inclure VAE ? 
+Inclure simulated annealing
+
+
+---------
+à citer :
+Topcom
+MPtopcom
+Parallel
+Polymake
+Wagner (et celui que Wagner cite pour le RL)
+Le serveur nef frontal
+Tensorflow
+Heather
+Itenberg
+Le mec de pygad
+Les allemands (Joswig et son postdoc)
+

@@ -166,6 +166,7 @@ MCTS :
 # pour 5 et 10 (depth) :
 Temps : 500s, 155'000s (trop) | 1900s 800'000s | 3500s, ? | 17'000s 570'000s
 # pour 3 et 5 (depth) : 3 est mieux pour Harnack 10, 5 est mieux pour les autres, continuer avec 5
+# pas hyper convaincant cependant, il serait mieux de choisir la depth en fonction de la difficulté du problème (en particulier coût d'une évaluation)
 # 10 30 100
 
 GA :
@@ -281,22 +282,12 @@ kill -SIGTERM -- -19701 (où 19701 est l'id du parent)
 
 
 
-Découpage :
-Un papier graphe + opti de signe pour RAG
-Un papier infrastructure totale pour la résolution du problème de géo alg (avec marche)
-Un papier RL pour fonctions continues (+ autres méthodes) avec application au cas de la génération de polynôme (ou de triangulation ?)
-Un papier Graph neural networks pour préévaluer une triangulation ? (+ peut-être générer des signes)
-
-inclure VAE ? 
-Inclure simulated annealing
 
 Note : GA appelle deux fois la fonction à optimiser
 Note : RL affiche dans end_of_iteration_routine les solutions nouvellement trouvées, mais pas les super solutions, qui contiennent bien les meilleurs résultats des itérations précédentes
 
 Vérifier un de ces jours que compute homology marche correctement (malgré le non-usage des relevant points indices)
 
-
-SIAM conference/journal on applied algebraic geometry (demander à Michele)
 
 
 guideline : use full paths EVERYWHERE

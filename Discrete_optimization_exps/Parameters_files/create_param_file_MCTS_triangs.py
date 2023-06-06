@@ -11,9 +11,9 @@ from sklearn.model_selection import ParameterGrid
 my_local_path =  parent_dir
 
 
-param_file = os.path.join(my_local_path, "Parameters_files","param_exp_1_MCTS_depth_triangs.txt")
+param_file = os.path.join(my_local_path, "Parameters_files","param_exp_2_MCTS_width_triangs.txt")
 
-exp_name = "exp_1_MCTS_depth_triangs"
+exp_name = "exp_2_MCTS_width_triangs"
 
 saved_results_folder = exp_name
 
@@ -35,41 +35,39 @@ if not os.path.isdir(os.path.join(my_local_path, saved_results_folder)):
 
 
 #param_grid = [{'kernel': ['linear']}, {'kernel': ['rbf'], 'gamma': [1, 10]}]
-# Exp 1 (size_pop)
+# Exp 1 (depth)
+# param_grid = [{ "num_seeds" : ["4"],
+#               #"obj_function": [(f"graph_2.1_{N}", f"{int(N*(N-1)/2)}") for N in [9, 19, 29]] + [(f"graph_2.3_{N}", f"{int(N*(N-1)/2)}") for N in [20, 30, 40]] ,   # the second entry of each pair is the dimension (it is determined by the objective function)
+#               "obj_function": [(f"homology_bt_Harnack.10_2_10", f"{66}"),(f"homology_bt_Harnack.20_2_20", f"{231}")],
+#               "max_running_time": [f"{3600*10}"],
+#               "optimizer_type" : ["MCTS"], 
+#               "optimizer_parameters": [["3","10"], ["5","10"]]
+#             },
+#             { "num_seeds" : ["4"],
+#               #"obj_function": [(f"graph_2.1_{N}", f"{int(N*(N-1)/2)}") for N in [9, 19, 29]] + [(f"graph_2.3_{N}", f"{int(N*(N-1)/2)}") for N in [20, 30, 40]] ,   # the second entry of each pair is the dimension (it is determined by the objective function)
+#               "obj_function": [(f"homology_b0pab1_Dim.3.deg.6_3_6", f"{78}"),(f"homology_b0pab1_Dim.4.deg.4_4_4", f"{51}") ],
+#               "max_running_time": [f"{3600*2}"],
+#               "optimizer_type" : ["MCTS"], 
+#               "optimizer_parameters": [["3","10"], ["5","10"]]
+#             }
+#             ]
+
+# # Exp 2 (width)
 param_grid = [{ "num_seeds" : ["4"],
               #"obj_function": [(f"graph_2.1_{N}", f"{int(N*(N-1)/2)}") for N in [9, 19, 29]] + [(f"graph_2.3_{N}", f"{int(N*(N-1)/2)}") for N in [20, 30, 40]] ,   # the second entry of each pair is the dimension (it is determined by the objective function)
               "obj_function": [(f"homology_bt_Harnack.10_2_10", f"{66}"),(f"homology_bt_Harnack.20_2_20", f"{231}")],
               "max_running_time": [f"{3600*10}"],
               "optimizer_type" : ["MCTS"], 
-              "optimizer_parameters": [["3","10"], ["5","10"]]
+              "optimizer_parameters": [["5","10"], ["5","30"], ["5","100"]]
             },
             { "num_seeds" : ["4"],
               #"obj_function": [(f"graph_2.1_{N}", f"{int(N*(N-1)/2)}") for N in [9, 19, 29]] + [(f"graph_2.3_{N}", f"{int(N*(N-1)/2)}") for N in [20, 30, 40]] ,   # the second entry of each pair is the dimension (it is determined by the objective function)
               "obj_function": [(f"homology_b0pab1_Dim.3.deg.6_3_6", f"{78}"),(f"homology_b0pab1_Dim.4.deg.4_4_4", f"{51}") ],
               "max_running_time": [f"{3600*2}"],
               "optimizer_type" : ["MCTS"], 
-              "optimizer_parameters": [["3","10"], ["5","10"]]
+              "optimizer_parameters": [["5","10"], ["5","30"], ["5","100"]]
             }
             ]
-
-# # Exp 2 (memory)
-# param_grid = {"optimizer_type" : ["RS"], 
-#               "num_seeds" : ["3"],
-#               #"obj_function": [(f"graph_2.1_{N}", f"{int(N*(N-1)/2)}") for N in [9, 19, 29]] + [(f"graph_2.3_{N}", f"{int(N*(N-1)/2)}") for N in [20, 30, 40]] ,   # the second entry of each pair is the dimension (it is determined by the objective function)
-#               "obj_function": [(f"homology_bt_Harnack.10_2_10", f"{66}"),(f"homology_bt_Harnack.10_2_20", f"{231}"), (f"homology_b0pab1_Dim.3.deg.6_2_10", f"{78}"),(f"homology_b0pab1_Dim.4.deg.4_2_10", f"{51}") ],
-#               "max_running_time": [f"{3600*10}"],
-#               "optimizer_parameters": [["100"]]
-#             }
-
-# # Exp 3 (percent more exploration)
-# param_grid = {"optimizer_type" : ["RS"], 
-#               "num_seeds" : ["3"],
-#               #"obj_function": [(f"graph_2.1_{N}", f"{int(N*(N-1)/2)}") for N in [9, 19, 29]] + [(f"graph_2.3_{N}", f"{int(N*(N-1)/2)}") for N in [20, 30, 40]] ,   # the second entry of each pair is the dimension (it is determined by the objective function)
-#               "obj_function": [(f"homology_bt_Harnack.10_2_10", f"{66}"),(f"homology_bt_Harnack.10_2_20", f"{231}"), (f"homology_b0pab1_Dim.3.deg.6_2_10", f"{78}"),(f"homology_b0pab1_Dim.4.deg.4_2_10", f"{51}") ],
-#               "max_running_time": [f"{3600*10}"],
-#               "optimizer_parameters": [["100"]]
-#             }
-# TODO make it so that the parameters written adapt to the optimizer's parameters
 
 
 param_list = ParameterGrid(param_grid) 

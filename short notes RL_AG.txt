@@ -77,14 +77,3 @@ Recoller des bouts singuliers d'un répertoire pré-existant ?
 
 
 
----------
-à citer :
-Topcom
-MPtopcom
-Parallel
-Polymake
-Wagner (et celui que Wagner cite pour le RL)
-Le serveur nef frontal
-Tensorflow
-
-
