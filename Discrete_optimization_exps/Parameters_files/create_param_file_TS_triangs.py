@@ -11,9 +11,9 @@ from sklearn.model_selection import ParameterGrid
 my_local_path =  parent_dir
 
 
-param_file = os.path.join(my_local_path, "Parameters_files","param_exp_2_TS_memory_triangs.txt")
+param_file = os.path.join(my_local_path, "Parameters_files","param_exp_3_TS_more_exploration_triangs.txt")
 
-exp_name = "exp_2_TS_memory_triangs"
+exp_name = "exp_3_TS_more_exploration_triangs"
 
 saved_results_folder = exp_name
 
@@ -64,24 +64,45 @@ if not os.path.isdir(os.path.join(my_local_path, saved_results_folder)):
 # 3, 6
 # 25, 100
 # 50, 200
+# param_grid = [{"optimizer_type" : ["TS"], 
+#               "num_seeds" : ["4"],
+#               #"obj_function": [(f"graph_2.1_{N}", f"{int(N*(N-1)/2)}") for N in [9, 19, 29]] + [(f"graph_2.3_{N}", f"{int(N*(N-1)/2)}") for N in [20, 30, 40]] ,   # the second entry of each pair is the dimension (it is determined by the objective function)
+#               "obj_function": [(f"homology_bt_Harnack.10_2_10", f"{66}"),(f"homology_bt_Harnack.20_2_20", f"{231}") ],
+#               "max_running_time": [f"{3600*10}"],
+#               "optimizer_parameters": [["10","3000", "3", "25", "50", "False"],["10","3000", "3", "25", "200", "False"],["10","3000", "3", "100", "50", "False"],["10","3000", "3", "100", "200", "False"],\
+#                                        ["10","3000", "6", "25", "50", "False"],["10","3000", "6", "25", "200", "False"],["10","3000", "6", "100", "50", "False"],["10","3000", "6", "100", "200", "False"]]
+#             },
+#             {"optimizer_type" : ["TS"], 
+#               "num_seeds" : ["4"],
+#               #"obj_function": [(f"graph_2.1_{N}", f"{int(N*(N-1)/2)}") for N in [9, 19, 29]] + [(f"graph_2.3_{N}", f"{int(N*(N-1)/2)}") for N in [20, 30, 40]] ,   # the second entry of each pair is the dimension (it is determined by the objective function)
+#               "obj_function": [(f"homology_b0pab1_Dim.3.deg.6_3_6", f"{78}"),(f"homology_b0pab1_Dim.4.deg.4_4_4", f"{51}") ],
+#               "max_running_time": [f"{3600*2}"],
+#               "optimizer_parameters": [["10","3000", "3", "25", "50", "False"],["10","3000", "3", "25", "200", "False"],["10","3000", "3", "100", "50", "False"],["10","3000", "3", "100", "200", "False"],\
+#                                        ["10","3000", "6", "25", "50", "False"],["10","3000", "6", "25", "200", "False"],["10","3000", "6", "100", "50", "False"],["10","3000", "6", "100", "200", "False"]]
+#             }
+
+#             ]
+
+
+# # Exp 3 (more_exploration)
+# "0.05", "0.05", "0.05", "0.05", "0.05", "0.05"
 param_grid = [{"optimizer_type" : ["TS"], 
               "num_seeds" : ["4"],
               #"obj_function": [(f"graph_2.1_{N}", f"{int(N*(N-1)/2)}") for N in [9, 19, 29]] + [(f"graph_2.3_{N}", f"{int(N*(N-1)/2)}") for N in [20, 30, 40]] ,   # the second entry of each pair is the dimension (it is determined by the objective function)
               "obj_function": [(f"homology_bt_Harnack.10_2_10", f"{66}"),(f"homology_bt_Harnack.20_2_20", f"{231}") ],
               "max_running_time": [f"{3600*10}"],
-              "optimizer_parameters": [["10","3000", "3", "25", "50", "False"],["10","3000", "3", "25", "200", "False"],["10","3000", "3", "100", "50", "False"],["10","3000", "3", "100", "200", "False"],\
-                                       ["10","3000", "6", "25", "50", "False"],["10","3000", "6", "25", "200", "False"],["10","3000", "6", "100", "50", "False"],["10","3000", "6", "100", "200", "False"]]
+              "optimizer_parameters": [["10","3000", "3", "100", "200", "False"], ["10","3000", "3", "100", "200", "True", "0.05", "0.05", "0.05", "0.05", "0.05", "0.05"] ]
             },
             {"optimizer_type" : ["TS"], 
               "num_seeds" : ["4"],
               #"obj_function": [(f"graph_2.1_{N}", f"{int(N*(N-1)/2)}") for N in [9, 19, 29]] + [(f"graph_2.3_{N}", f"{int(N*(N-1)/2)}") for N in [20, 30, 40]] ,   # the second entry of each pair is the dimension (it is determined by the objective function)
               "obj_function": [(f"homology_b0pab1_Dim.3.deg.6_3_6", f"{78}"),(f"homology_b0pab1_Dim.4.deg.4_4_4", f"{51}") ],
               "max_running_time": [f"{3600*2}"],
-              "optimizer_parameters": [["10","3000", "3", "25", "50", "False"],["10","3000", "3", "25", "200", "False"],["10","3000", "3", "100", "50", "False"],["10","3000", "3", "100", "200", "False"],\
-                                       ["10","3000", "6", "25", "50", "False"],["10","3000", "6", "25", "200", "False"],["10","3000", "6", "100", "50", "False"],["10","3000", "6", "100", "200", "False"]]
-            }
+              "optimizer_parameters": [["10","3000", "3", "100", "200", "False"], ["10","3000", "3", "100", "200", "True", "0.05", "0.05", "0.05", "0.05", "0.05", "0.05"] ]
+              }
 
             ]
+
 
 
 
@@ -93,7 +114,7 @@ with open(param_file, "w") as f:
     f.write("\n")
     # TODO change depending on needs
     # batch decomposition
-    f.write(str([[1,2,3,4], [5,6,7,8], [9,10,11,12], [13,14,15,16], [17,18,19,20], [21,22,23,24], [25,26,27,28], [29,30,31,32]]))
+    f.write(str([[1,2],[3,4], [5,6, 7,8]]))
     #f.write(str([[index +1] for index, _ in enumerate(param_list)]))
     f.write("\n")
     f.write(my_local_path + " " +saved_results_folder)

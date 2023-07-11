@@ -17,23 +17,42 @@ import numpy as np
 
 local_path = current_dir
 
-saved_results_folder = "Saves/exp_1_MCTS_depth_triangs"
+saved_results_folder = "Saves/exp_1_RL_learning_rate_triangs"
 
-exp_name = "exp_1_MCTS_depth_triangs"
+exp_name = "exp_1_RL_learning_rate_triangs"
 
-optimizer_type = "MCTS"
+optimizer_type = "RL"
+
+
+
 
 # TS 1
 #parameters_sets = [["10","3000", "3", "25", "50", "False"],["30","3000", "3", "25", "50", "False"],["100","3000", "3", "25", "50", "False"]]
+# TS 2
+# parameters_sets = [["10","3000", "3", "25", "50", "False"],["10","3000", "3", "25", "200", "False"],["10","3000", "3", "100", "50", "False"],["10","3000", "3", "100", "200", "False"],\
+#                                        ["10","3000", "6", "25", "50", "False"],["10","3000", "6", "25", "200", "False"],["10","3000", "6", "100", "50", "False"],["10","3000", "6", "100", "200", "False"]]
+# TS 3
+# parameters_sets = [["10","3000", "3", "100", "200", "False"], ["10","3000", "3", "100", "200", "True", "0.05", "0.05", "0.05", "0.05", "0.05", "0.05"] ]
+
 
 # GA 1
 #parameters_sets = [["10","300", "rank"],["30","300", "rank"],["100","300", "rank"]]
+# GA 2
+# parameters_sets = [["100","200", "rank"],["100","300", "rank"],["100","600", "rank"]]
+# GA 3
+# parameters_sets = [["100","300", "sss"],["100","300", "rws"],["100","300", "sus"],["100","300", "tournament"]]
 
 # # MCTS 1
-parameters_sets = [["3","10"], ["5","10"]]
+#parameters_sets = [["3","10"], ["5","10"]]
+# MCTS 2
+# parameters_sets = [["5","10"], ["5","30"], ["5","100"]]
 
 # # RS
 # parameters_sets = [["100"]]
+
+# RL 1
+parameters_sets = [["3", "128", "128", "32", "0.01", "500", "False", "0"], ["3", "128", "128", "32", "0.003", "500", "False", "0"], ["3", "128", "128", "32", "0.001", "500", "False", "0"], ["3", "128", "128", "32", "0.0003", "500", "False", "0"], ["3", "128", "128", "32", "0.0001", "500", "False", "0"]]
+           
 
 
 num_seeds = 4

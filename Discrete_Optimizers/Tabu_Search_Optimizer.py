@@ -31,7 +31,7 @@ class Tabu_Search_Optimizer(Discrete_Optimizer):
 		"""
 		more_exploration = True if parameters[5] == "True" else False 
 		optimizer_parameters = [int(parameters[i]) for i in range(5)] + [more_exploration] + ([[float(parameter) for parameter in parameters[6:]]] if more_exploration else [[]])
-		optimizer_name = "TS_"+"_".join(parameters[0:6]) + ("_".join(parameters[6:]) if more_exploration else "")
+		optimizer_name = "TS_"+"_".join(parameters[0:6]) + ("_"+"_".join(parameters[6:]) if more_exploration else "")
 		return optimizer_parameters, optimizer_name
 
 	def __init__(self, size_pop, STM_length, MTM_length, SI_thresh, SD_thresh, more_exploration, percent_more_exploration,\
@@ -78,20 +78,20 @@ class Tabu_Search_Optimizer(Discrete_Optimizer):
 				if local_element not in self.tabu_moves:
 					local_moves.append(copy.deepcopy(local_element))
 				local_element[i] = 1- local_element[i]
-				# To add more exploration, we construct sum(percent_more_exploration)*dim additional moves by randomly selecting entries and modifying them
-				# there will be percent_more_exploration[0]*dim moves with 2 modifications, percent_more_exploration[1]*dim moves with 3 modifications, etc.
-				if self.more_exploration:
-					for n_of_modifs, percent_w_modifs in enumerate(self.percent_more_exploration):
-						n_of_modifs +=2
-						n_w_modifs = ceil(percent_w_modifs*self.dim)
-						for i in range(n_w_modifs):
-							indices = random.sample(range(self.dim),min(n_of_modifs, self.dim))
-							for i in indices :
-								local_element[i] = 1- local_element[i]
-							if local_element not in self.tabu_moves:
-								local_moves.append(copy.deepcopy(local_element))
-							for i in indices :
-								local_element[i] = 1- local_element[i]
+			# To add more exploration, we construct sum(percent_more_exploration)*dim additional moves by randomly selecting entries and modifying them
+			# there will be percent_more_exploration[0]*dim moves with 2 modifications, percent_more_exploration[1]*dim moves with 3 modifications, etc.
+			if self.more_exploration:
+				for n_of_modifs, percent_w_modifs in enumerate(self.percent_more_exploration):
+					n_of_modifs +=2
+					n_w_modifs = ceil(percent_w_modifs*self.dim)
+					for i in range(n_w_modifs):
+						indices = random.sample(range(self.dim),min(n_of_modifs, self.dim))
+						for i in indices :
+							local_element[i] = 1- local_element[i]
+						if local_element not in self.tabu_moves:
+							local_moves.append(copy.deepcopy(local_element))
+						for i in indices :
+							local_element[i] = 1- local_element[i]
 			# so that we don't get stuck
 			if local_moves == []:
 				local_moves = [list(np.random.randint(2,size = self.dim))]

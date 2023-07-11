@@ -1,5 +1,5 @@
 exp_2_TS_memory_triangs
-[[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16], [17, 18, 19, 20], [21, 22, 23, 24], [25, 26, 27, 28], [29, 30, 31, 32]]
+[[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16], [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]]
 /home/charles/Desktop/ML_RAG/Code/Discrete_optimization_exps exp_2_TS_memory_triangs
 exp_num num_seeds dim obj_function max_running_time optimizer_type specific_parameters
 1 4 66 homology_bt_Harnack.10_2_10 36000 TS 10 3000 3 25 50 False

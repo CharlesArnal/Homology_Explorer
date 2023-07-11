@@ -196,7 +196,6 @@ def get_parameters_exp_0(parameters_file):
 		
 		# skip the 4th line, which is only for humans
 		for line in lines[4:]:
-
 			exp_parameters = dict()
 			text_parameters = line.split()
 			exp_number = int(text_parameters[0])

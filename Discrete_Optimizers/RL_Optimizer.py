@@ -42,7 +42,8 @@ class RL_Optimizer(Discrete_Optimizer):
 		n_lay = int(parameters[0])
 		min_randomness = True if parameters[n_lay+3]== "True" else False
 		optimizer_parameters = [n_lay]+ [[int(parameters[i]) for i in range(1,n_lay+1)]] + [float(parameters[n_lay+1])] +  [int(parameters[n_lay+2])] + \
-		[0.9, 0.95] + [min_randomness] + ([float(parameters[n_lay+4])] if min_randomness else [None])
+		[85, 95] + [min_randomness] + ([float(parameters[n_lay+4])] if min_randomness else [None])
+
 		return optimizer_parameters, "RL_"+"_".join(parameters)
 
 	
@@ -285,7 +286,7 @@ class RL_Optimizer(Discrete_Optimizer):
 			super_sessions = [(super_sessions[0][i], super_sessions[1][i], super_sessions[2][i]) for i in range(len(super_sessions[2]))]
 			super_sessions.sort(key=lambda super_sessions: super_sessions[2],reverse=True)
 
-			
+			# NOTE currently a single epoch of training (default behavior of model.fit)
 			self.model.fit(elite_states, elite_actions, verbose = 0) # learn from the elite sessions
 			
 			

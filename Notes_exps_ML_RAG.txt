@@ -144,7 +144,7 @@ Guideline : pas plus de 5h par iteration (sinon complètement inutile)
 Harnack 10 : 1 evaluation environ 0.045s, max score entre 42 et 50 et on continue à progresser
 Harnack 20 : 1 evaluation environ 0.13s, max score environ 106 et on continue à progresser
 3.6 : 1 evaluation environ 0.19s, on converge vers
-4.4 : 1 evaluation enviorn 1.30s, ce qui permet environ 27'000 évaluations
+4.4 : 1 evaluation enviorn 1.30s
 
 
 TS :
@@ -156,9 +156,11 @@ Temps : 20s, 2mn, 20mn (avec grosse variance)| ... | ... | 600s, 1800s, 8000s
 # 25, 100
 # 50, 200
 Je fais ces 8 possibilités à la fois
+Meilleur résultat (de très peu) : 3 100 200
 --
 # False -> True
-# percent a voir
+# percent 0.05 0.05 0.05 0.05 0.05 0.05
+Pas d'exploration supplémentaire meilleur pour Harnack 20, un peu moins bon pour les 3 autres
 Remarque importante : le temps de calcul n'a pas l'air de scale linéairement avec la taille de la population (sûrement à cause de limitations de polymake ?) (avec une population de 100, 100 fois plus lent plutôt que 10 fois plus lent)
 
 
@@ -168,14 +170,31 @@ Temps : 500s, 155'000s (trop) | 1900s 800'000s | 3500s, ? | 17'000s 570'000s
 # pour 3 et 5 (depth) : 3 est mieux pour Harnack 10, 5 est mieux pour les autres, continuer avec 5
 # pas hyper convaincant cependant, il serait mieux de choisir la depth en fonction de la difficulté du problème (en particulier coût d'une évaluation)
 # 10 30 100
+# 10 est un peu mieux pour Harnack 20, 30 un peu mieux pour Harnack 10, 100 toujours moins bon (alors que 100 dépense largement le budget de temps de calcul), en gros égalité pour dim 3 et 4
+# nombres d'itérations : ~ 70, 15, 2 | 6, 2, 1 (100'000s) | 2, 1 (10'000s), 1 (50'000) | 1 (16'000), 1 (50'000s), 1 (150'000s)
+# Plutôt 10 ?
 
 GA :
 # 10 30 100 (relative to 300) # meilleur 100 pour tous
 Temps : tous environ 11s, 38s, 80s and 400s
-#  300 200 600
-# rank (for rank selection), sss (for steady-state selection),   rws (for roulette wheel selection), sus (for stochastic universal selection),  tournament (for tournament selection).
+#  300 200 600     # 300 légèrement meilleur
+# sss (for steady-state selection),   rws (for roulette wheel selection), sus (for stochastic universal selection),  tournament (for tournament selection).
 # rank is broken, it works as sss 
 #K_tournament=3: In case that the parent selection type is tournament, the K_tournament specifies the number of parents participating in the tournament selection. It defaults to 3.
+# rws obtient les meilleurs scores sur le long terme (différence significative), mais ne bat les autres options qu'après 2h environ (et est la pire option avant ça)
+# tournament est la seconde meilleure option sur le long terme, et donne immédiatement de bons résultats
+
+RL (bien relou) :
+# Note : apparemment, chaque session prend jusqu'à 30% de mémoire sur didgeridoo, mieux vaut ne pas en lancer plus de ~3 simultanément
+# Pas plus de 1 pour Harnack 20
+# [128, 128, 32], [256, 256, 128, 32], [256, 256, 256, 128, 32]
+# 3, 4, 5 (associated to the line above)
+# (0.001) 0.01, 0.003, 0.001, 0.0003, 0.0001  1) ON COMMENCE PAR LA LEARNING RATE
+# Meilleure learning rates : petites différences, mais plutôt les 3 plus petites, gardons 0.0003
+# (500) 200 500 1000 2000
+# à voir la suite (False pour l'instant)
+
+
 
 Pour la première série d'expériences de TS, MCTS et GA, les fonctions objectifs ont été mal nommées (mais cela ne semble pas avoir eu d'impact sur les résultats)
 

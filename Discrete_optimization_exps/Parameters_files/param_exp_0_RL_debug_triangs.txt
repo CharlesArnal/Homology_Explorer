@@ -1,0 +1,5 @@
+exp_0_RL_debug_triangs
+[[1]]
+/home/charles/Desktop/ML_RAG/Code/Discrete_optimization_exps exp_0_RL_debug_triangs
+exp_num num_seeds dim obj_function max_running_time optimizer_type specific_parameters
+1 4 66 homology_bt_Harnack.10_2_10 36000 RL 3 128 128 32 0.0003 500 False 0

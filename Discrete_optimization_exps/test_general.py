@@ -1,8 +1,17 @@
 import numpy as np
+import sys
+import os
+current_dir = os.path.dirname(os.path.realpath(__file__))
+parent_dir = os.path.dirname(current_dir)
+sys.path.append(parent_dir)
+sys.path.append(current_dir)
 
 
-a = [1,2,3]
-b = [4,5,6]
+from utilities import ad_hoc_mean
 
-c = list(zip(a,b))
-print(c)
+import numpy as np
+
+a = list(range(10))
+print(a)
+x = np.percentile(a, 70)
+print(x)

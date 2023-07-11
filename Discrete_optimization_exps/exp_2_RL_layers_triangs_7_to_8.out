@@ -1,0 +1,1046 @@
+
+-----
+Starting optimization with optimizer RL_3_128_128_32_0.0003_500_False_0 in experiment exp_2_RL_layers_triangs_RL_3_128_128_32_0.0003_500_False_0_homology_b0pab1_Dim.3.deg.6_3_6_seed_0
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 6 70 6
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 6 62 6
+
+
+New homological profile found : 6 76 6
+
+New good score found : 13.600000000000001
+New good score found : 13.0
+New good score found : 13.0
+New good score found : 12.8
+New good score found : 12.4
+
+Iteration 0 for optimizer RL_3_128_128_32_0.0003_500_False_0
+Current scores : [13.6 13.  13.  12.8 12.4]
+Mean score : 8.2424, mean score among 20 best scores : 11.87
+The current all time best score is 13.600000000000001
+Duration of the RL_3_128_128_32_0.0003_500_False_0 iteration = 92.3, duration of the scoring phase = 78.1
+
+New homological profile found : 7 70 7
+
+
+New homological profile found : 7 64 7
+
+New good score found : 14.0
+New good score found : 13.4
+
+New homological profile found : 8 66 8
+
+New good score found : 14.600000000000001
+New good score found : 13.600000000000001
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 14.600000000000001
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+
+Iteration 10 for optimizer RL_3_128_128_32_0.0003_500_False_0
+Current scores : [14.  12.8 11.8 11.8 11.8]
+Mean score : 8.201600000000001, mean score among 20 best scores : 11.6
+The current all time best score is 14.8
+Duration of the RL_3_128_128_32_0.0003_500_False_0 iteration = 1.42e+02, duration of the scoring phase = 80.9
+New good score found : 14.8
+
+Iteration 20 for optimizer RL_3_128_128_32_0.0003_500_False_0
+Current scores : [13.4 12.8 12.8 12.8 12.8]
+Mean score : 8.426, mean score among 20 best scores : 12.29
+The current all time best score is 14.8
+Duration of the RL_3_128_128_32_0.0003_500_False_0 iteration = 2.11e+02, duration of the scoring phase = 85.5
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.8
+
+Iteration 30 for optimizer RL_3_128_128_32_0.0003_500_False_0
+Current scores : [13.4 12.8 12.8 12.4 12.4]
+Mean score : 8.418, mean score among 20 best scores : 12.02
+The current all time best score is 14.8
+Duration of the RL_3_128_128_32_0.0003_500_False_0 iteration = 2.3e+02, duration of the scoring phase = 92.4
+Maximal running time reached for RL_3_128_128_32_0.0003_500_False_0
+End of the run for optimizer RL_3_128_128_32_0.0003_500_False_0
+CPU time passed: 7408.68, wall time passed: 6068.98
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer RL_3_128_128_32_0.0003_500_False_0 in experiment exp_2_RL_layers_triangs_RL_3_128_128_32_0.0003_500_False_0_homology_b0pab1_Dim.3.deg.6_3_6_seed_1
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 8 66 8
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 6 70 6
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 7 78 7
+
+
+New homological profile found : 7 64 7
+
+
+New homological profile found : 5 74 5
+
+New good score found : 14.8
+New good score found : 14.600000000000001
+New good score found : 13.4
+New good score found : 13.0
+New good score found : 12.8
+
+Iteration 0 for optimizer RL_3_128_128_32_0.0003_500_False_0
+Current scores : [14.8 14.6 13.4 13.  12.8]
+Mean score : 8.268400000000002, mean score among 20 best scores : 12.2
+The current all time best score is 14.8
+Duration of the RL_3_128_128_32_0.0003_500_False_0 iteration = 97.1, duration of the scoring phase = 86.0
+
+New homological profile found : 7 70 7
+
+
+New homological profile found : 6 62 6
+
+New good score found : 14.0
+New good score found : 14.0
+
+New homological profile found : 6 76 6
+
+New good score found : 13.600000000000001
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.600000000000001
+New good score found : 14.8
+New good score found : 14.8
+
+Iteration 10 for optimizer RL_3_128_128_32_0.0003_500_False_0
+Current scores : [14.8 14.8 12.8 12.8 12.8]
+Mean score : 8.312000000000001, mean score among 20 best scores : 12.239999999999998
+The current all time best score is 14.8
+Duration of the RL_3_128_128_32_0.0003_500_False_0 iteration = 1.63e+02, duration of the scoring phase = 81.8
+
+Iteration 20 for optimizer RL_3_128_128_32_0.0003_500_False_0
+Current scores : [13.4 13.4 13.  12.8 12.8]
+Mean score : 8.375200000000001, mean score among 20 best scores : 12.260000000000002
+The current all time best score is 14.8
+Duration of the RL_3_128_128_32_0.0003_500_False_0 iteration = 1.99e+02, duration of the scoring phase = 85.6
+
+Iteration 30 for optimizer RL_3_128_128_32_0.0003_500_False_0
+Current scores : [14.  13.4 13.4 13.4 13.4]
+Mean score : 8.582400000000002, mean score among 20 best scores : 12.600000000000003
+The current all time best score is 14.8
+Duration of the RL_3_128_128_32_0.0003_500_False_0 iteration = 2.2e+02, duration of the scoring phase = 86.1
+Maximal running time reached for RL_3_128_128_32_0.0003_500_False_0
+End of the run for optimizer RL_3_128_128_32_0.0003_500_False_0
+CPU time passed: 7204.22, wall time passed: 5788.67
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer RL_3_128_128_32_0.0003_500_False_0 in experiment exp_2_RL_layers_triangs_RL_3_128_128_32_0.0003_500_False_0_homology_b0pab1_Dim.3.deg.6_3_6_seed_2
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 6 62 6
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 6 76 6
+
+New good score found : 13.600000000000001
+New good score found : 12.8
+New good score found : 12.8
+New good score found : 12.8
+New good score found : 12.8
+
+Iteration 0 for optimizer RL_3_128_128_32_0.0003_500_False_0
+Current scores : [13.6 12.8 12.8 12.8 12.8]
+Mean score : 8.236400000000001, mean score among 20 best scores : 12.169999999999998
+The current all time best score is 13.600000000000001
+Duration of the RL_3_128_128_32_0.0003_500_False_0 iteration = 90.2, duration of the scoring phase = 77.2
+
+New homological profile found : 7 70 7
+
+New good score found : 14.0
+
+New homological profile found : 7 64 7
+
+New good score found : 13.4
+New good score found : 14.0
+New good score found : 13.600000000000001
+New good score found : 13.600000000000001
+
+New homological profile found : 6 70 6
+
+New good score found : 14.0
+New good score found : 14.0
+
+New homological profile found : 8 66 8
+
+New good score found : 14.600000000000001
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+New good score found : 14.8
+
+Iteration 10 for optimizer RL_3_128_128_32_0.0003_500_False_0
+Current scores : [13.6 12.8 12.4 12.4 11.8]
+Mean score : 8.21, mean score among 20 best scores : 11.819999999999999
+The current all time best score is 14.8
+Duration of the RL_3_128_128_32_0.0003_500_False_0 iteration = 1.55e+02, duration of the scoring phase = 83.1
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+
+Iteration 20 for optimizer RL_3_128_128_32_0.0003_500_False_0
+Current scores : [13.6 13.6 13.6 13.6 13.4]
+Mean score : 8.500399999999999, mean score among 20 best scores : 12.580000000000002
+The current all time best score is 14.8
+Duration of the RL_3_128_128_32_0.0003_500_False_0 iteration = 2.08e+02, duration of the scoring phase = 78.2
+New good score found : 14.8
+New good score found : 14.8
+
+Iteration 30 for optimizer RL_3_128_128_32_0.0003_500_False_0
+Current scores : [14.8 14.  14.  14.  13.6]
+Mean score : 8.352, mean score among 20 best scores : 12.770000000000003
+The current all time best score is 14.8
+Duration of the RL_3_128_128_32_0.0003_500_False_0 iteration = 2.81e+02, duration of the scoring phase = 76.3
+New good score found : 14.8
+Maximal running time reached for RL_3_128_128_32_0.0003_500_False_0
+End of the run for optimizer RL_3_128_128_32_0.0003_500_False_0
+CPU time passed: 7421.03, wall time passed: 5887.45
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer RL_3_128_128_32_0.0003_500_False_0 in experiment exp_2_RL_layers_triangs_RL_3_128_128_32_0.0003_500_False_0_homology_b0pab1_Dim.3.deg.6_3_6_seed_3
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 7 70 7
+
+
+New homological profile found : 6 70 6
+
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 13.0
+New good score found : 12.8
+New good score found : 11.8
+
+Iteration 0 for optimizer RL_3_128_128_32_0.0003_500_False_0
+Current scores : [14.  14.  13.  12.8 11.8]
+Mean score : 8.1356, mean score among 20 best scores : 11.959999999999997
+The current all time best score is 14.0
+Duration of the RL_3_128_128_32_0.0003_500_False_0 iteration = 1.03e+02, duration of the scoring phase = 87.9
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 7 64 7
+
+New good score found : 13.4
+New good score found : 13.0
+New good score found : 14.0
+New good score found : 13.4
+
+New homological profile found : 6 62 6
+
+New good score found : 14.0
+New good score found : 14.0
+
+New homological profile found : 6 76 6
+
+
+Iteration 10 for optimizer RL_3_128_128_32_0.0003_500_False_0
+Current scores : [13.6 13.  12.8 12.2 12.2]
+Mean score : 8.2208, mean score among 20 best scores : 11.969999999999999
+The current all time best score is 14.0
+Duration of the RL_3_128_128_32_0.0003_500_False_0 iteration = 1.42e+02, duration of the scoring phase = 79.1
+
+New homological profile found : 8 66 8
+
+New good score found : 14.600000000000001
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+
+Iteration 20 for optimizer RL_3_128_128_32_0.0003_500_False_0
+Current scores : [13.4 13.4 12.8 12.8 12.4]
+Mean score : 8.399600000000003, mean score among 20 best scores : 12.09
+The current all time best score is 14.8
+Duration of the RL_3_128_128_32_0.0003_500_False_0 iteration = 2.3e+02, duration of the scoring phase = 76.5
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.600000000000001
+New good score found : 14.8
+New good score found : 14.8
+
+Iteration 30 for optimizer RL_3_128_128_32_0.0003_500_False_0
+Current scores : [13.6 13.4 13.  13.  12.8]
+Mean score : 8.358799999999999, mean score among 20 best scores : 12.270000000000003
+The current all time best score is 14.8
+Duration of the RL_3_128_128_32_0.0003_500_False_0 iteration = 2.78e+02, duration of the scoring phase = 76.6
+Maximal running time reached for RL_3_128_128_32_0.0003_500_False_0
+End of the run for optimizer RL_3_128_128_32_0.0003_500_False_0
+CPU time passed: 7255.75, wall time passed: 5719.58
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer RL_4_256_256_128_32_0.0003_500_False_0 in experiment exp_2_RL_layers_triangs_RL_4_256_256_128_32_0.0003_500_False_0_homology_b0pab1_Dim.3.deg.6_3_6_seed_0
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 6 62 6
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 7 64 7
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 6 70 6
+
+New good score found : 13.4
+New good score found : 13.0
+New good score found : 12.8
+New good score found : 12.4
+New good score found : 12.2
+
+Iteration 0 for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+Current scores : [13.4 13.  12.8 12.4 12.2]
+Mean score : 8.209200000000001, mean score among 20 best scores : 11.829999999999998
+The current all time best score is 13.4
+Duration of the RL_4_256_256_128_32_0.0003_500_False_0 iteration = 99.0, duration of the scoring phase = 77.0
+
+New homological profile found : 7 70 7
+
+New good score found : 14.0
+New good score found : 13.4
+
+New homological profile found : 8 66 8
+
+New good score found : 14.600000000000001
+
+New homological profile found : 6 76 6
+
+New good score found : 13.600000000000001
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+New good score found : 14.600000000000001
+New good score found : 14.0
+New good score found : 14.8
+New good score found : 14.600000000000001
+
+Iteration 10 for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+Current scores : [14.8 14.6 14.6 14.  12.8]
+Mean score : 8.3268, mean score among 20 best scores : 12.569999999999999
+The current all time best score is 14.8
+Duration of the RL_4_256_256_128_32_0.0003_500_False_0 iteration = 2.09e+02, duration of the scoring phase = 76.0
+New good score found : 14.8
+
+Iteration 20 for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+Current scores : [14.  13.6 13.4 13.4 13.4]
+Mean score : 8.563600000000001, mean score among 20 best scores : 12.440000000000001
+The current all time best score is 14.8
+Duration of the RL_4_256_256_128_32_0.0003_500_False_0 iteration = 2.36e+02, duration of the scoring phase = 80.8
+New good score found : 14.8
+New good score found : 14.8
+
+Iteration 30 for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+Current scores : [13.6 13.4 13.4 12.8 12.8]
+Mean score : 8.6064, mean score among 20 best scores : 12.219999999999999
+The current all time best score is 14.8
+Duration of the RL_4_256_256_128_32_0.0003_500_False_0 iteration = 3.03e+02, duration of the scoring phase = 78.9
+Maximal running time reached for RL_4_256_256_128_32_0.0003_500_False_0
+End of the run for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+CPU time passed: 7319.87, wall time passed: 5182.38
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer RL_4_256_256_128_32_0.0003_500_False_0 in experiment exp_2_RL_layers_triangs_RL_4_256_256_128_32_0.0003_500_False_0_homology_b0pab1_Dim.3.deg.6_3_6_seed_1
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 7 64 7
+
+
+New homological profile found : 6 70 6
+
+
+New homological profile found : 7 78 7
+
+
+New homological profile found : 5 74 5
+
+New good score found : 14.8
+New good score found : 13.4
+New good score found : 13.4
+New good score found : 13.0
+New good score found : 12.8
+
+Iteration 0 for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+Current scores : [14.8 13.4 13.4 13.  12.8]
+Mean score : 8.208, mean score among 20 best scores : 12.11
+The current all time best score is 14.8
+Duration of the RL_4_256_256_128_32_0.0003_500_False_0 iteration = 96.1, duration of the scoring phase = 80.6
+
+New homological profile found : 7 70 7
+
+
+New homological profile found : 6 62 6
+
+New good score found : 14.0
+New good score found : 14.0
+
+New homological profile found : 6 76 6
+
+New good score found : 13.600000000000001
+
+New homological profile found : 8 66 8
+
+New good score found : 14.600000000000001
+New good score found : 14.8
+New good score found : 14.8
+New good score found : 14.600000000000001
+
+Iteration 10 for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+Current scores : [12.2 11.8 11.8 11.8 11.8]
+Mean score : 8.2856, mean score among 20 best scores : 11.419999999999998
+The current all time best score is 14.8
+Duration of the RL_4_256_256_128_32_0.0003_500_False_0 iteration = 1.62e+02, duration of the scoring phase = 78.5
+New good score found : 14.8
+New good score found : 14.8
+
+Iteration 20 for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+Current scores : [14.8 14.6 14.  12.8 12.8]
+Mean score : 8.4028, mean score among 20 best scores : 12.420000000000002
+The current all time best score is 14.8
+Duration of the RL_4_256_256_128_32_0.0003_500_False_0 iteration = 2.98e+02, duration of the scoring phase = 76.4
+
+Iteration 30 for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+Current scores : [13.6 13.4 13.  12.8 12.4]
+Mean score : 8.448400000000001, mean score among 20 best scores : 12.18
+The current all time best score is 14.8
+Duration of the RL_4_256_256_128_32_0.0003_500_False_0 iteration = 3.06e+02, duration of the scoring phase = 79.7
+Maximal running time reached for RL_4_256_256_128_32_0.0003_500_False_0
+End of the run for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+CPU time passed: 7649.75, wall time passed: 5327.61
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer RL_4_256_256_128_32_0.0003_500_False_0 in experiment exp_2_RL_layers_triangs_RL_4_256_256_128_32_0.0003_500_False_0_homology_b0pab1_Dim.3.deg.6_3_6_seed_2
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 3 56 3
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 6 62 6
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 6 76 6
+
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 7 70 7
+
+New good score found : 14.0
+New good score found : 13.600000000000001
+New good score found : 12.8
+New good score found : 12.4
+New good score found : 12.2
+
+Iteration 0 for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+Current scores : [14.  13.6 12.8 12.4 12.2]
+Mean score : 8.205600000000002, mean score among 20 best scores : 11.959999999999999
+The current all time best score is 14.0
+Duration of the RL_4_256_256_128_32_0.0003_500_False_0 iteration = 98.6, duration of the scoring phase = 76.2
+New good score found : 14.0
+New good score found : 13.600000000000001
+
+New homological profile found : 8 66 8
+
+New good score found : 14.600000000000001
+New good score found : 14.0
+
+New homological profile found : 7 64 7
+
+
+New homological profile found : 6 70 6
+
+New good score found : 14.0
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+
+Iteration 10 for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+Current scores : [14.  13.6 13.4 12.8 12.2]
+Mean score : 8.2708, mean score among 20 best scores : 12.12
+The current all time best score is 14.8
+Duration of the RL_4_256_256_128_32_0.0003_500_False_0 iteration = 1.7e+02, duration of the scoring phase = 86.1
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+New good score found : 14.600000000000001
+New good score found : 14.8
+
+Iteration 20 for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+Current scores : [14.  13.6 13.6 13.6 13.4]
+Mean score : 8.4004, mean score among 20 best scores : 12.469999999999999
+The current all time best score is 14.8
+Duration of the RL_4_256_256_128_32_0.0003_500_False_0 iteration = 3.3e+02, duration of the scoring phase = 83.9
+New good score found : 14.8
+New good score found : 14.8
+
+Iteration 30 for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+Current scores : [14.  13.6 13.6 13.4 13.4]
+Mean score : 8.4756, mean score among 20 best scores : 12.610000000000003
+The current all time best score is 14.8
+Duration of the RL_4_256_256_128_32_0.0003_500_False_0 iteration = 3.08e+02, duration of the scoring phase = 80.6
+Maximal running time reached for RL_4_256_256_128_32_0.0003_500_False_0
+End of the run for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+CPU time passed: 7467.74, wall time passed: 5189.8
+Best score found : 14.8 
+
+
+-----
+Starting optimization with optimizer RL_4_256_256_128_32_0.0003_500_False_0 in experiment exp_2_RL_layers_triangs_RL_4_256_256_128_32_0.0003_500_False_0_homology_b0pab1_Dim.3.deg.6_3_6_seed_3
+
+
+New homological profile found : 3 62 3
+
+
+New homological profile found : 2 62 2
+
+
+New homological profile found : 2 54 2
+
+
+New homological profile found : 3 64 3
+
+
+New homological profile found : 4 64 4
+
+
+New homological profile found : 1 60 1
+
+
+New homological profile found : 4 66 4
+
+
+New homological profile found : 2 68 2
+
+
+New homological profile found : 1 58 1
+
+
+New homological profile found : 5 66 5
+
+
+New homological profile found : 3 70 3
+
+
+New homological profile found : 2 60 2
+
+
+New homological profile found : 1 66 1
+
+
+New homological profile found : 5 68 5
+
+
+New homological profile found : 5 60 5
+
+
+New homological profile found : 4 72 4
+
+
+New homological profile found : 7 70 7
+
+
+New homological profile found : 4 58 4
+
+
+New homological profile found : 3 56 3
+
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 14.0
+New good score found : 11.8
+New good score found : 11.8
+
+Iteration 0 for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+Current scores : [14.  14.  14.  11.8 11.8]
+Mean score : 8.1828, mean score among 20 best scores : 11.86
+The current all time best score is 14.0
+Duration of the RL_4_256_256_128_32_0.0003_500_False_0 iteration = 98.6, duration of the scoring phase = 77.5
+
+New homological profile found : 6 70 6
+
+
+New homological profile found : 5 74 5
+
+
+New homological profile found : 6 68 6
+
+
+New homological profile found : 7 64 7
+
+
+New homological profile found : 6 62 6
+
+New good score found : 13.4
+New good score found : 13.0
+New good score found : 14.0
+New good score found : 14.0
+
+New homological profile found : 7 78 7
+
+New good score found : 14.8
+
+New homological profile found : 6 76 6
+
+
+New homological profile found : 8 66 8
+
+New good score found : 14.600000000000001
+
+Iteration 10 for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+Current scores : [13.4 12.8 12.8 12.2 12.2]
+Mean score : 8.334400000000002, mean score among 20 best scores : 11.829999999999998
+The current all time best score is 14.8
+Duration of the RL_4_256_256_128_32_0.0003_500_False_0 iteration = 1.6e+02, duration of the scoring phase = 77.4
+New good score found : 14.8
+New good score found : 14.600000000000001
+New good score found : 14.8
+New good score found : 14.8
+
+Iteration 20 for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+Current scores : [13.6 12.8 12.8 12.4 12.2]
+Mean score : 8.44, mean score among 20 best scores : 11.98
+The current all time best score is 14.8
+Duration of the RL_4_256_256_128_32_0.0003_500_False_0 iteration = 2.4e+02, duration of the scoring phase = 83.5
+New good score found : 14.8
+
+Iteration 30 for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+Current scores : [14.6 14.  13.4 13.4 13.4]
+Mean score : 8.506800000000002, mean score among 20 best scores : 12.660000000000002
+The current all time best score is 14.8
+Duration of the RL_4_256_256_128_32_0.0003_500_False_0 iteration = 3.31e+02, duration of the scoring phase = 83.1
+Maximal running time reached for RL_4_256_256_128_32_0.0003_500_False_0
+End of the run for optimizer RL_4_256_256_128_32_0.0003_500_False_0
+CPU time passed: 7422.96, wall time passed: 5227.72
+Best score found : 14.8 
+
