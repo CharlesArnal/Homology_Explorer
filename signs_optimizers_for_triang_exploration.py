@@ -65,7 +65,7 @@ class Signs_Optimizer_for_Triang_Exploration():
 		exp_name = "signs_opti_subtask"
 		optimizer_name = self.optimizer_type
 		n_solutions_to_display = 5
-		feedback_period = 1
+		feedback_period = 5
 		saving_perf_period = None
 		n_current_solutions_saved = 0
 		saving_solutions_period = None

@@ -53,6 +53,14 @@ class Homology_Explorer():
 		self.observed_homologies_file = os.path.join(self.local_path,self.saved_results_folder,"homologies_"+exp_name+".txt")
 		self.visited_homologies_file = os.path.join(self.local_path,self.saved_results_folder,"visited_homologies_"+exp_name+".txt")
 
+
+	def update_files_paths(self):
+		self.save_perf_file = os.path.join(self.local_path,self.saved_results_folder,"scores_wrt_time_"+self.exp_name+".txt")
+		self.observed_homologies_file = os.path.join(self.local_path,self.saved_results_folder,"homologies_"+self.exp_name+".txt")
+		self.visited_homologies_file = os.path.join(self.local_path,self.saved_results_folder,"visited_homologies_"+self.exp_name+".txt")
+
+
+
 	def reset_random_seed(self, random_seed):
 		if random_seed != None:
 			random.seed(random_seed)
@@ -66,6 +74,8 @@ class Homology_Explorer():
 		return self.current_point
 
 	def setup(self, n_iter, stopping_condition = None, max_running_time = None):
+		# Just in case the saved files paths have changed
+		self.update_files_paths()
 		self.n_iter = n_iter
 		self.stopping_condition = stopping_condition
 		self.max_running_time = max_running_time
@@ -194,6 +204,7 @@ class Homology_Explorer():
 		starting_time = starting_CPU_and_wall_time()
 
 		if signs_optimizer != None:
+			print("Initial signs optimization")
 			self.current_point = signs_optimizer.optimize(self.current_point)
 		iteration = 0
 		stop = False
@@ -293,6 +304,7 @@ class Homology_Explorer():
 			self.current_point must have been previously initialized
 		"""
 		print(f"Starting a walking search on the graph of triangulations")
+		sys.stdout.flush()
 		# most signs_optimizer should make looking at the neighbours superfluous, but it's important to look at neighbours when using value_novelty_persistently
 		if optimizer_type != None:
 			if also_look_at_neighbouring_signs:
@@ -300,7 +312,7 @@ class Homology_Explorer():
 			else:
 				move_generator = generate_moves_nb_triangs
 			obj_function_for_signs_optimizer = create_objective_function_for_signs_optimization(self.observed_homologies_file, self.temp_files_folder, function_of_the_homology_profiles)
-			signs_optimizer = Signs_Optimizer_for_Triang_Exploration(optimizer_type, obj_function_for_signs_optimizer,  self.local_path, self.temp_files_folder, optimizer_max_running_time, optimizers_parameters)
+			signs_optimizer = Signs_Optimizer_for_Triang_Exploration(optimizer_type, obj_function_for_signs_optimizer,  self.local_path, self.temp_files_folder, optimizer_max_running_time, optimizers_parameters, random_seed = self.random_seed)
 		else:
 			signs_optimizer = None
 			move_generator = generate_moves_nb_triangs_nb_signs

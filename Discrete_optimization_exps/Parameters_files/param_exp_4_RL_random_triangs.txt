@@ -1,0 +1,16 @@
+exp_4_RL_random_triangs
+[[1, 2], [3, 4], [5, 6], [7, 8, 9, 10, 11, 12]]
+/home/charles/Desktop/ML_RAG/Code/Discrete_optimization_exps exp_4_RL_random_triangs
+exp_num num_seeds dim obj_function max_running_time optimizer_type specific_parameters
+1 4 66 homology_bt_Harnack.10_2_10 36000 RL 5 256 256 256 128 32 0.001 500 False 0
+2 4 66 homology_bt_Harnack.10_2_10 36000 RL 5 256 256 256 128 32 0.001 500 True 0.5
+3 4 66 homology_bt_Harnack.10_2_10 36000 RL 5 256 256 256 128 32 0.001 500 True 0.1
+4 4 231 homology_bt_Harnack.20_2_20 36000 RL 5 256 256 256 128 32 0.001 500 False 0
+5 4 231 homology_bt_Harnack.20_2_20 36000 RL 5 256 256 256 128 32 0.001 500 True 0.5
+6 4 231 homology_bt_Harnack.20_2_20 36000 RL 5 256 256 256 128 32 0.001 500 True 0.1
+7 4 78 homology_b0pab1_Dim.3.deg.6_3_6 7200 RL 5 256 256 256 128 32 0.001 500 False 0
+8 4 78 homology_b0pab1_Dim.3.deg.6_3_6 7200 RL 5 256 256 256 128 32 0.001 500 True 0.5
+9 4 78 homology_b0pab1_Dim.3.deg.6_3_6 7200 RL 5 256 256 256 128 32 0.001 500 True 0.1
+10 4 51 homology_b0pab1_Dim.4.deg.4_4_4 7200 RL 5 256 256 256 128 32 0.001 500 False 0
+11 4 51 homology_b0pab1_Dim.4.deg.4_4_4 7200 RL 5 256 256 256 128 32 0.001 500 True 0.5
+12 4 51 homology_b0pab1_Dim.4.deg.4_4_4 7200 RL 5 256 256 256 128 32 0.001 500 True 0.1

@@ -116,10 +116,10 @@ dim 5 - degrés 5, 10
 Nouvelle version plus modeste pour choix d'hyperparamètres :
 dim 2 - Harnack degré 10 (37 37)
 dim 2 - Harnack degré 20 (172 172)
-dim 3 - degré 6 (7 78 7 ?)
+dim 3 - degré 6 (9 68 9 ?)
 dim 4 - degré 4 (9 10 10 9 ?)
 
-Le faire seulement pour b_0pa_1 -> scores max = 74, 344, 14.8, 10.0
+Le faire seulement pour b_0pa_1 -> scores max = 74, 344, 15.8, 10.0
 
 Toujours 4 seeds
 Pour Harnack 10 et 20, tourner pendant 10h, pour 3,6 et 4,4, tourner pendant 1h
@@ -185,15 +185,19 @@ Temps : tous environ 11s, 38s, 80s and 400s
 # tournament est la seconde meilleure option sur le long terme, et donne immédiatement de bons résultats
 
 RL (bien relou) :
-# Note : apparemment, chaque session prend jusqu'à 30% de mémoire sur didgeridoo, mieux vaut ne pas en lancer plus de ~3 simultanément
-# Pas plus de 1 pour Harnack 20
-# [128, 128, 32], [256, 256, 128, 32], [256, 256, 256, 128, 32]
+# [128, 128, 32], [256, 256, 128, 32], [256, 256, 256, 128, 32] 2) 
 # 3, 4, 5 (associated to the line above)
+# Plus gros donne de meilleurs résultats, mais après plus longtemps (différences observables seulement pour Harnack 20)
+# On continue avec le plus gros et le plus petit
+# Le plus gros réseau devient le meilleur après environ 13000s
 # (0.001) 0.01, 0.003, 0.001, 0.0003, 0.0001  1) ON COMMENCE PAR LA LEARNING RATE
-# Meilleure learning rates : petites différences, mais plutôt les 3 plus petites, gardons 0.0003
-# (500) 200 500 1000 2000
-# à voir la suite (False pour l'instant)
-
+# Meilleure learning rates : les deux plus grandes sont les plus mauvaises, les trois suivantes sont très comparables, avec un léger avantage pour 0.001 sur Harnack 20
+# Rmk : on fait environ 4 itérations pour dim 4 deg 4, une 30aine pour dim 3 deg 6, énormément pour les deux autres
+# (1000) 500 1000 2000 4000
+# Faire remarquer qu'on a parfois un échec catastrophique (où on ne dépasse pas 130 pour Harnack 20, p.ex.), et que c'est ce qui est arrivé avec 2000
+# Meilleurs résultats avec 500 pour les deux réseaux
+# Randomness : False, 0.5, 0.1 (plus c'est petit, plus c'est random)
+# 0.5 avec le petit réseau, 0.1 avec le grand réseau
 
 
 Pour la première série d'expériences de TS, MCTS et GA, les fonctions objectifs ont été mal nommées (mais cela ne semble pas avoir eu d'impact sur les résultats)
@@ -203,6 +207,64 @@ Problème : GA ne sauvegarde pas correctement les résultats (ok dans les calcul
 Pour dim 4 degré 4, environ 1.4 seconde par évaluation
 
 ----------------
+
+Finir de comparer les optimiseurs de signes :
+dim 2 - Harnack degré 10 (37 37), 66 signes
+dim 2 - Harnack degré 10 (92 92), 136 signes
+dim 2 - Harnack degré 20 (172 172), 231 signes
+dim 2 - Harnack degré 25 (277 277), 351 signes
+dim 3 - degré 6 (9 68 9 ?), 78 signes
+dim 3 - degré 8 (), 98 signes
+dim 4 - degré 4 (9 10 10 9 ?), 51 signes
+dim 4 - degré 5 (), 126
+
+Conclusions de la comparaison des optimiseurs :
+Les expériences avec Harnack marchent bien (résultats différentiés entre optimiseurs et "continus")
+deg 6 dim 3 et dim 4 degré 4 sont trop facile, presqu tout le monde est immédiatement proche du max
+degré 8 dim 3 marche bien
+degré 5 dim 4 est trop dur, seul RS termine dans les temps (voire légérement en retard)
+Globalement, RS est nul, MCTS est second pire, RL semble avoir les meilleures perf globales
+
+-----------------
+
+Rappel:
+RL utilise bien les solutions initiales qui lui sont fournies, hoorah
+
+Expériences futures :
+Commencer par dim 4 et degrés 4 et 5
+4 seeds pour chacun, 2 bt et 2 btap1, et chacune avec la triang triviale
+Laisser tourner environ 3 semaines
+Penser à donner le chirotope pré-calculé
+
+A faire avant :
+github
+explore ou walking search ?
+also_look_at_neighbouring_signs ?
+Enregistrer le nombre de configurations en fonction du temps (pour faire un graphe)
+voir quelle commande appeler, se rappeler l'archi globale
+voir ce que fait "also look at neighboring signs"
+voir si l'optimiseur total donne bien les signes de départ à l'optimiseur de signes
+se rappeler ce que font value_novelty(_persistently)
+implémenter si besoin est
+
+
+méditer sur la parallélisation
+Faire un système qui vérifie si on revient en arrière avec les triangulations
+
+Avant de se mettre à la dim 3, voir si on arrive à calculer la topo (demander sur le forum polymake)
+Pour la dimension 3, essayer degrés 4 à 9 ?
+Essayer aussi avec la "bonne" triangulation du degré 4, sa variante en degré 5, et les histoires de ramification
+
+Faire une expérience "apparté" avec un degré et une dimension où on a obtenu de bons résultats en comparant la triang triviale avec différentes façons de créer une triangulation aléatoire
+(on peut raisonnablement argumenter que les expés préliminaires laissaient penser que c'était pas très utile)
+
+------------------------
+Expériences 2 ("finales")
+
+
+
+---------------
+
 
 Secondes expériences :
 Ajouter RL, faire tourner en différentes conf (b_0, b_total, b_total + alpha b_0, et triangs, et longueurs d'optimisation) pour dimension 4 et 5 et degrés 4, 5, 6

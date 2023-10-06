@@ -19,6 +19,9 @@ tf = import_tensorflow()
 #from tensorflow import keras
 
 
+#from memory_profiler import profile
+
+
 
 from Discrete_Optimizer import Discrete_Optimizer
 
@@ -74,6 +77,8 @@ class RL_Optimizer(Discrete_Optimizer):
 		saving_solutions_period = saving_solutions_period, n_all_time_best_solutions_saved = n_all_time_best_solutions_saved, random_seed=random_seed)
 
 	def setup(self, n_iter, dim, obj_function, initial_solutions = None, stopping_condition = None, max_running_time = None, clear_log = True):
+		# NOTE this has been moved from the end of the function to here 
+		super().setup(n_iter, dim, obj_function, initial_solutions, stopping_condition, max_running_time, clear_log)
 
 		# needed for what follows
 		self.dim = dim
@@ -81,6 +86,7 @@ class RL_Optimizer(Discrete_Optimizer):
 		self.observation_space = 2*self.dim
 		self.obj_function = obj_function
 
+		# rmk : alpha = 1 - proba of random event
 		if self.min_randomness:
 			self.min_randomness_thresh = min(1- self.alpha**(1/float(self.dim)),0.45)
 			print(f"\nMinimum randomness threshold = {self.min_randomness_thresh}\n")
@@ -108,8 +114,7 @@ class RL_Optimizer(Discrete_Optimizer):
 			# to be used by the RL algorithm
 			self.super_states, self.super_actions, self.super_rewards = self.states_actions_rewards_from_solutions([sol[0] for sol in initial_solutions], scores = [sol[1] for sol in initial_solutions])
 
-		super().setup(n_iter, dim, obj_function, initial_solutions, stopping_condition, max_running_time, clear_log)
-
+	
 
 	def generate_session(self):	
 		"""
@@ -248,7 +253,49 @@ class RL_Optimizer(Discrete_Optimizer):
 			states.append(states_seq)
 		return (np.array(states), np.array(actions), np.array(total_score))
 
+	def iteration_function(self, iteration, starting_time):
+		iteration_starting_time = starting_CPU_and_wall_time()
 
+		
+		# solutions is only of use to the routines of the Discrete_Optimizer class, not to the rest of the RL optimization algorithm
+		sessions, scoring_time, solutions = self.generate_session()
+
+		states_batch = np.array(sessions[0], dtype = int)
+		actions_batch = np.array(sessions[1], dtype = int)
+		rewards_batch = np.array(sessions[2])
+		states_batch = np.transpose(states_batch,axes=[0,2,1])
+
+		states_batch = np.append(states_batch, self.super_states, axis=0)
+		# if iteration>0: # modified compared to original code
+		actions_batch = np.append(actions_batch, self.super_actions, axis=0)
+		rewards_batch = np.append(rewards_batch, self.super_rewards)
+
+
+
+		elite_states, elite_actions = self.select_elites(states_batch, actions_batch, rewards_batch) #pick the sessions to learn from
+
+		super_sessions = self.select_super_sessions(states_batch, actions_batch, rewards_batch) #pick the sessions to survive
+
+		super_sessions = [(super_sessions[0][i], super_sessions[1][i], super_sessions[2][i]) for i in range(len(super_sessions[2]))]
+		super_sessions.sort(key=lambda super_sessions: super_sessions[2],reverse=True)
+
+
+		# NOTE currently a single epoch of training (default behavior of model.fit)
+		self.model.fit(elite_states, elite_actions, verbose = 0) # learn from the elite sessions
+
+		
+		self.super_states =  [super_sessions[i][0] for i in range(len(super_sessions))]
+		self.super_actions = [super_sessions[i][1] for i in range(len(super_sessions))]
+		self.super_rewards = [super_sessions[i][2] for i in range(len(super_sessions))]
+
+		stop = super().end_of_iteration_routine(iteration, solutions, iteration_time = CPU_and_wall_time(iteration_starting_time)[0],\
+				scoring_time = scoring_time, current_running_time = CPU_and_wall_time(starting_time)[0])
+		
+		return stop
+		
+		
+
+	
 	def optimize(self, n_iter, dim, obj_function, initial_solutions = None, stopping_condition = None, max_running_time = None, clear_log = True):
 		""" The main optimization function - optimizes with respect to obj_function
 
@@ -262,40 +309,14 @@ class RL_Optimizer(Discrete_Optimizer):
 		iteration = 0
 		stop = False
 		while(stop == False):
-			iteration_starting_time = starting_CPU_and_wall_time()
+			stop = self.iteration_function(iteration, starting_time)
+			# Needed to avoid a well documented keras memory leak
+			if iteration%5 == 0 :
+				saved_model_file = os.path.join(self.local_path,self.saved_results_folder, "temp_files", self.exp_name +"_temp_files", "saved_model.keras")
+				self.model.save(saved_model_file)
+				tf.keras.backend.clear_session() 
+				self.model = tf.keras.models.load_model(saved_model_file)
 
-			
-			# solutions is only of use to the routines of the Discrete_Optimizer class, not to the rest of the RL optimization algorithm
-			sessions, scoring_time, solutions = self.generate_session()
-
-			states_batch = np.array(sessions[0], dtype = int)
-			actions_batch = np.array(sessions[1], dtype = int)
-			rewards_batch = np.array(sessions[2])
-			states_batch = np.transpose(states_batch,axes=[0,2,1])
-
-			states_batch = np.append(states_batch, self.super_states, axis=0)
-			# if iteration>0: # modified compared to original code
-			actions_batch = np.append(actions_batch, self.super_actions, axis=0)
-			rewards_batch = np.append(rewards_batch, self.super_rewards)
-
-
-			elite_states, elite_actions = self.select_elites(states_batch, actions_batch, rewards_batch) #pick the sessions to learn from
-	
-			super_sessions = self.select_super_sessions(states_batch, actions_batch, rewards_batch) #pick the sessions to survive
-
-			super_sessions = [(super_sessions[0][i], super_sessions[1][i], super_sessions[2][i]) for i in range(len(super_sessions[2]))]
-			super_sessions.sort(key=lambda super_sessions: super_sessions[2],reverse=True)
-
-			# NOTE currently a single epoch of training (default behavior of model.fit)
-			self.model.fit(elite_states, elite_actions, verbose = 0) # learn from the elite sessions
-			
-			
-			self.super_states =  [super_sessions[i][0] for i in range(len(super_sessions))]
-			self.super_actions = [super_sessions[i][1] for i in range(len(super_sessions))]
-			self.super_rewards = [super_sessions[i][2] for i in range(len(super_sessions))]
-
-			stop = super().end_of_iteration_routine(iteration, solutions, iteration_time = CPU_and_wall_time(iteration_starting_time)[0],\
-				 scoring_time = scoring_time, current_running_time = CPU_and_wall_time(starting_time)[0])
 			iteration += 1
 			if stop:
 				super().end_of_run_routine(starting_time)

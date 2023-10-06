@@ -414,6 +414,14 @@ def read_first_experiment_param_file(filename,line_number):
 	
 
 def ad_hoc_mean(mylist):
+	new_list = ad_hoc_harmonize(mylist)
+	return np.mean(new_list,axis = 0)
+
+def ad_hoc_median(mylist):
+	new_list = ad_hoc_harmonize(mylist)
+	return np.median(new_list,axis = 0)
+
+def ad_hoc_harmonize(mylist):
 	max_length = max([len(my_array) for my_array in mylist])
 	max_x_coordinate = max([my_array[-1,0] for my_array in mylist])
 	new_length = max(100, max_length*2)
@@ -437,7 +445,7 @@ def ad_hoc_mean(mylist):
 		new_array = np.array(new_array)
 		new_list.append(new_array)
 	new_list = np.array(new_list)
-	return np.mean(new_list,axis = 0)
+	return new_list
 
 
 def import_tensorflow():

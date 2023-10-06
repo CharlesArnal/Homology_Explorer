@@ -16,7 +16,7 @@ from Homology_Explorer import Homology_Explorer
 from homology_objective_functions import b_0, b_0_p_a_b1, b_total
 
 
-exp_name = "test_general"
+exp_name = "test_general_2"
 explorer_name = "my_first_explorer"
 dim = 3
 degree = 4
