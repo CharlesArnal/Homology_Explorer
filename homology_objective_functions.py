@@ -183,7 +183,6 @@ def b_0_p_a_b1(homology_profiles):
 	return np.array([homology_profile[0] + 0.1*homology_profile[1] for homology_profile in homology_profiles])
 
 
-
 # Rmk : we need two types of objective functions : one that takes as input signs and a current_point and computes scores relative to a given current_point and is used by the Discrete_Optimizers
 # and one that takes as inputs lists of triangs and signs (and points and points_indices) and outputs scores and is used by the move selectors
 
@@ -205,10 +204,13 @@ def create_objective_function_for_signs_optimization(observed_homologies_file, t
 		signs_temp_file = os.path.join(current_point.local_path, temp_files_folder, 'temp_sign_distributions.txt')
 		with open(signs_temp_file, 'w') as f:
 			np.savetxt(f,solutions,fmt='%d')
+		
 		homology_profiles = compute_homology(current_point.local_path, temp_files_folder, signs_temp_file, current_point.triang_file, current_point.all_points_file, temp_homologies_file)
+		# The scores must be computed BEFORE the stored homologies are updated, in case the objective function values novelty
+		scores = function_of_the_homology_profiles(homology_profiles).tolist()
 		update_stored_homologies(signs_temp_file, current_point.triang_file, homology_profiles, observed_homologies_file)
 		sys.stdout.flush()
-		return function_of_the_homology_profiles(homology_profiles).tolist()
+		return scores
 	return obj_function
 
 

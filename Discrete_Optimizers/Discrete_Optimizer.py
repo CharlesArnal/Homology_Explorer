@@ -159,13 +159,13 @@ class Discrete_Optimizer:
 			solutions.sort(key = lambda x : x[1], reverse = True)
 		for solution in solutions :
 			if len(self.all_time_best_solutions)<self.n_all_time_best_solutions_saved and (solution not in self.all_time_best_solutions):
-				print(f"New good score found : {solution[1]}")
+				print(f"New good score found by the optimizer : {solution[1]}")
 				self.all_time_best_solutions.append(copy.deepcopy(solution))
 				with open(self.all_time_best_solutions_file, 'a+') as f:
 					f.write(f"{solution[1]} | {solution[0]}\n")
 				self.all_time_best_solutions.sort(key = lambda x : x[1], reverse = True)      
 			elif solution[1]>self.all_time_best_solutions[-1][1] and (solution not in self.all_time_best_solutions):
-				print(f"New good score found : {solution[1]}")
+				print(f"New good score found by the optimizer : {solution[1]}")
 				self.all_time_best_solutions.append(copy.deepcopy(solution))
 				with open(self.all_time_best_solutions_file, 'a+') as f:
 					f.write(f"{solution[1]} | {solution[0]}\n")

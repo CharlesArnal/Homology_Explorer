@@ -70,9 +70,6 @@ def create_move_selector(index_selector, objective_function, must_compute_homolo
 			temp_homologies_file = os.path.join(temp_files_folder,"temp_homologies.txt")
 			homology_profiles = compute_homology(local_path, temp_files_folder, possible_moves_signs_file_path, possible_moves_triangs_file_path, all_points_file, \
 	 			temp_homologies_file)
-			# update the list of observed homologies
-			if observed_homologies_file != None:
-				update_stored_homologies(possible_moves_signs_file_path, possible_moves_triangs_file_path, homology_profiles, observed_homologies_file, verbose = True)
 		if index_selector == Random_Triang_Selector:
 			scores = None
 			current_value = None
@@ -81,11 +78,17 @@ def create_move_selector(index_selector, objective_function, must_compute_homolo
 		else :
 			scores = objective_function(possible_moves_triangs_file_path, possible_moves_signs_file_path, all_points_file, possible_moves_relevant_points_indices_file_path)
 
+		if must_compute_homology and observed_homologies_file != None:
+			# update the list of observed homologies
+			# must be done AFTER calling objective_function, in case objective_function values novelty and needs to check if a homology profile has been encountered before
+			update_stored_homologies(possible_moves_signs_file_path, possible_moves_triangs_file_path, homology_profiles, observed_homologies_file, verbose = True)
+
 		# scores is either None (if using Random_Selector) or a numpy array (at this point)
 		selected_index = index_selector(scores, triangs, signs)
 		if index_selector != Random_Triang_Selector:
+			# correct the scores so that they are correctly stored in case the objective function valued novelty
+			scores = [(score if score<10000 else score-10000) for score in scores.tolist()]
 			current_value = scores[selected_index]
-			scores = scores.tolist()
 		selection_time = time.time()-time1
 		# -------------------
 		with open(selected_triang_file_path, 'w') as f:
@@ -101,6 +104,8 @@ def create_move_selector(index_selector, objective_function, must_compute_homolo
 		if must_compute_homology and visited_homologies_file != None:
 			# update the list of visited homologies
 			update_stored_homologies(selected_signs_file_path, selected_triang_file_path, [homology_profiles[selected_index]], visited_homologies_file, verbose = False)
+
+		
 
 		move_selection_feedback_info = {"selection time": selection_time, "selected triang": triangs[selected_index].replace("\n",""), "selected signs": signs[selected_index].replace("\n",""),\
 				  "selected flips": flips[selected_index][:-1], "scores": scores, "selected homology": (None if must_compute_homology == False else homology_profiles[selected_index] )}

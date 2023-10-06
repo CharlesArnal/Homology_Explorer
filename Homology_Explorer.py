@@ -8,7 +8,7 @@ import os
 import sys
 import subprocess
 
-from utilities import CPU_and_wall_time, starting_CPU_and_wall_time
+from utilities import CPU_and_wall_time, starting_CPU_and_wall_time, read_known_homology_profiles
 
 from homology_objective_functions import  create_objective_function_for_signs_optimization, triangulation_growing_objective_function
 
@@ -217,6 +217,7 @@ class Homology_Explorer():
 			# nb_triangs, nb_flips, nb_signs, local_path
 			possible_moves = move_generator(self.current_point, self.temp_files_folder)
 			# selected_move contains selected_triang, selected_flip, selected_sign, local_path
+			# Note : self.visited_homologies_file is only updated here (not when optimizing the signs)
 			selected_move, current_value, move_selection_feedback_info = move_selector(possible_moves, self.current_point.all_points_file, self.degree, self.dim)
 			self.current_point = self.update_current_point(selected_move, self.current_point)
 			sys.stdout.flush()
@@ -296,15 +297,57 @@ class Homology_Explorer():
 	
 		# self.current_point = signs_optimizer(self.current_point)
 
+	def make_function_of_the_homology_profiles_value_novelty(self, function_of_the_homology_profiles, value_novelty = 0):
+		"""
+			function_of_the_homology_profiles takes as input a list of lists of integers
+			Returns a new objective function that takes as input a list of lists of integers and
+			whose values are the same as those of function_of_the_homology_profiles,
+			except +10000 to the score of any homology profile not yet seen if value_novelty == 1
+			and +10000 to the score of any homology profile not yet visited if value_novelty == 2
+		"""
+		if value_novelty == 0:
+			return function_of_the_homology_profiles
+		else:
+			stored_homologies_file = None
+			if value_novelty == 1:
+				stored_homologies_file = self.observed_homologies_file
+			elif value_novelty == 2:
+				stored_homologies_file = self.visited_homologies_file
+			else :
+				print("Invalid value_novelty argument")
 
-	def walking_search_on_triang_graph(self, n_iter, function_of_the_homology_profiles, max_running_time, optimizer_type = None, optimizer_max_running_time = None, optimizers_parameters = None, also_look_at_neighbouring_signs = False):
+			def modified_function(homology_profiles):
+				# homology profiles a list of lists of integers
+				scores = function_of_the_homology_profiles(homology_profiles).tolist()
+				# test if file already exists :
+				if not os.path.isfile(stored_homologies_file):
+					with open(stored_homologies_file, 'w') as f:
+						# create the file and do nothing
+						pass
+				# Set of strings
+				known_hom = set(read_known_homology_profiles(stored_homologies_file))
+				for index, profile in enumerate(homology_profiles):
+					profile = " ".join([str(x) for x in profile])
+					if profile not in known_hom:
+						scores[index] += 10000
+				return np.array(scores)
+
+			return modified_function
+			
+	def walking_search_on_triang_graph(self, n_iter, function_of_the_homology_profiles, max_running_time, optimizer_type = None, optimizer_max_running_time = None, \
+									optimizers_parameters = None, also_look_at_neighbouring_signs = False, value_novelty = 0):
 		"""A special case of explore, where the objective function (for both move_selector and the signs_optimizer) comes from the function_of_the_homology_profiles
 			and move_generator simply considers the neighbouring triangulations and signs distributions
 
 			self.current_point must have been previously initialized
+
+			value_novelty can be 0 (default), 1 (+10000 to the score of any homology profile not yet seen) or 2 (+10000 to the score of any homology profile not yet visited)
 		"""
 		print(f"Starting a walking search on the graph of triangulations")
 		sys.stdout.flush()
+		if value_novelty != 0:
+			print(f"Modifying the objective function to reward novelty w.r.t. {'observed' if value_novelty==1 else 'visited'} homology profiles")
+			function_of_the_homology_profiles = self.make_function_of_the_homology_profiles_value_novelty(function_of_the_homology_profiles, value_novelty)
 		# most signs_optimizer should make looking at the neighbours superfluous, but it's important to look at neighbours when using value_novelty_persistently
 		if optimizer_type != None:
 			if also_look_at_neighbouring_signs:

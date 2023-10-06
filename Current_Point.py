@@ -272,7 +272,7 @@ class Current_Point():
 		self.create_trivial_triang_file(verbose)
 		self.create_current_points_indices_file(verbose)
 		self.create_flips_file(force_recompute= True)
-		self.create_chiro_file(force_recompute=True)
+		self.create_chiro_file(force_recompute=False)	# Careful
 		self.create_random_signs_file(verbose)
 
 

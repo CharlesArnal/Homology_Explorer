@@ -229,6 +229,7 @@ Globalement, RS est nul, MCTS est second pire, RL semble avoir les meilleures pe
 
 Rappel:
 RL utilise bien les solutions initiales qui lui sont fournies, hoorah
+Homology_explorer donne bien la distribution actuelle à l'optimiseur discret de signes
 
 Expériences futures :
 Commencer par dim 4 et degrés 4 et 5
@@ -237,18 +238,8 @@ Laisser tourner environ 3 semaines
 Penser à donner le chirotope pré-calculé
 
 A faire avant :
-github
-explore ou walking search ?
-also_look_at_neighbouring_signs ?
+Question du chirotope pré-calculé
 Enregistrer le nombre de configurations en fonction du temps (pour faire un graphe)
-voir quelle commande appeler, se rappeler l'archi globale
-voir ce que fait "also look at neighboring signs"
-voir si l'optimiseur total donne bien les signes de départ à l'optimiseur de signes
-se rappeler ce que font value_novelty(_persistently)
-implémenter si besoin est
-
-
-méditer sur la parallélisation
 Faire un système qui vérifie si on revient en arrière avec les triangulations
 
 Avant de se mettre à la dim 3, voir si on arrive à calculer la topo (demander sur le forum polymake)
