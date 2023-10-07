@@ -12,7 +12,7 @@ def remove_local_path_from_name(local_path, file_name):
   return file_name.replace(local_path+"/","")
 
 def compute_homology(local_path, temp_files_folder, signs, triangs_input_file, points_input_file, \
-	 homology_output_file, parallelization = False):
+	 homology_output_file, parallelization = True):
 	"""
 	signs can be either a numpy array of 0/1 of shape [batch_size, n_signs], OR the name of a file where such an array is stored
 	
@@ -29,7 +29,7 @@ def compute_homology(local_path, temp_files_folder, signs, triangs_input_file, p
 	homology_output_file = os.path.join(local_path, remove_local_path_from_name(local_path, homology_output_file))
 
 	# Do something about this
-	n_parallel = 4
+	n_parallel = 3 # TODO
 
 	homology_computation_perl_script = os.path.join(local_path,"Homology_computation","compute_homology.pl")
 
@@ -45,14 +45,25 @@ def compute_homology(local_path, temp_files_folder, signs, triangs_input_file, p
 	# Now signs is a file where a numpy array is stored
 
 
-	if parallelization and n_parallel > 1:
+	with open(signs ,'r') as f:
+			all_signs = f.readlines()
+
+
+	if parallelization and n_parallel > 1 and len(all_signs)>=n_parallel: #no use working in parallel if there are very few profiles to compute
 		time_parallelization = time.time()
 		# parallelizes the evaluation of the signs distributions
 		# Signs
 		with open(signs ,'r') as f:
 			all_signs = f.readlines()
-		batch_size = int(len(all_signs)/(n_parallel-1))
-		signs_batches = [all_signs[i*batch_size:min((i+1)*batch_size,len(all_signs))] for i in range(n_parallel)]
+
+		n_confs = len(all_signs)
+		lower_batch_size = 	int(n_confs/n_parallel)
+		remainder = n_confs%n_parallel
+		batches_bounds = [0]
+		for i in range(n_parallel):
+			batches_bounds += [batches_bounds[-1] + lower_batch_size + (1 if i<remainder else 0)]
+
+		signs_batches = [all_signs[batches_bounds[i]:batches_bounds[i+1]] for i in range(n_parallel)]
 		signs_temp_file_root = temp_files_folder+'/temp_sign_distributions_'
 
 
@@ -69,10 +80,10 @@ def compute_homology(local_path, temp_files_folder, signs, triangs_input_file, p
 		# either it's the same triangulation for all signs distributions, or there is one triangulation for each signs distribution
 		if len(triangs) == 1:
 			for index in range(len(signs_batches)):
-				with open(local_path,triangs_temp_file_root+str(index)+".txt", 'w') as f:
+				with open(triangs_temp_file_root+str(index)+".txt", 'w') as f:
 					f.write(triangs[0])
 		else:
-			triangs_batches = [triangs[i*batch_size:min((i+1)*batch_size,len(triangs))] for i in range(n_parallel)]
+			triangs_batches = [triangs[batches_bounds[i]:batches_bounds[i+1]] for i in range(n_parallel)]
 			for index, batch in enumerate(triangs_batches):
 				with open(triangs_temp_file_root+str(index)+".txt", 'w') as f:
 					for index_2, triang in enumerate(batch):

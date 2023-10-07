@@ -225,6 +225,8 @@ degré 8 dim 3 marche bien
 degré 5 dim 4 est trop dur, seul RS termine dans les temps (voire légérement en retard)
 Globalement, RS est nul, MCTS est second pire, RL semble avoir les meilleures perf globales
 
+En conclusion, meilleure configuration : RL 5 256 256 256 128 32 0.001 500 True 0.1
+
 -----------------
 
 Rappel:
@@ -235,12 +237,10 @@ Expériences futures :
 Commencer par dim 4 et degrés 4 et 5
 4 seeds pour chacun, 2 bt et 2 btap1, et chacune avec la triang triviale
 Laisser tourner environ 3 semaines
-Penser à donner le chirotope pré-calculé
+We are using parallelization with 4 parallel threads; preliminary tests suggest it works great (total cpu time correctly computed, etc)
 
 A faire avant :
-Question du chirotope pré-calculé
-Enregistrer le nombre de configurations en fonction du temps (pour faire un graphe)
-Faire un système qui vérifie si on revient en arrière avec les triangulations
+écrire sur le site polymake
 
 Avant de se mettre à la dim 3, voir si on arrive à calculer la topo (demander sur le forum polymake)
 Pour la dimension 3, essayer degrés 4 à 9 ?

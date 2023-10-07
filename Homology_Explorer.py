@@ -50,16 +50,29 @@ class Homology_Explorer():
 		self.current_point = None
 
 		self.save_perf_file = os.path.join(self.local_path,self.saved_results_folder,"scores_wrt_time_"+exp_name+".txt")
+		self.save_perf_bis_file = os.path.join(self.local_path,self.saved_results_folder,"num_observed_homologies_wrt_time_"+exp_name+".txt")
 		self.observed_homologies_file = os.path.join(self.local_path,self.saved_results_folder,"homologies_"+exp_name+".txt")
 		self.visited_homologies_file = os.path.join(self.local_path,self.saved_results_folder,"visited_homologies_"+exp_name+".txt")
+		self.visited_triangs_file = os.path.join(self.local_path,self.saved_results_folder,"visited_triangs_"+exp_name+".txt")
 
 
 	def update_files_paths(self):
 		self.save_perf_file = os.path.join(self.local_path,self.saved_results_folder,"scores_wrt_time_"+self.exp_name+".txt")
+		self.save_perf_bis_file = os.path.join(self.local_path,self.saved_results_folder,"num_observed_homologies_wrt_time_"+self.exp_name+".txt")
 		self.observed_homologies_file = os.path.join(self.local_path,self.saved_results_folder,"homologies_"+self.exp_name+".txt")
 		self.visited_homologies_file = os.path.join(self.local_path,self.saved_results_folder,"visited_homologies_"+self.exp_name+".txt")
+		self.visited_triangs_file = os.path.join(self.local_path,self.saved_results_folder,"visited_triangs_"+self.exp_name+".txt")
 
 
+	def clear_files(self):
+		with open(self.save_perf_file, "w") as f:
+			pass
+		with open(self.save_perf_bis_file, "w") as f:
+			pass
+		with open(self.visited_homologies_file, "w") as f:
+			pass
+		with open(self.visited_triangs_file, "w") as f:
+			pass
 
 	def reset_random_seed(self, random_seed):
 		if random_seed != None:
@@ -81,10 +94,7 @@ class Homology_Explorer():
 		self.max_running_time = max_running_time
 		self.time_last_perf_save = 0
 		# to clear the file (it generally doesn't make sense to concatenate the results of several runs)
-		with open(self.save_perf_file, "w") as f:
-			pass
-		with open(self.visited_homologies_file, "w") as f:
-			pass
+		self.clear_files()
 		if self.current_point == None:
 			print(f"Error : the explorer {self.explorer_name} hasn't been been provided with a starting point yet")
 		self.reset_random_seed(self.random_seed)
@@ -121,7 +131,11 @@ class Homology_Explorer():
 		if self.saving_perf_period != None and current_running_time - self.time_last_perf_save >= self.saving_perf_period :
 			with open(self.save_perf_file, 'a+') as f:
 				f.write(f"{current_running_time} {current_value}\n")
-				self.time_last_perf_save = current_running_time
+			with open(self.observed_homologies_file,"r") as f:
+				num_observed_homologies = len(f.readlines())
+				with open(self.save_perf_bis_file, 'a+') as f:
+					f.write(f"{current_running_time} {num_observed_homologies}\n")
+			self.time_last_perf_save = current_running_time
 	
 	def test_stop(self, iteration, current_running_time):
 		"""Tests whether the run must be stopped due to either having reached the max number of iteration, the max running time or some stopping condition
@@ -245,7 +259,8 @@ class Homology_Explorer():
 			obj_function = triangulation_growing_objective_function
 			move_generator = generate_moves_nb_triangs_nb_signs
 			move_selector = create_move_selector(Greedy_Randomized_Selector, obj_function, must_compute_homology = look_while_growing, \
-			 objective_function_takes_homology_as_input = False, observed_homologies_file = self.observed_homologies_file, visited_homologies_file = self.visited_homologies_file)
+			 objective_function_takes_homology_as_input = False, observed_homologies_file = self.observed_homologies_file,\
+				  visited_homologies_file = self.visited_homologies_file, visited_triangs_file = self.visited_triangs_file)
 
 			if isinstance(final_size_or_num_iter, int):
 				n_iter = final_size_or_num_iter
@@ -281,7 +296,8 @@ class Homology_Explorer():
 			move_generator = generate_moves_nb_triangs_nb_signs
 
 		move_selector = create_move_selector(Random_Triang_Selector, None, must_compute_homology = look_while_growing, \
-			 objective_function_takes_homology_as_input = False, observed_homologies_file = self.observed_homologies_file, visited_homologies_file = self.visited_homologies_file)
+			 objective_function_takes_homology_as_input = False, observed_homologies_file = self.observed_homologies_file,\
+				  visited_homologies_file = self.visited_homologies_file, visited_triangs_file = self.visited_triangs_file)
 
 		self.explore(n_random_steps, move_generator, move_selector)
 		return self.current_point
@@ -361,7 +377,8 @@ class Homology_Explorer():
 			move_generator = generate_moves_nb_triangs_nb_signs
 
 		move_selector = create_move_selector(Greedy_Randomized_Selector, function_of_the_homology_profiles, must_compute_homology = True, \
-			 objective_function_takes_homology_as_input = True, observed_homologies_file = self.observed_homologies_file, visited_homologies_file = self.visited_homologies_file)
+			 objective_function_takes_homology_as_input = True, observed_homologies_file = self.observed_homologies_file,\
+				  visited_homologies_file = self.visited_homologies_file, visited_triangs_file = self.visited_triangs_file)
 
 
 		self.explore(n_iter, move_generator, move_selector, signs_optimizer = signs_optimizer, stopping_condition = None, max_running_time = max_running_time)
